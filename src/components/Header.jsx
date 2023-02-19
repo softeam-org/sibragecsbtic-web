@@ -2,21 +2,21 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>
-        <div>
-            <div>
-                LOGO
+    <div className='flex flex-col items-center justify-center'>
+        <div className='flex'>
+            <div className='mr-56'>
+                <p>LOGO</p> 
             </div>
             <div>
-               Sibragec XXIII 
+              <p className='text-xl font-bold'>Sibragec XXIII</p>  
             </div>
         </div>
-        <div>
-            <p>Início</p>
-            <p>Programação</p>
-            <p>Inscrições</p>
-            <p>Submissão</p>
-            <p>Local</p>
+        <div className='flex gap-20'>
+            <p className='font-semibold'>Início</p>
+            <p className='font-semibold'>Programação</p>
+            <p className='font-semibold'>Inscrições</p>
+            <p className='font-semibold'>Submissão</p>
+            <p className='font-semibold'>Local</p>
         </div>
     </div>
   )
