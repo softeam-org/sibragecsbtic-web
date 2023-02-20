@@ -19,11 +19,34 @@
 }
 
 a {
-  font-weight: 500;
-  text-decoration: inherit;
+  text-decoration: none;
+  position: relative;
 }
+
 a:hover {
-  
+  text-decoration: none;
+}
+
+a.navlink::after {
+  content: "";
+  position: absolute;
+  left: 15%;
+  bottom: -6px;
+  width: 70%;
+  height: 3px;
+  border-radius: 15px;
+  background-color: white;
+  transform: scale(0,1);
+  transform-origin: left center;
+  transition: transform 0.3s ease-out;
+}
+
+a.navlink.active::after {
+  transform: scale(1,1);
+}
+
+a.navlink:hover::after {
+  transform: scale(1,1);
 }
 
 body {
