@@ -1,25 +1,28 @@
-import React from 'react'
+import React from "react";
+
+import logo from "../assets/logo-01.svg";
 
 function Header() {
   return (
-    <div className='flex flex-col items-center justify-center'>
-        <div className='flex'>
-            <div className='mr-56'>
-                <p>LOGO</p> 
-            </div>
-            <div>
-              <p className='text-xl font-bold'>Sibragec XXIII</p>  
-            </div>
+    <header className="bg-nord0">
+      <div className="max-w-6xl mx-auto pt-14">
+
+      <div className="w-28 absolute left-36 top-8">
+        <img src={logo} alt="logo" />
+      </div>
+      <div className="flex flex-col items-center gap-16">
+        <h1 className="text-7xl font-bold text-white">Sibragec XXIII</h1>
+        <div className="flex gap-20 pb-12">
+          <a className="font-semibold text-xl">Início</a>
+          <a className="font-semibold text-xl">Programação</a>
+          <a className="font-semibold text-xl">Inscrições</a>
+          <a className="font-semibold text-xl">Submissão</a>
+          <a className="font-semibold text-xl">Local</a>
         </div>
-        <div className='flex gap-20'>
-            <p className='font-semibold'>Início</p>
-            <p className='font-semibold'>Programação</p>
-            <p className='font-semibold'>Inscrições</p>
-            <p className='font-semibold'>Submissão</p>
-            <p className='font-semibold'>Local</p>
-        </div>
-    </div>
-  )
+      </div>
+      </div>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
