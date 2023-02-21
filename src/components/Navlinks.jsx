@@ -18,6 +18,7 @@ function Navlinks() {
               "navlink font-semibold text-xl hover:cursor-pointer z-30" +
               (currentPath.pathname === link.path ? " active" : "")
             }
+            href={link.path}
             onMouseEnter={() => setActive(link.name)}
             >
             {link.name}
@@ -33,7 +34,6 @@ function Navlinks() {
             { link.links.map((sublink, index) => (
               <a 
                 className="font-semibold text-xl hover:cursor-pointer"
-                href={'/'} 
                 key={index}>
                 {sublink.name}
               </a>
