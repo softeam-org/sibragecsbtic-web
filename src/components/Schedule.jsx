@@ -9,8 +9,8 @@ function Schedule({ day }) {
             {dayData[day].date}
         </div>
         <div>
-            {dayData[day].schedule.map((item) => (
-                <div className='flex justify-between mb-6' key={item.title}>
+            {dayData[day].schedule.map((item, index) => (
+                <div className='flex justify-between mb-6' key={index}>
                     <div className=' text-nord1 font-bold'>{item.time}</div>
                     <div className='max-w-3xl'>
                         <p className='text-nord1 font-bold mb-4'>{item.title}</p>
@@ -19,6 +19,7 @@ function Schedule({ day }) {
                             {item.speakers.map((speaker, index) => (
                                 <img 
                                     src={speaker.photo}
+                                    key={index}
                                     className={`w-10 h-10 rounded-full relative object-cover object-top ${index > 0 ? 'left-2' : ''}`} 
                                 />))}
                         </div>
