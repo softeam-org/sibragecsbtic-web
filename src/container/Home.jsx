@@ -67,14 +67,14 @@ function Home() {
     funcao:"b"
   },
   {
-    id:4,
-    name:"Teste4",
+    id:5,
+    name:"Teste5",
     image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
     funcao:"b"
   },
   {
-    id:4,
-    name:"Teste4",
+    id:6,
+    name:"Teste6",
     image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
     funcao:"b"
   }
