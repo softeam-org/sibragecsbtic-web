@@ -215,3 +215,21 @@ export const dayData = {
 }
 
 // Path: src\pages\Programacao\index.js
+
+
+export const subscribeInstructions = [
+  `As inscrições serão realizadas por depósito identificado
+  
+  Os dados bancários da conta ANTAC EVENTOS são:
+  Banco do Brasil (001)
+  Agência 1899-6 (UFRGS)
+  Conta Corrente: 104.104-5
+  CNPJ: 59.838.045/0001-82 (para pix ou transferência de outros bancos)`,
+  `Cada inscrição dará direito a publicação de dois artigos nos anais do evento. Os autores deverão efetuar sua inscrição até 15/09/2021.`,
+  `Inscrições por empenho
+  Para inscrições por Empenho, entrar em contato através do e-mail: antac@ufrgs.br para receber as orientações.`,
+  `Comprovante exigido (Exclusivo para estudantes de Graduação e Pós-graduação)
+  Todos os comprovantes exigidos (comprovante de matrícula de graduação ou pós-graduação) deverão ser digitalizados e anexos no momento do cadastro no formato Jpg ou PDF.
+  `,
+  `Comprovante exigido (sócio ANTAC)
+  O comprovante de pagamento da anuidade deverá ser digitalizado e anexo no momento do cadastro no formato .jpg ou .pdf.`]
