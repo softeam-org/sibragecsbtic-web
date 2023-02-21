@@ -1,7 +1,7 @@
 import React from 'react'
 import Timer from '../components/Timer'
 import Card from '../components/Card'
-// import Slider from 'react-slick';
+import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 // import  Logo from "../assets/Logo";
@@ -18,8 +18,8 @@ function Home() {
     slidesToShow: 3,
     slidesToScroll: 1,
     
-    nextArrow: < Arrow />,
-    prevArrow: < Arrow />,
+    // nextArrow: < Arrow />,
+    // prevArrow: < Arrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -36,49 +36,49 @@ function Home() {
     ],
   };
 
-//   const data = [{
-//     id:1,
-//     name:"Teste1",
-//     image:"https://www12.senado.leg.br/institucional/gestaoboaspraticas/imagens/imagem-teste/image",
-//     funcao:"a"
-//   },
-//   {
-//     id:2,
-//     name:"Teste2",
-//     image:"https://www12.senado.leg.br/institucional/gestaoboaspraticas/imagens/imagem-teste/image",
-//     funcao:"a"
-//   },
-//   {
-//     id:3,
-//     name:"Teste3",
-//     image:"https://www12.senado.leg.br/institucional/gestaoboaspraticas/imagens/imagem-teste/image",
-//     funcao:"a"
-//   },
-//   {
-//     id:4,
-//     name:"Teste4",
-//     image:"https://www12.senado.leg.br/institucional/gestaoboaspraticas/imagens/imagem-teste/image",
-//     funcao:"b"
-//   },
-//   {
-//     id:4,
-//     name:"Teste4",
-//     image:"https://www12.senado.leg.br/institucional/gestaoboaspraticas/imagens/imagem-teste/image",
-//     funcao:"b"
-//   },
-//   {
-//     id:4,
-//     name:"Teste4",
-//     image:"https://www12.senado.leg.br/institucional/gestaoboaspraticas/imagens/imagem-teste/image",
-//     funcao:"b"
-//   },
-//   {
-//     id:4,
-//     name:"Teste4",
-//     image:"https://www12.senado.leg.br/institucional/gestaoboaspraticas/imagens/imagem-teste/image",
-//     funcao:"b"
-//   }
-// ]
+  const data = [{
+    id:1,
+    name:"Teste1",
+    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/" ,
+    funcao:"a"
+  },
+  {
+    id:2,
+    name:"Teste2",
+    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    funcao:"a"
+  },
+  {
+    id:3,
+    name:"Teste3",
+    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    funcao:"a"
+  },
+  {
+    id:4,
+    name:"Teste4",
+    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    funcao:"b"
+  },
+  {
+    id:4,
+    name:"Teste4",
+    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    funcao:"b"
+  },
+  {
+    id:4,
+    name:"Teste4",
+    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    funcao:"b"
+  },
+  {
+    id:4,
+    name:"Teste4",
+    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    funcao:"b"
+  }
+]
 
   
   function criarCard(valor){
@@ -88,7 +88,7 @@ function Home() {
 
   // console.log(data.map((valor)=>{ <Card key={valor.id} image = {valor.image} name={valor.name}/>}))
   return (
-    <div className="bg-slate-50 ">
+    <div className="bg-slate-50 text-nord0 ">
       <div className='flex px-32'>
         <div className=' flex items-center'>
         <div>
@@ -98,7 +98,7 @@ function Home() {
         </div>
         </div>
         <div>
-          <Logo className="h-1/2 w-1/2" />
+          {/* <Logo className="h-1/2 w-1/2" /> */}
         </div>
       </div>
 
@@ -154,9 +154,9 @@ function Home() {
         De acordo com as normas da ANTAC para realização de eventos, o SIBRAGEC / SBTIC 2023 contará com um comitê científico, responsável pela programação e pela gestão, avaliação e aprovação final dos artigos submetidos, e uma comissão organizadora, responsável pela gestão e provimento dos recursos necessários para a realização do evento.
         </p>
         <div className='px-8 py-8 '>
-        {/* <Slider className='flex' {...settings}>
+        <Slider className='flex' {...settings}>
         {data.map(criarCard)}
-        </Slider> */}
+        </Slider>
         </div>
       </div>
     </div>
