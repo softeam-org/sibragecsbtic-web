@@ -14,75 +14,74 @@ function Home() {
   const settings = {
     dots: true,
     infinite: false,
-    speed: 500,
+    speed: 0,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 1
     
     // nextArrow: < Arrow />,
     // prevArrow: < Arrow />,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 2,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 768,
+    //     settings: {
+    //       slidesToShow: 1,
+    //     },
+    //   },
+    // ],
   };
 
   const data = [{
     id:1,
     name:"Teste1",
-    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/" ,
+    image:"../assets/images/Luciano_IFS.jpg" ,
     funcao:"a"
   },
   {
     id:2,
     name:"Teste2",
-    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    image:"../assets/images/Luciano_IFS.jpg" ,
     funcao:"a"
   },
   {
     id:3,
     name:"Teste3",
-    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    image:"../assets/images/Luciano_IFS.jpg" ,
     funcao:"a"
   },
   {
     id:4,
     name:"Teste4",
-    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    image:"../assets/images/Luciano_IFS.jpg" ,
     funcao:"b"
   },
   {
-    id:4,
+    id:5,
     name:"Teste4",
-    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    image:"../assets/images/Luciano_IFS.jpg" ,
     funcao:"b"
   },
   {
-    id:4,
+    id:6,
     name:"Teste4",
-    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    image:"../assets/images/Luciano_IFS.jpg" ,
     funcao:"b"
   },
   {
-    id:4,
+    id:7,
     name:"Teste4",
-    image:"https://www.pexels.com/pt-br/foto/mulher-em-camisa-de-colarinho-774909/",
+    image:"../assets/images/Luciano_IFS.jpg" ,
     funcao:"b"
   }
 ]
 
   
   function criarCard(valor){
-    console.log(valor)
     return <Card  key={valor.id} image = {valor.image} name={valor.name}/>
   }
 
@@ -154,7 +153,7 @@ function Home() {
         De acordo com as normas da ANTAC para realização de eventos, o SIBRAGEC / SBTIC 2023 contará com um comitê científico, responsável pela programação e pela gestão, avaliação e aprovação final dos artigos submetidos, e uma comissão organizadora, responsável pela gestão e provimento dos recursos necessários para a realização do evento.
         </p>
         <div className='px-8 py-8 '>
-        <Slider className='flex' {...settings}>
+        <Slider {...settings} > 
         {data.map(criarCard)}
         </Slider>
         </div>
