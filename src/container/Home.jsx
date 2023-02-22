@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Timer from '../components/Timer'
 import Card from '../components/Card'
 import Slider from 'react-slick';
@@ -13,6 +13,9 @@ import logo from "../assets/logo-02.svg"
 
 
 function Home() {
+
+  const [isActive, setIsActive] = useState(true);
+  const [isActive2, setIsActive2] = useState(false);
 
 
   const settings = {
@@ -86,8 +89,25 @@ function Home() {
   
   function criarCard(valor){
     console.log(valor)
-    return <Card  key={valor.id} image = {valor.image} name={valor.name}/>
+    return <Card  key={valor.id} image = {valor.image} name={valor.name} institution={valor.funcao}/>
   }
+
+  const handleClick = () => {
+    if (isActive) {
+      setIsActive(!isActive);
+      setIsActive2(!isActive2);
+      console.log(isActive);
+      console.log(isActive2);
+    } else {
+      setIsActive(!isActive);
+      setIsActive2(!isActive2);
+      console.log(isActive);
+      console.log(isActive2);
+    }
+  };
+
+
+  
 
   // console.log(data.map((valor)=>{ <Card key={valor.id} image = {valor.image} name={valor.name}/>}))
   return (
@@ -156,10 +176,31 @@ function Home() {
         <p>
         De acordo com as normas da ANTAC para realização de eventos, o SIBRAGEC / SBTIC 2023 contará com um comitê científico, responsável pela programação e pela gestão, avaliação e aprovação final dos artigos submetidos, e uma comissão organizadora, responsável pela gestão e provimento dos recursos necessários para a realização do evento.
         </p>
+
+      <div className='flex justify-center'>
+      <button disabled={isActive} onClick={handleClick}>
+        Comite Cientifico
+      </button>
+      <button disabled={isActive2} onClick={handleClick}>
+        Comissão Organizadora
+      </button>
+      </div>
+      
+      
         <div className='px-8 py-8'>
+
+        {isActive && 
         <Slider {...settings} className='flex' > 
-        {data.map(criarCard)}
+        {data.filter(data=>data.funcao==="a").map(data=>criarCard(data))}
         </Slider>
+        }
+        
+
+      {isActive2 && 
+      <Slider {...settings} className='flex' > 
+      {data.filter(data=>data.funcao==="b").map(data=>criarCard(data))}
+      </Slider>
+      }
         </div>
       </div>
     </div>
