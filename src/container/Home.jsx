@@ -6,6 +6,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import  Logo from "../assets/Logo";
 // import Arrow from '../assets/Arrow';
+import Leftarrow from '../components/Leftarrow';
+import Rightarrow from '../components/Rightarrow';
+import Luciano from '../assets/images/Luciano_IFS.jpg'
+import logo from "../assets/logo-02.svg"
 
 
 function Home() {
@@ -14,12 +18,11 @@ function Home() {
   const settings = {
     dots: true,
     infinite: false,
-    speed: 0,
+    speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1
-    
-    // nextArrow: < Arrow />,
-    // prevArrow: < Arrow />,
+    slidesToScroll: 1,
+    nextArrow: < Rightarrow />,
+    prevArrow: < Leftarrow />
     // responsive: [
     //   {
     //     breakpoint: 1024,
@@ -39,65 +42,66 @@ function Home() {
   const data = [{
     id:1,
     name:"Teste1",
-    image:"../assets/images/Luciano_IFS.jpg" ,
+    image: Luciano  ,
     funcao:"a"
   },
   {
     id:2,
     name:"Teste2",
-    image:"../assets/images/Luciano_IFS.jpg" ,
+    image:Luciano ,
     funcao:"a"
   },
   {
     id:3,
     name:"Teste3",
-    image:"../assets/images/Luciano_IFS.jpg" ,
+    image:Luciano ,
     funcao:"a"
   },
   {
     id:4,
     name:"Teste4",
-    image:"../assets/images/Luciano_IFS.jpg" ,
+    image:Luciano ,
     funcao:"b"
   },
   {
     id:5,
     name:"Teste4",
-    image:"../assets/images/Luciano_IFS.jpg" ,
+    image:Luciano ,
     funcao:"b"
   },
   {
     id:6,
     name:"Teste4",
-    image:"../assets/images/Luciano_IFS.jpg" ,
+    image:Luciano ,
     funcao:"b"
   },
   {
     id:7,
     name:"Teste4",
-    image:"../assets/images/Luciano_IFS.jpg" ,
+    image:Luciano ,
     funcao:"b"
   }
 ]
 
   
   function criarCard(valor){
+    console.log(valor)
     return <Card  key={valor.id} image = {valor.image} name={valor.name}/>
   }
 
   // console.log(data.map((valor)=>{ <Card key={valor.id} image = {valor.image} name={valor.name}/>}))
   return (
     <div className="bg-slate-50 text-nord0 ">
-      <div className='flex px-32'>
-        <div className=' flex items-center'>
+      <div className='flex px-32 items-center'>
+        <div className=' flex '>
         <div>
-        <h1 className='text-4xl '>Indústria 5.0: Oportunidades e Desafios para Arquitetura e Construção</h1>
+        <h1 className='text-4xl font-bold pb-2 '>Indústria 5.0: Oportunidades e Desafios para Arquitetura e Construção</h1>
         <h2 className=''>13º Simpósio Brasileiro de Gestão e Economia da Construção e 4º Simpósio Brasileiro de Tecnologia da Informação e Comunicação na Construção</h2>
 
         </div>
         </div>
         <div>
-          {/* <Logo className="h-1/2 w-1/2" /> */}
+          <img src={logo} alt="logo" className="w-900 h-auto mx-auto"/>
         </div>
       </div>
 
@@ -152,8 +156,8 @@ function Home() {
         <p>
         De acordo com as normas da ANTAC para realização de eventos, o SIBRAGEC / SBTIC 2023 contará com um comitê científico, responsável pela programação e pela gestão, avaliação e aprovação final dos artigos submetidos, e uma comissão organizadora, responsável pela gestão e provimento dos recursos necessários para a realização do evento.
         </p>
-        <div className='px-8 py-8 '>
-        <Slider {...settings} > 
+        <div className='px-8 py-8'>
+        <Slider {...settings} className='flex' > 
         {data.map(criarCard)}
         </Slider>
         </div>
