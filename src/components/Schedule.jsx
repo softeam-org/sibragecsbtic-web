@@ -5,12 +5,12 @@ import { dayData } from '../constants'
 function Schedule({ day }) {
   return (
     <div className='max-w-6xl mx-auto'>
-        <div className='mb-6 py-4 border-b-2 border-b-nord2 text-nord1 text-xl font-bold'>
+        <div className='mb-6 py-4 border-b-2 border-b-nord2 text-nord1 text-3xl font-bold'>
             {dayData[day].date}
         </div>
         <div>
             {dayData[day].schedule.map((item, index) => (
-                <div className='flex justify-between mb-6' key={index}>
+                <div className='flex justify-between mb-6 text-2xl' key={index}>
                     <div className=' text-nord1 font-bold'>{item.time}</div>
                     <div className='max-w-3xl'>
                         <p className='text-nord1 font-bold mb-4'>{item.title}</p>
