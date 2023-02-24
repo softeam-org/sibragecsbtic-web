@@ -6,15 +6,19 @@ function Speakers({ day }) {
   const speakers = dayData[day].speakers
 
   return (
-    <div>
-      <h1>Palestrantes do dia</h1>
+    <div className='max-w-6xl mx-auto'>
+      <h2 className='text-3xl font-bold mb-16 mt-20'>Palestrantes do dia</h2>
       <div>
-        {speakers.map((speaker) => (
-          <div>
-            <img src={speaker.photo} alt={speaker.name} />
+        {speakers.map((speaker, index) => (
+          <div key={index} className='bg-gray-100 flex py-16 pl-16 pr-6 mb-10 items-center justify-between'>
+            <img 
+              src={speaker.photo} 
+              alt={speaker.name}
+              className='w-44 h-44 rounded-full object-cover'
+            />
             <div>
-              <h2>{speaker.name}</h2>
-              <p>{speaker.description}</p>
+              <h2 className='font-bold mb-6 text-xl'>{speaker.name}</h2>
+              <p className='text-zinc-500 text-xl max-w-3xl'>{speaker.description}</p>
             </div>
           </div>
           ))}

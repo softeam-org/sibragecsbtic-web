@@ -108,7 +108,7 @@ export const dayData = {
     speakers: [
       {
         name: "Lorem ipsum dolor sit amet",
-        photo: "https://picsum.photos/200/300",
+        photo: "https://picsum.photos/300/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
@@ -118,7 +118,7 @@ export const dayData = {
       },
       {
         name: "Lorem ipsum dolor sit amet",
-        photo: "https://picsum.photos/200/300",
+        photo: "https://picsum.photos/400/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
     ]
