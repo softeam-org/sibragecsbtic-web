@@ -40,7 +40,7 @@ function Programacao() {
         </div>
       <Schedule day={dia} />
       </div>
-      <Speakers />
+      <Speakers day={dia} />
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eveniet ut
       labore laudantium accusantium reprehenderit quo eaque nulla iste, culpa
       assumenda illum provident! Error sunt sed, ad eius doloremque accusantium?

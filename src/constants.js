@@ -104,6 +104,23 @@ export const dayData = {
           }
         ]
       },
+    ],
+    speakers: [
+      {
+        name: "Lorem ipsum dolor sit amet",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Lorem ipsum dolor sit amet",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Lorem ipsum dolor sit amet",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
     ]
   },
   2: {
@@ -157,6 +174,23 @@ export const dayData = {
           }
         ]
       },
+    ],
+    speakers: [
+      {
+        name: "Lorem ipsum dolor sit amet",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Lorem ipsum dolor sit amet",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Lorem ipsum dolor sit amet",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
     ]
   },
   3: {
@@ -209,6 +243,23 @@ export const dayData = {
             photo: "https://picsum.photos/200/300",
           }
         ]
+      },
+    ],
+    speakers: [
+      {
+        name: "Lorem ipsum dolor sit amet",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Lorem ipsum dolor sit amet",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Lorem ipsum dolor sit amet",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
     ]
   }
