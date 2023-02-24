@@ -1,6 +1,7 @@
 import React from "react";
 
 import Instructions from "../components/Instructions";
+import Prices from "../components/Prices";
 
 function Inscricoes() {
   return (
@@ -11,6 +12,8 @@ function Inscricoes() {
         </div>
 
         <Instructions />
+
+        <Prices />
       </div>
     </div>
   );
