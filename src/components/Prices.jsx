@@ -2,27 +2,36 @@ import React from "react";
 
 function Prices() {
 
+    const [type, setType] = React.useState('Evento');
 
 
 
   return (
     <div className="text-nord0 pb-40 font-medium">
-      <div className="flex ">
-        <div>
-          <p>Evento</p>
+      <div className="flex w-100 items-center justify-center gap-16 text-xl font-bold mb-16 text-zinc-300">
+        <div
+            onClick={() => setType('Evento')}
+        >
+          <p className={`transition-all hover:text-nord0 hover:cursor-pointer ${type === 'Evento' ? 'text-nord0' : ''}`}>Evento</p>
         </div>
-        <div>
-          <p>Dia da indústria</p>
+        <div
+            onClick={() => setType('Dia da indústria')}
+        >
+          <p className={`transition-all hover:text-nord0 hover:cursor-pointer ${type === 'Dia da indústria' ? 'text-nord0' : ''}`}>Dia da indústria</p>
         </div>
-        <div>
-          <p>Jantar</p>
+        <div
+            onClick={() => setType('Jantar')}
+        >
+          <p className={`transition-all hover:text-nord0 hover:cursor-pointer ${type === 'Jantar' ? 'text-nord0' : ''}`}>Jantar</p>
         </div>
-        <div>
-          <p>Minicurso</p>
+        <div
+            onClick={() => setType('Minicurso')}
+        >
+          <p className={`transition-all hover:text-nord0 hover:cursor-pointer ${type === 'Minicurso' ? 'text-nord0' : ''}`}>Minicurso</p>
         </div>
       </div>
 
-      <div className="mb-20">
+      <div className="mb-20 text-xl w-100 flex items-center justify-center text-nord0 font-bold">
         <h2>Preço das inscrições</h2>
       </div>
 
