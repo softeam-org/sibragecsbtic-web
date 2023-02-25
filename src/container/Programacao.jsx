@@ -7,7 +7,7 @@ function Programacao() {
   const [dia, setDia] = React.useState(1);
 
   return (
-    <div className="bg-white text-nord0">
+    <div className="bg-white text-nord0 pb-10">
       <div className="bg-nord6">
         <div className="py-20 flex flex-col items-center">
           <div className="flex justify-center gap-20 z-10">
