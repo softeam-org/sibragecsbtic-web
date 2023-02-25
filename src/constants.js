@@ -295,3 +295,27 @@ export const subscribeInstructions = [
   },
       
   ]
+
+  export const articleInstructions = [
+    {
+      title: "Acesse a submissão ativa clicando em VISUALIZAR",
+      text: ""
+    },
+    {
+      title: 'Na aba AVALIAÇÃO > RODADA 1, em "REVISÕES", clique em ENVIAR ARQUIVO. Uma nova janela chamada "Enviar arquivo para avaliação" irá aparecer',
+      text: "",
+    },
+    {
+      title: 'Na janela "Enviar aquivo para avaliação", na aba CARREGAR ARQUIVO, selecione em Componentes do Artigo a opção "Texto do Artigo" e arraste o arquivo para a área de upload ou selecione enviar arquivo. O formato do artigo deve OBRIGATORIAMENTE ser em docx. Clique em CONTINUAR',
+      text: ""
+    },
+    {
+      title: 'Na janela "Enviar arquivo para avaliação", na aba METADADOS, altere o nome do arquivo para XXX-SIBRAGEC2021.docx, no qual XXX é o número da submissão. Por exemplo: 228-SIBRAGEC2021.docx . Clique em CONTINUAR',
+      text: ""
+    },
+    {
+      title: "Comprovante exigido (sócio ANTAC)",
+      text: 'Na janela "Enviar arquivo para avaliação", na aba FINALIZAÇÃO, clique em CONCLUIR.'
+    },
+        
+    ]
