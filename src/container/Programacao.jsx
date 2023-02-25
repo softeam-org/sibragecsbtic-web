@@ -6,9 +6,6 @@ function Programacao() {
 
   const [dia, setDia] = React.useState(1);
 
-  const activeStyle = "bg-nord0";
-  const inactiveStyle = "bg-nord4";
-
   return (
     <div className="bg-white text-nord0">
       <div className="bg-nord6">
