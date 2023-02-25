@@ -25,21 +25,21 @@ function Home() {
     slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: < Rightarrow />,
-    prevArrow: < Leftarrow />
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 2,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 768,
-    //     settings: {
-    //       slidesToShow: 1,
-    //     },
-    //   },
-    // ],
+    prevArrow: < Leftarrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   const data = [{
@@ -173,31 +173,31 @@ function Home() {
           </div>
       </div>
       <div>
-        <p>
+        <p className='py-4 px-32'>
         De acordo com as normas da ANTAC para realização de eventos, o SIBRAGEC / SBTIC 2023 contará com um comitê científico, responsável pela programação e pela gestão, avaliação e aprovação final dos artigos submetidos, e uma comissão organizadora, responsável pela gestão e provimento dos recursos necessários para a realização do evento.
         </p>
 
-      <div className='flex justify-center'>
-      <button disabled={isActive} onClick={handleClick}>
+      <div className='flex justify-center '>
+      <button disabled={isActive} onClick={handleClick} className='bg-transparent bg-none text-gray-400 disabled:text-gray-900'>
         Comite Cientifico
       </button>
-      <button disabled={isActive2} onClick={handleClick}>
+      <button disabled={isActive2} onClick={handleClick} className='bg-transparent bg-none text-gray-400 disabled:text-gray-900'>
         Comissão Organizadora
       </button>
       </div>
       
       
-        <div className='px-8 py-8'>
+        <div className='px-32 py-8'>
 
         {isActive && 
-        <Slider {...settings} className='flex' > 
+        <Slider {...settings} className='flex justify-center' > 
         {data.filter(data=>data.funcao==="a").map(data=>criarCard(data))}
         </Slider>
         }
         
 
       {isActive2 && 
-      <Slider {...settings} className='flex' > 
+      <Slider {...settings} className='flex justify-center' > 
       {data.filter(data=>data.funcao==="b").map(data=>criarCard(data))}
       </Slider>
       }
