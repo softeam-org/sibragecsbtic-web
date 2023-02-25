@@ -2,15 +2,13 @@ import React from "react";
 
 import { subscribeInstructions } from "../constants";
 
-function Instructions() {
+function Instructions({ data }) {
   return (
     <>
-      <div className="w-100 flex justify-center mb-10 mt-8">
-        <h3 className=" text-nord1 text-2xl font-bold">Como se inscrever</h3>
-      </div>
+
 
       <div className="subcription-grid  text-nord0 grid  grid-flow-col ">
-        {subscribeInstructions.map((instruction, index) => (
+        {data.map((instruction, index) => (
           <div
             className={`flex items-start p-6 max-w-xl gap-4  ${
               index === 1 ? "" : ""

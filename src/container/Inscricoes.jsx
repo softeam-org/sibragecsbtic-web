@@ -3,6 +3,7 @@ import React from "react";
 import Instructions from "../components/Instructions";
 import Prices from "../components/Prices";
 import Courses from "../components/Courses";
+import { subscribeInstructions } from "../constants";
 
 function Inscricoes() {
   return (
@@ -12,8 +13,10 @@ function Inscricoes() {
           <div className="mb-6 py-4 border-b-2 border-b-nord2 text-nord1 text-3xl font-bold">
             <h2>Inscrições</h2>
           </div>
-
-          <Instructions />
+          <div className="w-100 flex justify-center mb-10 mt-8">
+        <h3 className=" text-nord1 text-2xl font-bold">Como se inscrever</h3>
+      </div>
+          <Instructions data={subscribeInstructions} />
 
           <Prices />
           <div className="flex flex-col w-100 justify-center items-center gap-6">
