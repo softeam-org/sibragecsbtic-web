@@ -41,28 +41,28 @@ function Timer() {
     <div className=' px-2'>
       {timeLeft.days > 0 && (
         <p>
-          {timeLeft.days} {timeLeft.days > 1 ? "dias" : "dia"} {timeLeft.hours}{" "}
-          {timeLeft.hours > 1 ? "horas" : "hora"} {timeLeft.minutes}{" "}
-          {timeLeft.minutes > 1 ? "minutos" : "minuto"} {timeLeft.seconds}{" "}
-          {timeLeft.seconds > 1 ? "segundos" : "segundos"}
+          {timeLeft.days} {timeLeft.days > 1 ? "DIAS" : "DIA"} {timeLeft.hours}{" "}
+          {timeLeft.hours > 1 ? "HORAS" : "HORA"} {timeLeft.minutes}{" "}
+          {timeLeft.minutes > 1 ? "MINUTOS" : "MINUTO"} {timeLeft.seconds}{" "}
+          {timeLeft.seconds > 1 ? "SEGUNDOS" : "SEGUNDO"}
         </p>
       )}
       {timeLeft.days === 0 && timeLeft.hours > 0 && (
         <p>
-          {timeLeft.hours} {timeLeft.hours > 1 ? "horas" : "hora"}{" "}
-          {timeLeft.minutes} {timeLeft.minutes > 1 ? "minutos" : "minuto"}{" "}
-          {timeLeft.seconds} {timeLeft.seconds > 1 ? "segundos" : "segundos"}
+          {timeLeft.hours} {timeLeft.hours > 1 ? "HORAS" : "HORA"}{" "}
+          {timeLeft.minutes} {timeLeft.minutes > 1 ? "MINUTOS" : "MINUTO"}{" "}
+          {timeLeft.seconds} {timeLeft.seconds > 1 ? "SEGUNDOS" : "SEGUNDO"}
         </p>
       )}
       {timeLeft.days === 0 && timeLeft.hours === 0 && timeLeft.minutes > 0 && (
         <p>
-          {timeLeft.minutes} {timeLeft.minutes > 1 ? "minutos" : "minuto"}{" "}
-          {timeLeft.seconds} {timeLeft.seconds > 1 ? "segundos" : "segundo"}
+          {timeLeft.minutes} {timeLeft.minutes > 1 ? "MINUTOS" : "MINUTO"}{" "}
+          {timeLeft.seconds} {timeLeft.seconds > 1 ? "SEGUNDOS" : "SEGUNDO"}
         </p>
       )}
       {timeLeft.days === 0 &&
         timeLeft.hours === 0 &&
-        timeLeft.minutes === 0 && <p>{timeLeft.seconds} segundos</p>}
+        timeLeft.minutes === 0 && <p>{timeLeft.seconds} SEGUNDOS</p>}
     </div>
   );
 };
