@@ -349,7 +349,35 @@ export const calendarData = [
 
 export const thematics =[
   {
-    title: "Gestão Estratégica e Organizacional;",
+    title: "Gestão da Cadeia de Suprimentos e Logística;",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "Gestão da Produção Ensino de Gestão da Construção;",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "Gestão de Contratos e de Aquisições;",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "Gestão Sustentável nas Empresas e Canteiros de Obra;",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "Gestão da Qualidade;",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "Gestão do Conhecimento e da Informação;",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "Gestão de Custos;",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "Gestão de Riscos;",
     link: "https://picsum.photos/200/300",
   },
   {
@@ -357,19 +385,15 @@ export const thematics =[
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão Estratégica e Organizacional;",
+    title: "Gestão da Saúde e Segurança do Trabalho;",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão Estratégica e Organizacional;",
+    title: "Gestão da Manutenção e de Operações;",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão Estratégica e Organizacional;",
-    link: "https://picsum.photos/200/300",
-  },
-  {
-    title: "Gestão Estratégica e Organizacional;",
+    title: "Gestão da Inovação;",
     link: "https://picsum.photos/200/300",
   },
   
