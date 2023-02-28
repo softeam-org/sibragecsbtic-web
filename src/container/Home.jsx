@@ -4,12 +4,13 @@ import Card from '../components/Card'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-// import  Logo from "../assets/Logo";
-// import Arrow from '../assets/Arrow';
 import Leftarrow from '../components/Leftarrow';
 import Rightarrow from '../components/Rightarrow';
 import Luciano from '../assets/images/Luciano_IFS.jpg'
-import logo from "../assets/logo-02.svg"
+import logo from "../assets/logo-01.svg"
+import Reymard from "../assets/images/reymard.png"
+import Tatiana from "../assets/images/tatiana.jpeg"
+import Sergio from "../assets/images/sergio.jpg"
 
 
 function Home() {
@@ -44,52 +45,62 @@ function Home() {
 
   const data = [{
     id:1,
-    name:"Teste1",
-    image: Luciano  ,
-    funcao:"a"
+    name:"Prof. Dr. Reymard Sávio S. de Melo",
+    image: Reymard,
+    organization: "UFBA",
+    function:"Scientific Committee",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     id:2,
-    name:"Teste2",
-    image:Luciano ,
-    funcao:"a"
+    name:"Prof. Dra. Tatiana Gondim do Amaral",
+    image:Tatiana,
+    organization: "UFG",
+    function:"Scientific Committee",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     id:3,
-    name:"Teste3",
-    image:Luciano ,
-    funcao:"a"
+    name:"Prof. Sérgio Leal Ferreira",
+    image:Sergio,
+    organization: "USP",
+    function:"Scientific Committee",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     id:4,
     name:"Teste4",
     image:Luciano ,
-    funcao:"b"
+    funcao:"b",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     id:5,
     name:"Teste4",
     image:Luciano ,
-    funcao:"b"
+    funcao:"b",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     id:6,
     name:"Teste4",
     image:Luciano ,
-    funcao:"b"
+    funcao:"b",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     id:7,
     name:"Teste4",
     image:Luciano ,
-    funcao:"b"
+    funcao:"b",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   }
 ]
 
   
   function criarCard(valor){
     console.log(valor)
-    return <Card  key={valor.id} image = {valor.image} name={valor.name} institution={valor.funcao}/>
+    return <Card  key={valor.id} image = {valor.image} name={valor.name} description={valor.description} institution={valor.organization}/>
   }
 
   const handleClick = () => {
@@ -128,7 +139,7 @@ function Home() {
       <div className='bg-[#E28659] flex px-32 py-12 text-2xl justify-center itens-center font-bold'>
         <h3 >FALTAM</h3>
         <Timer />
-        <h3>PARA O EVENTO COMEÇAR</h3>
+        <h3>PARA O EVENTO</h3>
       </div>
       
 
@@ -173,6 +184,7 @@ function Home() {
           </div>
       </div>
       <div>
+      <h3 className='pt-4 px-32 font-bold text-lg text-slate-900'>Organização</h3>
         <p className='py-4 px-32'>
         De acordo com as normas da ANTAC para realização de eventos, o SIBRAGEC / SBTIC 2023 contará com um comitê científico, responsável pela programação e pela gestão, avaliação e aprovação final dos artigos submetidos, e uma comissão organizadora, responsável pela gestão e provimento dos recursos necessários para a realização do evento.
         </p>
@@ -191,7 +203,9 @@ function Home() {
 
         {isActive && 
         <Slider {...settings} className='flex justify-center' > 
-        {data.filter(data=>data.funcao==="a").map(data=>criarCard(data))}
+      
+        {data.filter(data=>data.function==="Scientific Committee").map(data=>criarCard(data))}
+        
         </Slider>
         }
         
