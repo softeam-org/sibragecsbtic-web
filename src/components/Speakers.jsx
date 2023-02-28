@@ -1,12 +1,13 @@
 import React from 'react'
 
 import { dayData } from '../constants'
+import Container from './Container'
 
 function Speakers({ day }) {
   const speakers = dayData[day].speakers
 
   return (
-    <div className='max-w-6xl mx-auto'>
+    <Container color='white'>
       <h2 className='text-3xl font-bold mb-16 mt-20'>Palestrantes do dia</h2>
       <div>
         {speakers.map((speaker, index) => (
@@ -23,7 +24,7 @@ function Speakers({ day }) {
           </div>
           ))}
       </div>
-    </div>
+    </Container>
   )
 }
 

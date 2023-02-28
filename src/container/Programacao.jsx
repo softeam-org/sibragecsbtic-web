@@ -1,6 +1,7 @@
 import React from "react";
 import Schedule from "../components/Schedule";
 import Speakers from "../components/Speakers";
+import Container from "../components/Container";
 
 function Programacao() {
 
@@ -8,7 +9,7 @@ function Programacao() {
 
   return (
     <div className="bg-white text-nord0 pb-10">
-      <div className="bg-nord6">
+      <Container color="nord6">
         <div className="py-20 flex flex-col items-center">
           <div className="flex justify-center gap-20 z-10">
             <div 
@@ -36,7 +37,7 @@ function Programacao() {
           </div>
         </div>
       <Schedule day={dia} />
-      </div>
+      </Container>
       <Speakers day={dia} />
     </div>
   );

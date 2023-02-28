@@ -4,7 +4,7 @@ import { dayData } from '../constants'
 
 function Schedule({ day }) {
   return (
-    <div className='max-w-6xl mx-auto'>
+    <div>
         <div className='mb-6 py-4 border-b-2 border-b-nord2 text-nord1 text-2xl font-bold'>
             {dayData[day].date}
         </div>
