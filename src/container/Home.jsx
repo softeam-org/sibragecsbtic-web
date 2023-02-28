@@ -132,7 +132,7 @@ function Home() {
         </div>
         </div>
         <div>
-          <img src={logo} alt="logo" className="w-900 h-auto mx-auto"/>
+          <img src={logo} alt="logo" className="w-800 h-auto mx-auto"/>
         </div>
       </div>
 
