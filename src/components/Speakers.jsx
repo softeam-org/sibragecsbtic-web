@@ -8,10 +8,10 @@ function Speakers({ day }) {
 
   return (
     <Container color='white'>
-      <h2 className='text-3xl font-bold mb-16 mt-20'>Palestrantes do dia</h2>
+      <h2 className='text-3xl font-bold mb-16 lg:mt-20'>Palestrantes do dia</h2>
       <div>
         {speakers.map((speaker, index) => (
-          <div key={index} className='bg-gray-100 flex py-16 pl-16 pr-6 mb-10 items-center justify-between'>
+          <div key={index} className='bg-gray-100 flex flex-col gap-5 text-center lg:flex-row lg:gap-0 py-16 px-2 lg:pl-16 pr-6 mb-10 items-center justify-between'>
             <img 
               src={speaker.photo} 
               alt={speaker.name}

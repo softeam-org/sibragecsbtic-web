@@ -25,9 +25,9 @@ function Programacao() {
             ))}
            
           </div>
-          <div className="flex w-1/5">
-            <div className={`${dia >= 2 ? "bg-nord0" : "bg-zinc-300"} w-2/4 h-1 relative bottom-8 z-0`} />
-            <div className={`${dia >= 3 ? "bg-nord0" : "bg-zinc-300"} w-2/4 h-1 relative bottom-8 z-0`} />
+          <div className="flex w-full sm:w-2/5 lg:w-1/5">
+            <div className={`${dia >= 2 ? "bg-nord0" : "bg-zinc-300"} invisible sm:visible w-2/4 h-1 relative left-1 bottom-8 z-0`} />
+            <div className={`${dia >= 3 ? "bg-nord0" : "bg-zinc-300"} invisible sm:visible w-2/4 h-1 relative right-1 bottom-8 z-0`} />
           </div>
         </div>
       <Schedule day={dia} />
