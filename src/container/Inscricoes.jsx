@@ -6,14 +6,13 @@ import Courses from "../components/Courses";
 import Container from "../components/Container";
 
 import { subscribeInstructions } from "../constants";
+import SectionTitle from "../components/SectionTitle";
 
 function Inscricoes() {
   return (
     <div className="bg-white">
       <Container color="nord6">
-        <div className="mb-6 py-4 border-b-2 border-b-nord2 text-nord1 text-3xl font-bold">
-          <h2>Inscrições</h2>
-        </div>
+        <SectionTitle title={"Inscrições"} />
         <div className="w-100 flex justify-center mb-10 mt-8">
           <h3 className=" text-nord1 text-2xl font-bold">Como se inscrever</h3>
         </div>

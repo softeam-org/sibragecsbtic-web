@@ -1,13 +1,12 @@
 import React from 'react'
 
 import { dayData } from '../constants'
+import SectionTitle from "../components/SectionTitle";
 
 function Schedule({ day }) {
   return (
     <div>
-        <div className='mb-6 py-4 border-b-2 border-b-nord2 text-nord1 text-2xl font-bold'>
-            {dayData[day].date}
-        </div>
+        <SectionTitle title={dayData[day].date} />
         <div className='text-xl pb-10'>
             {dayData[day].schedule.map((item, index) => (
                 <div className='flex justify-between mb-6' key={index}>

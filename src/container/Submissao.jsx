@@ -5,14 +5,13 @@ import Calendar from "../components/Calendar";
 import Container from "../components/Container";
 
 import { articleInstructions, thematics } from "../constants";
+import SectionTitle from "../components/SectionTitle";
 
 function Submissao() {
   return (
     <div className="bg-white  text-nord0">
       <Container color="nord6">
-        <div className="mb-6 py-4 border-b-2 border-b-nord2 text-nord1 text-3xl font-bold">
-          <h2>Artigos</h2>
-        </div>
+        <SectionTitle title={"Artigos"} />
         <div className="w-100 flex justify-center mb-10 mt-8">
           <h3 className=" text-nord1 text-2xl font-bold">
             COMO CARREGAR O ARQUIVO DO ARTIGO NO NOVO SISTEMA:
@@ -20,14 +19,10 @@ function Submissao() {
         </div>
         <Instructions data={articleInstructions} />
 
-        <div className="mb-36 mt-28 py-4 border-b-2 border-b-nord2 text-nord1 text-3xl font-bold">
-          <h2>Calendário</h2>
-        </div>
+        <SectionTitle title={"Calendário"}  />
         <Calendar />
 
-        <div className="mb-6 mt-36 py-4 border-b-2 border-b-nord2 text-nord1 text-3xl font-bold">
-          <h2>Temáticas dos Artigos</h2>
-        </div>
+        <SectionTitle title={"Temáticas dos Artigos"}  />
         <div className="flex items-center justify-around">
           <div className="px-7 tematics">
             <div className="bg-white rounded-lg p-7 w-4/5 max-h-72 flex flex-col gap-4 items-center overflow-y-scroll ">
