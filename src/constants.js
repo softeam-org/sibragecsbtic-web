@@ -122,7 +122,7 @@ export const dayData = {
     ]
   },
   2: {
-    date: "Segunda, 30 de janeiro",
+    date: "Terça, 31 de janeiro",
     schedule: [
       {
         time: "8h:30 - 10h:00",
@@ -192,7 +192,7 @@ export const dayData = {
     ]
   },
   3: {
-    date: "Segunda, 30 de janeiro",
+    date: "Quarta, 1 de fevereiro",
     schedule: [
       {
         time: "8h:30 - 10h:00",
@@ -211,7 +211,7 @@ export const dayData = {
       },
       {
         time: "10h:00 - 11h:30",
-        title: "Lorem ipsum dolor sit amet 1",
+        title: "Gestão da Produção Ensino de Gestão da Construção",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
