@@ -45,8 +45,8 @@ function Submissao() {
             primeira etapa em português) como do artigo compacto propriamente
             dito.
             <br />
-            Consulte as temáticas de submissão de artigos em{" "}
-            <a href="">Políticas das Modalidades</a>
+            Consulte as temáticas de submissão de artigos em {" "}
+            <a href="">Políticas das Modalidades.</a>
             <br />
             Contamos com sua participação. Esse é o principal evento acadêmico
             de Gestão e Economia da Construção do Brasil!
@@ -54,9 +54,9 @@ function Submissao() {
             Outras informações estão disponibilizadas neste site, bem como nas
             mídias sociais do evento.
             <br />
-            Para dúvidas em relação a submissão dos artigos, por favor, entre em
-            contato com o Comitê Científico pelo email:{" "}
-            <a href="">gt.gestao@antac.org.br</a>
+            Para dúvidas em relação à submissão dos artigos, por favor, entre em
+            contato com o Comitê Científico pelo e-mail:{" "}
+            <a href="">gt.gestao@antac.org.br.</a>
           </p>
         </div>
       </Container>
