@@ -7,17 +7,15 @@ export const navLinks = [
     path: "/",
     links: [
       { name: "Sobre", path: "/sobre" },
-      { name: "Sobre", path: "/sobre" },
-      { name: "Sobre", path: "/sobre" },
+      { name: "Organização", path: "/sobre" },
     ],
   },
   {
     name: "Programação",
     path: "/programacao",
     links: [
-      { name: "Sobre", path: "/sobre" },
-      { name: "Sobre", path: "/sobre" },
-      { name: "Sobre", path: "/sobre" },
+      { name: "Horários", path: "/sobre" },
+      { name: "Palestrantes do dia", path: "/sobre" },
     ],
   },
   {
@@ -25,17 +23,17 @@ export const navLinks = [
     path: "/inscricoes",
     links: [
       { name: "Sobre", path: "/sobre" },
-      { name: "Sobre", path: "/sobre" },
-      { name: "Sobre", path: "/sobre" },
+      { name: "Preços", path: "/sobre" },
+      { name: "MiniCursos", path: "/sobre" },
     ],
   },
   {
     name: "Submissão",
     path: "/submissao",
     links: [
-      { name: "Sobre", path: "/sobre" },
-      { name: "Sobre", path: "/sobre" },
-      { name: "Sobre", path: "/sobre" },
+      { name: "Artigos", path: "/Artigos" },
+      { name: "Calendário", path: "/sobre" },
+      { name: "Temáticas dos Artigos", path: "/sobre" },
     ],
   },
   {
