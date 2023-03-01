@@ -60,11 +60,11 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elitiasty. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: Sergio,
           },
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: Luciano_IFS,
           }
         ]
@@ -75,7 +75,7 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -86,7 +86,7 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -97,7 +97,7 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -105,17 +105,17 @@ export const dayData = {
     ],
     speakers: [
       {
-        name: "Gestão Estratégica e Organizacional;",
+        name: "John Doe",
         photo: "https://picsum.photos/300/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "Gestão Estratégica e Organizacional;",
+        name: "John Doe",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "Gestão Estratégica e Organizacional;",
+        name: "John Doe",
         photo: "https://picsum.photos/400/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
@@ -130,11 +130,11 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           },
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -145,7 +145,7 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -156,7 +156,7 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -167,7 +167,7 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -175,17 +175,17 @@ export const dayData = {
     ],
     speakers: [
       {
-        name: "Gestão Estratégica e Organizacional;",
+        name: "John Doe",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "Gestão Estratégica e Organizacional;",
+        name: "John Doe",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "Gestão Estratégica e Organizacional;",
+        name: "John Doe",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
@@ -200,11 +200,11 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           },
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -215,7 +215,7 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -226,7 +226,7 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -237,7 +237,7 @@ export const dayData = {
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "Gestão Estratégica e Organizacional;",
+            name: "John Doe",
             photo: "https://picsum.photos/200/300",
           }
         ]
@@ -245,17 +245,17 @@ export const dayData = {
     ],
     speakers: [
       {
-        name: "Gestão Estratégica e Organizacional;",
+        name: "John Doe",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "Gestão Estratégica e Organizacional;",
+        name: "John Doe",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "Gestão Estratégica e Organizacional;",
+        name: "John Doe",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
@@ -263,7 +263,7 @@ export const dayData = {
   }
 }
 
-// Path: src\pages\Programacao\index.js
+// Path: src\John Doendex.js
 
 
 export const subscribeInstructions = [
