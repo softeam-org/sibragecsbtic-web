@@ -1,4 +1,4 @@
-import Luciano_IFS from "./assets/images/Luciano_IFS.jpg";
+import Luciano_IFS from "./assets/images/luciano.jpg";
 import Sergio from "./assets/images/sergio.jpg";
 
 export const navLinks = [
