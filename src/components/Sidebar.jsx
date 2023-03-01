@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 
+import { navLinks } from '../constants'
 
 function Sidebar({ closeSidebar }) {
 
@@ -21,9 +22,15 @@ function Sidebar({ closeSidebar }) {
             <div className='p-2'>
         
           <ul className='text-black'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+            {navLinks.map((link, index) => (
+                <li
+                    key={index}
+                    className='text-xl font-bold mb-4'
+                    onClick={() => toggleCloseSidebar()}
+                >
+                    <a href={link.path}>{link.name}</a>
+                </li>
+            ))}
           </ul>
             </div>
         </div>
