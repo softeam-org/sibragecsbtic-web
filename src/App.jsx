@@ -4,7 +4,7 @@ import Inscricoes from './container/Inscricoes';
 import Local from './container/Local';
 import Submissao from './container/Submissao';
 import Programacao from './container/Programacao';
-import Layout from '../Layout';
+import Layout from './container/Layout';
 
 const App = () => {
   // const navigate = useNavigate();
