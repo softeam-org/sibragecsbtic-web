@@ -10,7 +10,7 @@ function Navlinks() {
   return (
     navLinks.map((link) => (
         <div 
-            className="w-32 flex items-center justify-center"
+            className="w-32 hidden lg:flex items-center justify-center "
             key={link.path}
         >
           <a
