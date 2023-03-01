@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {
       width:{'800': '800px'},
+      fontSize:{"xxs":"0.5rem"}
     },
   },
   plugins: [
