@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Leftarrow from '../components/Leftarrow';
 import Rightarrow from '../components/Rightarrow';
-import Luciano from '../assets/images/Luciano_IFS.jpg'
+import Luciano from '../assets/images/luciano.jpg'
 import logo from "../assets/logo-01.svg"
 import Reymard from "../assets/images/reymard.png"
 import Tatiana from "../assets/images/tatiana.jpeg"
