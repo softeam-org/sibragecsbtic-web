@@ -8,7 +8,7 @@ function Calendar() {
         {calendarData.map((data, index) => (
             <div 
                 key={index}
-                className='px-4 flex border border-nord0'
+                className='px-4 flex border items-center border-nord0'
                 >
                     <div className='w-3/5 pt-2 pb-2 border-r border-nord0'>
                         <p >{data.event}</p>

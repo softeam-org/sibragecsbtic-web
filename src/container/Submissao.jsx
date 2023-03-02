@@ -19,16 +19,16 @@ function Submissao() {
         </div>
         <Instructions data={articleInstructions} />
 
-        <SectionTitle title={"Calendário"}  />
+        <SectionTitle title={"Calendário"} />
         <Calendar />
 
-        <SectionTitle title={"Temáticas dos Artigos"}  />
-        <div className="flex items-center justify-around">
-          <div className="px-7 tematics">
-            <div className="bg-white rounded-lg p-7 w-4/5 max-h-72 flex flex-col gap-4 items-center overflow-y-scroll ">
+        <SectionTitle title={"Temáticas dos Artigos"} />
+        <div className="flex items-center justify-center flex-col-reverse gap-10 lg:gap-0 lg:flex-row">
+          <div className="lg:px-7 tematics">
+            <div className="bg-white rounded-lg p-7 w-4/5 max-h-72 flex flex-col gap-4 mx-auto overflow-y-scroll ">
               {thematics.map((thematic, index) => (
                 <div className="px-10 bg-zinc-50 rounded-lg flex items-center justify-center">
-                  <a className="text-center">{thematic.title}</a>
+                  <a className="text-center py-2">{thematic.title}</a>
                 </div>
               ))}
             </div>
