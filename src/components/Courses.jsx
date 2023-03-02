@@ -32,7 +32,7 @@ const coursesData = [
 
 function Courses() {
   return (
-    <div className="bg-gray-50 py-20 px-3 sm:px-0">
+    <div className="bg-gray-50 py-20 px-3 lg:px-0">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-gray-900">MiniCursos</h2>
