@@ -25,6 +25,7 @@ import Caroline from "../assets/images/caroline.jpg"
 import Denise from "../assets/images/denise.jpg"
 import Mayana from "../assets/images/mayana.jpeg"
 import Rosana from "../assets/images/rosana.png"
+import VideoPlayer from '../components/VideoPlayer';
 
 function Home() {
 
@@ -258,9 +259,9 @@ function Home() {
       </div>
 
       <div className='bg-[#E28659] flex px-32 py-12 text-2xl justify-center itens-center font-bold'>
-        <h3 >FALTAM</h3>
+        {/* <h3 >FALTAM</h3> */}
         <Timer />
-        <h3>PARA O EVENTO</h3>
+        {/* <h3>PARA O EVENTO</h3> */}
       </div>
       
 
@@ -276,6 +277,9 @@ function Home() {
               Com o tema central “Indústria 5.0: oportunidades e desafios para a indústria da construção”, o SIBRAGEC + SBTIC 2023 deseja aprofundar os impactos e desafios da Construção 4.0 e discutir avanços para incorporar o foco humano na tomada de decisões proposto pela Indústria 5.0. Pretende-se, com isso, promover uma ampla discussão sobre os mecanismos de difusão e integração do conhecimento científico existente, as estratégias empreendidas, tanto pelo meio acadêmico quanto pelo setor produtivo para promover esta integração, as oportunidades e barreiras para a transferência do conhecimento científico e de novas tecnologias desenvolvidas no ambiente acadêmico para ação e o desenvolvimento da indústria da construção civil, que compreende as áreas de Engenharia, Arquitetura e Construção.
             </p>
           </div>
+
+          <VideoPlayer/>
+          
           <h3 className='font-bold text-lg'>Um pouco sobre a programação</h3>
           <div className="my-4">
             <p>
