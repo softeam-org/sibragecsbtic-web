@@ -32,7 +32,7 @@ const coursesData = [
 
 function Courses() {
   return (
-    <div className="bg-gray-50 py-20">
+    <div className="bg-gray-50 py-20 px-3 sm:px-0">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-gray-900">MiniCursos</h2>
@@ -49,7 +49,7 @@ function Courses() {
             eleifend consectetur. Ut viverra dui eros, eu commodo augue volutpat
             et.
           </p>
-          <div className="w-100 flex justify-center items-center gap-12">
+          <div className="w-100 flex flex-col lg:flex-row justify-center items-center gap-12">
             {coursesData.map((course) => (
               <div className="flex flex-col items-center justify-center px-9 py-9 gap-5 shadow-lg rounded-lg">
                 <img 

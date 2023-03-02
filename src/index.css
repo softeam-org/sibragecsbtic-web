@@ -75,12 +75,13 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-div.subcription-grid {
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr 0.5fr 1fr;
-} 
 
-
+@media (min-width: 640px) {
+  div.subcription-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr;
+  } 
+}
 
 /* Scrollbar */
 
