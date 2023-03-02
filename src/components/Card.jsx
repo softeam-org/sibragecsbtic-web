@@ -7,17 +7,18 @@ function Card({image,name,description,institution, key}){
             <img className="object-cover rounded-full w-24 h-24 mt-4" src={image} alt=""></img>
             </div>
 
-            <div className="p-4 flex flex-col gap-3">
+            <div className="p-4 flex flex-col gap-3 relative">
             <div className="flex justify-center">
             <h3 className="sm:text-lg font-bold text-center">{name}</h3>
             </div>
             {/* <p>{description}</p> */}
             
-            <div className="flex justify-center font-bold">
+            {/* <div className="flex justify-center font-bold">
             <h3>{institution}</h3>
-            </div>
+            </div> */}
             
             </div>
+            <h3 className="font-bold absolute bottom-0 left-1/2 transform -translate-x-1/2 ">{institution}</h3>
         </div>
     )
 }
