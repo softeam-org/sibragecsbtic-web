@@ -1,40 +1,51 @@
-import React, { useRef } from 'react'
+import React, { useRef } from "react";
 
-import { navLinks } from '../constants'
+import { navLinks } from "../constants";
+import closeSvg from "../assets/close.svg";
+import logo from "../assets/logo-01.svg";
 
-function Sidebar({ closeSidebar }) {
-
-    const toggleCloseSidebar = () => {
-        if (closeSidebar) {
-            closeSidebar()
-        }
+function Sidebar({ closeSidebar, sidebarOpen }) {
+  const toggleCloseSidebar = () => {
+    if (closeSidebar) {
+      closeSidebar();
     }
+  };
 
-    return (
-        <div className="fixed top-0 left-0 bg-white h-full w-9/12 sm:w-2/5 z-50">
-            <div
-                className='p-4'
-                onClick={() => toggleCloseSidebar()}
-            >
+  const sidebarContentClass = sidebarOpen
+    ? "transition-transform duration-200 ease-in-out transform translate-x-0 "
+    : "transition-transform duration-200 ease-in-out transform -translate-x-full";
 
-                <p className='text-red-500' >FECHAR</p>
-            </div>
-            <div className='p-2'>
-        
-          <ul className='text-black'>
+  const overlayClass = sidebarOpen
+  ? 'fixed inset-0 bg-gray-900 bg-opacity-50 z-40 transition-opacity duration-200 ease-in-out'
+  : 'fixed inset-0 bg-transparent bg-opacity-50 z-40 transition-all duration-300 ease-in-out opacity-100 pointer-events-none delay-200';
+
+  return (
+    <>
+      <div
+        className={`fixed top-0 z-50 bg-white w-9/12 sm:w-2/5 h-full ${sidebarContentClass}`}
+      >
+        <div
+          className="p-4 pr-5 flex justify-end"
+          onClick={() => toggleCloseSidebar()}
+        >
+          <img className={""} src={closeSvg} alt="close" />
+        </div>
+        <div className="p-2 mt-12">
+          <ul className={`text-nord0 flex flex-col gap-10`}>
             {navLinks.map((link, index) => (
-                <li
-                    key={index}
-                    className='text-xl font-bold mb-4'
-                    onClick={() => toggleCloseSidebar()}
-                >
-                    <a href={link.path}>{link.name}</a>
-                </li>
+              <li key={index} className={`text-3xl font-bold`}>
+                <a href={link.path}>{link.name}</a>
+              </li>
             ))}
           </ul>
-            </div>
         </div>
-    )
+        <div className="mt-24 w-full">
+          <img className="w-full" src={logo} alt="" />
+        </div>
+      </div>
+      <div className={overlayClass}></div>
+    </>
+  );
 }
 
-export default Sidebar
+export default Sidebar;
