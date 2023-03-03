@@ -38,15 +38,52 @@ function Timer() {
   }
 
   return (
-    <div className=' px-2'>
+    <div>
+      
       {timeLeft.days > 0 && (
-        <p>
-          {timeLeft.days} {timeLeft.days > 1 ? "DIAS" : "DIA"} {timeLeft.hours}{" "}
-          {timeLeft.hours > 1 ? "HORAS" : "HORA"} {timeLeft.minutes}{" "}
-          {timeLeft.minutes > 1 ? "MINUTOS" : "MINUTO"} {timeLeft.seconds}{" "}
-          {timeLeft.seconds > 1 ? "SEGUNDOS" : "SEGUNDO"}
-        </p>
+          
+          <div className="flex gap-10">
+
+          <div className="flex flex-col items-center ">
+          <p className="text-6xl">
+          {timeLeft.days} 
+          </p>
+          
+          <p className="text-base">
+          {timeLeft.days > 1 ? "DIAS" : "DIA"} 
+          </p>
+          </div>
+          
+          <div className="flex flex-col items-center ">
+          <p className="text-6xl">
+          {timeLeft.hours}
+          </p>
+          
+          
+          <p className="text-base"> 
+          {timeLeft.hours > 1 ? "HORAS" : "HORA"}
+          </p>
+          </div>
+          
+          <div className="flex flex-col items-center ">
+          <p className="text-6xl">{timeLeft.minutes}</p>
+          
+          <p className="text-base">{timeLeft.minutes > 1 ? "MINUTOS" : "MINUTO"} </p>
+          </div>
+          
+          <div className="flex flex-col items-center ">
+          <p className="text-6xl">{timeLeft.seconds}</p>
+          
+          
+          <p className="text-base">{timeLeft.seconds > 1 ? "SEGUNDOS" : "SEGUNDO"}</p>
+          </div>
+          
+          
+          
+          </div>
+        
       )}
+      
       {timeLeft.days === 0 && timeLeft.hours > 0 && (
         <p>
           {timeLeft.hours} {timeLeft.hours > 1 ? "HORAS" : "HORA"}{" "}
