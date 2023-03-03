@@ -11,12 +11,10 @@ function Header({ toggleFunction }) {
 
   return (
     <header className="mb-20 lg:mb-0">
-      <div className="mx-auto w-full z-30 bg-nord0 p-4 fixed top-0 lg:static lg:p-0 lg:pt-4 flex lg:flex-col items-center justify-between lg:justify-start">
-        <div className="max-w-6xl">
-
-        
-        <a href="/" className="relative lg:mx-auto w-48  h-20 md:w-60 truncate flex justify-center items-center">
-            <img src={logo2} alt="logo" className="h-60 absolute"/>
+      <div className="w-full bg-nord0 fixed top-0 lg:static">
+      <div className="mx-auto max-w-6xl z-30 p-4 gap-20  lg:p-0 lg:pt-4 flex lg:flex-col items-center justify-between lg:justify-start">
+        <a href="/" className="w-48 h-20 md:w-60 flex justify-center items-center">
+            <img src={logo2} alt="logo" className="w-60 absolute"/>
         </a>
         
         <div className="flex flex-col items-center gap-16">
