@@ -10,8 +10,10 @@ import menu from "../assets/menuMobile.svg";
 function Header({ toggleFunction }) {
 
   return (
-    <header className="mb-20">
-      <div className="max-w-6xl mx-auto w-full z-30 bg-nord0 p-4 fixed top-0 lg:static lg:p-0 lg:pt-4 flex lg:flex-col items-center justify-between lg:justify-start">
+    <header className="mb-20 lg:mb-0">
+      <div className="mx-auto w-full z-30 bg-nord0 p-4 fixed top-0 lg:static lg:p-0 lg:pt-4 flex lg:flex-col items-center justify-between lg:justify-start">
+        <div className="max-w-6xl">
+
         
         <a href="/" className="relative lg:mx-auto w-48  h-20 md:w-60 truncate flex justify-center items-center">
             <img src={logo2} alt="logo" className="h-60 absolute"/>
@@ -25,6 +27,7 @@ function Header({ toggleFunction }) {
           }
           </div>
         </div>
+          </div>
       </div>
     </header>
   );
