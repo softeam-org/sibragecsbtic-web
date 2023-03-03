@@ -15,7 +15,7 @@ function Navlinks() {
         >
           <a
             className={
-              "navlink font-semibold text-xl hover:cursor-pointer z-30" +
+              "navlink font-semibold text-xl hover:cursor-pointer" +
               (currentPath.pathname === link.path ? " active" : "")
             }
             href={link.path}
@@ -24,7 +24,7 @@ function Navlinks() {
             {link.name}
           </a>
           <div className={`
-            fixed top-48  pt-14 text-center flex flex-col items-center gap-5 w-32 bg-nord0 rounded-md transition ease-in pb-5 z-20
+            absolute top-56  pt-2 text-center flex flex-col items-center gap-5 w-32 bg-nord0 rounded-md transition ease-in pb-5 z-20
             ${active === link.name ? "visible opacity-100" : "invisible opacity-0"}
           `}
             onMouseLeave={() => setActive(null)}
