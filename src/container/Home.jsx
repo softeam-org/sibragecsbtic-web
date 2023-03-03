@@ -274,7 +274,7 @@ function Home() {
       </div>
       
 
-      <div className='text-base px-6 sm:px-6 md:px-10 lg:px-32 bg-gray-200 py-12'>
+      <div name="sobre" className='text-base px-6 sm:px-6 md:px-10 lg:px-32 bg-gray-200 py-12'>
         <h3 className='font-bold text-lg text-slate-900'>Sobre o evento</h3>
           <div className="my-4">
             <p>
@@ -302,7 +302,7 @@ function Home() {
           </div>
       </div>
       <div>
-      <h3 className='pt-4 px-6 sm:px-6 md:px-10 lg:px-32 font-bold text-lg text-slate-900'>Organização</h3>
+      <h3 name="organizaçao" className='pt-4 px-6 sm:px-6 md:px-10 lg:px-32 font-bold text-lg text-slate-900'>Organização</h3>
         <p className='py-4 px-6 sm:px-6 md:px-10 lg:px-32'>
           Desde as suas primeiras edições (SIBRAGEC em 1999 e SBTIC em 2002), os eventos têm se caracterizado como dois dos principais fóruns nacionais de discussões pertinentes à “Gestão e Economia da Construção” e “Tecnologia da Informação e Comunicação”, bem como de integração e intercâmbio do conhecimento acadêmico com o setor produtivo. Em 2023, os dois eventos voltam a ocorrer em conjunto (SIBRAGEC+SBTIC 2023), contando com a soma de esforços de professores, pesquisadores e alunos de pós-graduação e graduação, como também construtores, projetistas, gestores e outros profissionais atuantes na Construção Civil.
         </p>
