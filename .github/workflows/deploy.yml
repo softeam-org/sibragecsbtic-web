@@ -1,0 +1,36 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy to Hostgator
+    runs-on: ubuntu-latest
+    environment: deploy
+    steps:
+      - name: Checkout Commit
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Install pnpm
+        run: curl -f https://get.pnpm.io/v6.16.js | node - add --global pnpm@next-7
+      - name: Install dependencies
+        run: pnpm install
+      - name: Update pnpm bundle
+        run: curl -L --fail https://get.pnpm.io/v5.js > static/pnpm.js
+      - name: Build files
+        run: pnpm run build
+      - name: Sync files
+            uses: SamKirkland/FTP-Deploy-Action@4.3.3
+            with:
+              local-dir: ./dist/
+              server: ${{ secrets.ftp_host }}
+              username: ${{ secrets.ftp_user }}
+              password: ${{ secrets.ftp_password }}
