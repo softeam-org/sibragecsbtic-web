@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Leftarrow from '../components/Leftarrow';
 import Rightarrow from '../components/Rightarrow';
 import Luciano from '../assets/images/luciano.jpg'
-import logo from "../assets/logo-01.svg"
+// import logo from "../assets/logo-01.svg"
 import Reymard from "../assets/images/reymard.png"
 import Tatiana from "../assets/images/tatiana.jpeg"
 import Sergio from "../assets/images/sergio.jpg"
@@ -26,6 +26,7 @@ import Denise from "../assets/images/denise.jpg"
 import Mayana from "../assets/images/mayana.jpeg"
 import Rosana from "../assets/images/rosana.png"
 import VideoPlayer from '../components/VideoPlayer';
+import ImagemFundo from "../assets/images/imagemFundo.jpg"
 
 function Home() {
 
@@ -240,28 +241,36 @@ function Home() {
   };
 
 
-  
+  //style={{ backgroundImage: `url(${ImagemFundo})` }}
 
   // console.log(data.map((valor)=>{ <Card key={valor.id} image = {valor.image} name={valor.name}/>}))
   return (
     <div className="bg-slate-50 text-nord0 ">
-      <div className='flex px-6 sm:px-6 md:px-10 lg:px-32 items-center sm:gap-10'>
-        <div className=' flex flex-col sm:gap-2 '>
+      <div className='bg-[url] bg-cover w-full md:min-h-screen flex items-center justify-center relative' >
+      <img src={ImagemFundo}></img>
+      <div className='bg-black w-full h-full absolute  opacity-25'>
+
+      </div>
+      <div className='absolute w-full'>
+      <div className='flex  items-center justify-center'>
+        <div className=' flex flex-col sm:gap-2'>
       
-        <h1 className='text-xs sm:text-lg md:text-xl lg:text-4xl font-bold pb-2 '>Indústria 5.0: Oportunidades e Desafios para Arquitetura e Construção</h1>
-        <h2 className='text-xxs sm:text-sm'>13º Simpósio Brasileiro de Gestão e Economia da Construção e 4º Simpósio Brasileiro de Tecnologia da Informação e Comunicação na Construção</h2>
+        <h1 className='text-xs sm:text-lg md:text-xl lg:text-4xl font-bold pb-2 text-nord5 '>Indústria 5.0: Oportunidades e Desafios para Arquitetura e Construção</h1>
+        <h2 className='text-xxs sm:text-sm text-nord5'>13º Simpósio Brasileiro de Gestão e Economia da Construção e 4º Simpósio Brasileiro de Tecnologia da Informação e Comunicação na Construção</h2>
 
         
         </div>
-        <div>
+        {/* <div>
           <img src={logo} alt="logo" className="w-96 sm:w-800  h-auto mx-auto"/>
-        </div>
+        </div> */}
       </div>
 
-      <div className='bg-[#E28659] flex px-32 py-12 text-2xl justify-center itens-center font-bold'>
+      <div className='flex px-32 py-12 text-2xl justify-center itens-center font-bold text-nord5'>
         {/* <h3 >FALTAM</h3> */}
         <Timer />
         {/* <h3>PARA O EVENTO</h3> */}
+      </div>
+      </div>
       </div>
       
 
@@ -279,7 +288,7 @@ function Home() {
           </div>
 
           <VideoPlayer/>
-          
+
           <h3 className='font-bold text-lg'>Um pouco sobre a programação</h3>
           <div className="my-4">
             <p>
