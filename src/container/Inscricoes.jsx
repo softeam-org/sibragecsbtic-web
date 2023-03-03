@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 function Inscricoes() {
   return (
-    <div className="bg-white">
+    <div name="sobre" className="bg-white">
       <Container color="nord6">
         <SectionTitle title={"Inscrições"} />
         <div className="w-100 flex justify-center mb-10 mt-8">

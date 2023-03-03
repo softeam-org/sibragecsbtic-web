@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 function Submissao() {
   return (
-    <div className="bg-white  text-nord0">
+    <div name="artigos" className="bg-white  text-nord0">
       <Container color="nord6">
         <SectionTitle title={"Artigos"} />
         <div className="w-100 flex justify-center mb-10 mt-8">
@@ -20,11 +20,14 @@ function Submissao() {
         </div>
         <Instructions data={articleInstructions} />
 
+        <div className="calendario">
         <SectionTitle title={"Calendário"} />
         <Calendar />
 
+        </div>
+        
         <SectionTitle title={"Temáticas dos Artigos"} />
-        <div className="flex items-center justify-center flex-col-reverse gap-10 lg:gap-0 lg:flex-row">
+        <div name="tematicas" className="flex items-center justify-center flex-col-reverse gap-10 lg:gap-0 lg:flex-row">
           <div className="lg:px-7 tematics">
             <div className="bg-white rounded-lg p-7 w-4/5 max-h-72 flex flex-col gap-4 mx-auto overflow-y-scroll ">
               {thematics.map((thematic, index) => (

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 
 import { navLinks } from '../constants'
@@ -31,13 +32,15 @@ function Navlinks({ active, setActive }) {
             
           >
             { link.links.map((sublink, index) => (
-              <Link 
+              <ScrollLink 
                 className={`font-semibold text-xl hover:cursor-pointer ${index === 0 ? "pt-16" : ""}`}
                 key={index}
                 to={sublink.path}
+                smooth
+                duration={500}
                 >
                 {sublink.name}
-              </Link>
+              </ScrollLink>
             ))}
             </div>
         </div>
