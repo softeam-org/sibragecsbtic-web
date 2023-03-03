@@ -6,43 +6,43 @@ export const navLinks = [
     name: "Início",
     path: "/",
     links: [
-      { name: "Sobre", path: "/sobre" },
-      { name: "Organização", path: "/sobre" },
+      { name: "Sobre", path: "sobre" },
+      { name: "Organização", path: "organizaçao" },
     ],
   },
   {
     name: "Programação",
     path: "/programacao",
     links: [
-      { name: "Horários", path: "/sobre" },
-      { name: "Palestrantes do dia", path: "/sobre" },
+      { name: "Horários", path: "horarios" },
+      { name: "Palestrantes do dia", path: "palestrantes" },
     ],
   },
   {
     name: "Inscrições",
     path: "/inscricoes",
     links: [
-      { name: "Sobre", path: "/sobre" },
-      { name: "Preços", path: "/sobre" },
-      { name: "MiniCursos", path: "/sobre" },
+      { name: "Sobre", path: "sobre" },
+      { name: "Preços", path: "preços" },
+      { name: "MiniCursos", path: "minicursos" },
     ],
   },
   {
     name: "Submissão",
     path: "/submissao",
     links: [
-      { name: "Artigos", path: "/Artigos" },
-      { name: "Calendário", path: "/sobre" },
-      { name: "Temáticas dos Artigos", path: "/sobre" },
+      { name: "Artigos", path: "artigos" },
+      { name: "Calendário", path: "calendario" },
+      { name: "Temáticas dos Artigos", path: "tematicas" },
     ],
   },
   {
     name: "Local",
     path: "/local",
     links: [
-      { name: "UFAL", path: "/local/ufal" },
-      { name: "Maceió", path: "/local/maceio" },
-      { name: "Hotel do evento", path: "/local/hotel-do-evento" },
+      { name: "UFAL", path: "ufal" },
+      { name: "Maceió", path: "maceio" },
+      { name: "Hotel do evento", path: "hotel-do-evento" },
     ],
   },
 ];
