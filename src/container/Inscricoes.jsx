@@ -7,6 +7,7 @@ import Container from "../components/Container";
 
 import { subscribeInstructions } from "../constants";
 import SectionTitle from "../components/SectionTitle";
+import { Link } from "react-router-dom";
 
 function Inscricoes() {
   return (
@@ -23,11 +24,11 @@ function Inscricoes() {
           <p className="text-nord-0 text-xl font-bold">
             Clique no botão para se inscrever no evento
           </p>
-          <a href="/" rel="noreferrer">
+          <Link to="/" rel="noreferrer">
             <button className="bg-orange-500 border-0 text-white font-bold py-3 px-16  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in">
               Inscreva-se
             </button>
-          </a>
+          </Link>
         </div>
       </Container>
 

@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { navLinks } from "../constants";
 import closeSvg from "../assets/close.svg";
 import logo from "../assets/logo-01.svg";
+import { Link } from "react-router-dom";
 
 function Sidebar({ closeSidebar, sidebarOpen }) {
   const toggleCloseSidebar = () => {
@@ -34,7 +35,7 @@ function Sidebar({ closeSidebar, sidebarOpen }) {
           <ul className={`text-nord0 flex flex-col gap-10`}>
             {navLinks.map((link, index) => (
               <li key={index} className={`text-3xl font-bold`}>
-                <a href={link.path}>{link.name}</a>
+                <Link to={link.path}>{link.name}</Link>
               </li>
             ))}
           </ul>

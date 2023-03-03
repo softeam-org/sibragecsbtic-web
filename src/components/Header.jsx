@@ -4,6 +4,7 @@ import logo from "../assets/logo-01.svg";
 import Navlinks from "./Navlinks";
 import logo2 from "../assets/logo-variacao-branca.svg";
 import menu from "../assets/menuMobile.svg";
+import { Link } from "react-router-dom";
 
 
 
@@ -17,9 +18,9 @@ function Header({ toggleFunction }) {
       onMouseLeave={() => setActive(null)} 
       >
       <div className="mx-auto max-w-6xl z-30 p-4 gap-20  lg:p-0 lg:pt-4 flex lg:flex-col items-center justify-between lg:justify-start">
-        <a href="/" className="w-48 h-20 md:w-60 flex justify-center items-center">
+        <Link to="/" className="w-48 h-20 md:w-60 flex justify-center items-center">
             <img src={logo2} alt="logo" className="w-60 absolute"/>
-        </a>
+        </Link>
         
         <div className="flex flex-col items-center gap-16">
           <div className="flex gap-20 pb-2 lg:pb-10 ">

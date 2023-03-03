@@ -6,6 +6,7 @@ import Container from "../components/Container";
 
 import { articleInstructions, thematics } from "../constants";
 import SectionTitle from "../components/SectionTitle";
+import { Link } from "react-router-dom";
 
 function Submissao() {
   return (
@@ -28,7 +29,7 @@ function Submissao() {
             <div className="bg-white rounded-lg p-7 w-4/5 max-h-72 flex flex-col gap-4 mx-auto overflow-y-scroll ">
               {thematics.map((thematic, index) => (
                 <div className="px-10 bg-zinc-50 rounded-lg flex items-center justify-center">
-                  <a className="text-center py-2">{thematic.title}</a>
+                  <Link className="text-center py-2">{thematic.title}</Link>
                 </div>
               ))}
             </div>
@@ -41,7 +42,7 @@ function Submissao() {
             dito.
             <br />
             Consulte as temáticas de submissão de artigos em {" "}
-            <a href="">Políticas das Modalidades.</a>
+            <Link to="">Políticas das Modalidades.</Link>
             <br />
             Contamos com sua participação. Esse é o principal evento acadêmico
             de Gestão e Economia da Construção do Brasil!
@@ -51,7 +52,7 @@ function Submissao() {
             <br />
             Para dúvidas em relação à submissão dos artigos, por favor, entre em
             contato com o Comitê Científico pelo e-mail:{" "}
-            <a href="">gt.gestao@antac.org.br.</a>
+            <Link to="">gt.gestao@antac.org.br.</Link>
           </p>
         </div>
       </Container>
