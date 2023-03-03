@@ -33,7 +33,9 @@ function Navlinks({ active, setActive }) {
             { link.links.map((sublink, index) => (
               <Link 
                 className={`font-semibold text-xl hover:cursor-pointer ${index === 0 ? "pt-16" : ""}`}
-                key={index}>
+                key={index}
+                to={sublink.path}
+                >
                 {sublink.name}
               </Link>
             ))}
