@@ -162,7 +162,7 @@ function Home() {
         
         <div>
         {logo.filter((image=>(image.type==="apoio"))).map((image) => (
-        <div className='flex items-center justify-center'><img key={image.id} src={image.image} className=" w-1/2 md:w-auto md:h-16 " alt="Imagem" /></div>))}
+        <div className='flex items-center justify-center'><img key={image.id} src={image.image} className=" w-auto h-8 md:h-16 " alt="Imagem" /></div>))}
         </div>
         
       
@@ -173,7 +173,7 @@ function Home() {
        <h3 className='font-bold text-lg pt-4 pb-4 text-center '>Organização</h3>
        <div className='grid grid-cols-2 sm:grid-cols-3 '>
        {logo.filter((image=>(image.type==="organizacao"))).map((image) => (
-        <div className='flex justify-center items-center'><img key={image.id} src={image.image} className="w-auto h-28 " alt="Imagem" /></div>))}
+        <div className='flex justify-center items-center'><img key={image.id} src={image.image} className="w-auto h-16 md:h-28 " alt="Imagem" /></div>))}
       </div>
       </div>
 
@@ -181,7 +181,7 @@ function Home() {
       <h3 className='font-bold text-lg pt-4 pb-4'>Promoção</h3>
       <div className='flex'>
       {logo.filter((image=>(image.type==="promocao"))).map((image) => (
-      <img key={image.id} src={image.image} className="w-auto h-28 " alt="Imagem" />))}
+      <img key={image.id} src={image.image} className="w-auto h-16 md:h-28 " alt="Imagem" />))}
       </div>
       </div>
       </div>
@@ -192,7 +192,7 @@ function Home() {
       <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4'>
     
       {logo.filter((image=>(image.type==="co-organizacao"))).map((image) => (
-      <div className='flex justify-center items-center'><img key={image.id} src={image.image} className="w-auto h-28 " alt="Imagem" /></div>))}
+      <div className='flex justify-center items-center'><img key={image.id} src={image.image} className="w-auto h-16 md:h-28 " alt="Imagem" /></div>))}
       
       </div>
       </div>
