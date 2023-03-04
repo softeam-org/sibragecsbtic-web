@@ -345,13 +345,17 @@ export const calendarData = [
   },
 ]
 
-export const thematics =[
+export const thematicsSibragec = [
   {
     title: "Gestão da Cadeia de Suprimentos e Logística;",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão da Produção Ensino de Gestão da Construção;",
+    title: "Gestão da Produção;",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "Ensino de Gestão da Construção;",
     link: "https://picsum.photos/200/300",
   },
   {
@@ -391,7 +395,31 @@ export const thematics =[
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão da Inovação;",
+    title: "Gestão da Inovação",
+    link: "https://picsum.photos/200/300",
+  },
+  
+]
+
+export const thematicsSbtic = [
+  {
+    title: "TIC`s no desenvolvimento de projeto de edifícios e infraestruturas",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "TIC`s na gestão do conhecimento, integração e colaboração",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "TIC`s na gestão e operação de edifícios e infraestruturas",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "TIC`s no desenvolvimento das cidades e na gestão pública",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "TIC`s no ensino",
     link: "https://picsum.photos/200/300",
   },
   
