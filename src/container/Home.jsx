@@ -171,7 +171,7 @@ function Home() {
 
        <div className='flex flex-col justify-center items-center'>
        <h3 className='font-bold text-lg pt-4 pb-4 text-center '>Organização</h3>
-       <div className='grid grid-cols-2 sm:grid-cols-3 '>
+       <div className='grid grid-cols-3 '>
        {logo.filter((image=>(image.type==="organizacao"))).map((image) => (
         <div className='flex justify-center items-center'><img key={image.id} src={image.image} className="w-auto h-16 md:h-28 " alt="Imagem" /></div>))}
       </div>
@@ -189,7 +189,7 @@ function Home() {
 
       <div className='flex flex-col justify-center items-center'>
       <h3 className='font-bold text-lg pt-4 lg:pt-8 pb-6'>Co-organização</h3>
-      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4'>
+      <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 md:gap-4'>
     
       {logo.filter((image=>(image.type==="co-organizacao"))).map((image) => (
       <div className='flex justify-center items-center'><img key={image.id} src={image.image} className="w-auto h-16 md:h-28 " alt="Imagem" /></div>))}
