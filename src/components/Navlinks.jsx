@@ -37,7 +37,7 @@ function Navlinks({ active, setActive }) {
           link.links.map((sublink, index) => {
             return (
               <ScrollLink
-                className={`font-semibold text-xl hover:cursor-pointer ${
+                className={`font-semibold px-2 text-xl hover:cursor-pointer ${
                   index === 0 ? "pt-16" : ""
                 }`}
                 key={index}
