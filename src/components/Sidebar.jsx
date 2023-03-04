@@ -44,7 +44,7 @@ function Sidebar({ closeSidebar, sidebarOpen }) {
           <img className="w-full" src={logo} alt="" />
         </div>
       </div>
-      <div className={overlayClass}></div>
+      <div onClick={toggleCloseSidebar} className={overlayClass}></div>
     </>
   );
 }

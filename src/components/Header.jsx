@@ -15,7 +15,7 @@ function Header({ toggleFunction }) {
   return (
     <header className="mb-20 lg:mb-0">
       <div 
-      className="w-full bg-nord0 fixed z-50 top-0 lg:static"
+      className="w-full bg-nord0 fixed z-30 top-0 lg:static"
       onMouseLeave={() => setActive(null)} 
       >
       <div className="mx-auto max-w-6xl z-30 px-6 py-1 gap-20  lg:p-0 lg:pt-4 flex lg:flex-col items-center justify-between lg:justify-start">
