@@ -79,8 +79,8 @@ function Home() {
       <div className='flex  items-center justify-center'>
         <div className=' flex flex-col sm:gap-2 justify-center items-center '>
       
-        <h1 className='text-xl sm:text-2xl md:text-4xl lg:text-6xl font-bold pb-2 text-nord5 '>Indústria 5.0: Oportunidades e Desafios para Arquitetura e Construção</h1>
-        <h2 className='text-xxs sm:text-sm text-nord5 font-medium'>13º Simpósio Brasileiro de Gestão e Economia da Construção e 4º Simpósio Brasileiro de Tecnologia da Informação e Comunicação na Construção</h2>
+        <h1 className='text-3xl font-bold pb-2 text-nord5 '>Indústria 5.0: Oportunidades e Desafios para Arquitetura e Construção</h1>
+        <h2 className='text-xs text-nord5 font-medium'>13º Simpósio Brasileiro de Gestão e Economia da Construção e 4º Simpósio Brasileiro de Tecnologia da Informação e Comunicação na Construção</h2>
 
         
         </div>
