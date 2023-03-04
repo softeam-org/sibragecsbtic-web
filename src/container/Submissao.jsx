@@ -3,44 +3,47 @@ import React from "react";
 import Instructions from "../components/Instructions";
 import Calendar from "../components/Calendar";
 import Container from "../components/Container";
+import Construction from "../components/Construction";
 
-import { articleInstructions, thematics } from "../constants";
+import { articleInstructions,thematicsSibragec } from "../constants";
 import SectionTitle from "../components/SectionTitle";
 import { Link } from "react-router-dom";
 
 function Submissao() {
+  return (<Construction />)
+  {/* 
   return (
     <div name="artigos" className="bg-white  text-nord0">
-      <Container color="nord6">
-        <SectionTitle title={"Artigos"} />
-        <div className="w-100 flex justify-center mb-10 mt-8">
-          <h3 className=" text-nord1 text-2xl font-bold">
-            COMO CARREGAR O ARQUIVO DO ARTIGO NO NOVO SISTEMA:
-          </h3>
-        </div>
-        <Instructions data={articleInstructions} />
-
-        <div className="calendario">
-        <SectionTitle title={"Calendário"} />
+    <Container color="nord6">
+    <SectionTitle title={"Artigos"} />
+    <div className="w-100 flex justify-center mb-10 mt-8">
+    <h3 className=" text-nord1 text-2xl font-bold">
+    COMO CARREGAR O ARQUIVO DO ARTIGO NO NOVO SISTEMA:
+    </h3>
+    </div>
+    <Instructions data={articleInstructions} />
+    
+    <div className="calendario">
+    <SectionTitle title={"Calendário"} />
         <Calendar />
-
+        
         </div>
         
         <SectionTitle title={"Temáticas dos Artigos"} />
         <div name="tematicas" className="flex items-center justify-center flex-col-reverse gap-10 lg:gap-0 lg:flex-row">
-          <div className="lg:px-7 tematics">
-            <div className="bg-white rounded-lg p-7 w-4/5 max-h-72 flex flex-col gap-4 mx-auto overflow-y-scroll ">
-              {thematics.map((thematic, index) => (
-                <div className="px-10 bg-zinc-50 rounded-lg flex items-center justify-center">
-                  <Link className="text-center py-2">{thematic.title}</Link>
-                </div>
-              ))}
-            </div>
+        <div className="lg:px-7 tematics">
+        <div className="bg-white rounded-lg p-7 w-4/5 max-h-72 flex flex-col gap-4 mx-auto overflow-y-scroll ">
+        {thematicsSibragec.map((thematic, index) => (
+          <div className="px-10 bg-zinc-50 rounded-lg flex items-center justify-center">
+          <Link className="text-center py-2">{thematic.title}</Link>
+          </div>
+          ))}
+          </div>
           </div>
           <p className="text-nord-0 text-lg font-semibold max-w-lg">
-            As diretrizes gerais para submissão do artigo compacto estão
-            disponibilizadas no arquivo de modelo para publicação no SIBRAGEC. A
-            mesma contempla informações tanto do resumo a ser submetido (nesta
+          As diretrizes gerais para submissão do artigo compacto estão
+          disponibilizadas no arquivo de modelo para publicação no SIBRAGEC. A
+          mesma contempla informações tanto do resumo a ser submetido (nesta
             primeira etapa em português) como do artigo compacto propriamente
             dito.
             <br />
@@ -56,11 +59,13 @@ function Submissao() {
             Para dúvidas em relação à submissão dos artigos, por favor, entre em
             contato com o Comitê Científico pelo e-mail:{" "}
             <Link to="">gt.gestao@antac.org.br.</Link>
-          </p>
-        </div>
-      </Container>
-    </div>
-  );
-}
-
-export default Submissao;
+            </p>
+            </div>
+            </Container>
+            </div>
+            );
+          */}
+          }
+          
+          export default Submissao;
+          
