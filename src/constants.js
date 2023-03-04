@@ -297,7 +297,7 @@ export const subscribeInstructions = [
 
   export const articleInstructions = [
     {
-      title: "Acesse a submissão ativa clicando em VISUALIZAR",
+      title: "As inscrições serão realizadas por meio do formulário eletrônico “link”. Nele, deverão ser preenchidos os dados pessoais e anexado o comprovante de pagamento bancário (depósito/transferência/PIX identificados), a ser realizado conforme dados de transferência.",
       text: ""
     },
     {
