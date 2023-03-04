@@ -46,27 +46,12 @@ function Home() {
     return <Card  key={valor.id} image = {valor.image} name={valor.name} description={valor.description} institution={valor.organization}/>
   }
 
-  // const handleClick = () => {
-  //   if (isActive) {
-  //     setIsActive(!isActive);
-  //     setIsActive2(!isActive2);
-    
-      
-  //   } else if (isActive2) {
-  //     setIsActive(!isActive);
-  //     setIsActive2(!isActive2);
-    
-  //   }else{
-
-  //   }
-  // };
 
   const handleClick = (componente) => {
     setComponenteAtivo(componente);
   };
 
 
-  //style={{ backgroundImage: `url(${ImagemFundo})` }}
 
   return (
     <div className="bg-slate-50 text-nord0 ">
@@ -79,7 +64,7 @@ function Home() {
       <div className='flex  items-center justify-center'>
         <div className=' flex flex-col sm:gap-2 justify-center items-center '>
       
-        <h1 className='text-3xl font-bold pb-2 text-nord5 '>Indústria 5.0: Oportunidades e Desafios para Arquitetura e Construção</h1>
+        <h1 className='text-3xl lg:text-4xl font-bold pb-2 text-nord5 '>Indústria 5.0: Oportunidades e Desafios para Arquitetura e Construção</h1>
         <h2 className='text-xs text-nord5 font-medium'>13º Simpósio Brasileiro de Gestão e Economia da Construção e 4º Simpósio Brasileiro de Tecnologia da Informação e Comunicação na Construção</h2>
 
         
