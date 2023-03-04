@@ -42,7 +42,7 @@ function Timer() {
       
       {timeLeft.days > 0 && (
           
-          <div className="flex gap-10">
+          <div className="flex gap-4 lg:gap-10">
 
           <div className="flex flex-col items-center ">
           <p className="text-4xl sm:text-6xl">
