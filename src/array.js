@@ -26,7 +26,7 @@ import UFG from "./assets/images/ufg.png"
 import UFSC from "./assets/images/ufsc.png"
 import UNICAMP from "./assets/images/unicamp.png"
 import IFPB from "./assets/images/ifpb.png"
-import CBIM from "./assets/images/usp.jpg"
+import CBIM from "./assets/images/cbim.png"
 import ANTAC from "./assets/images/antac.png"
 
 
