@@ -34,6 +34,7 @@ export const navLinks = [
       { name: "Artigos", path: "artigos" },
       { name: "Calendário", path: "calendario" },
       { name: "Temáticas dos Artigos", path: "tematicas" },
+      { name: "Instruções", path: "instructions" },
     ],
   },
   {
