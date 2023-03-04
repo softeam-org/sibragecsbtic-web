@@ -238,7 +238,7 @@ export const logo = [
   },
   {
     id:9,
-    image: UNICAMP,
+    image: CBIM,
     type: "co-organizacao"
   },
   {
@@ -248,7 +248,7 @@ export const logo = [
   },
   {
     id:11,
-    image: CBIM,
+    image: UNICAMP,
     type: "co-organizacao"
   },
   {
