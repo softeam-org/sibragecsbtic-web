@@ -70,8 +70,8 @@ function Home() {
 
   return (
     <div className="bg-slate-50 text-nord0 ">
-      <div className='bg-[url] bg-cover w-full md:min-h-screen flex items-center justify-center relative' >
-      <img src={ImagemFundo}></img>
+      <div className='bg-[url] bg-cover w-full h-full  flex items-center justify-center relative' >
+      <img className='object-cover' src={ImagemFundo}></img>
       <div className='bg-black w-full h-full absolute  opacity-25'>
 
       </div>
