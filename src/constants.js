@@ -320,28 +320,24 @@ export const subscribeInstructions = [
 
 export const calendarData = [
   {
-    date: "2021-09-15",
-    event: "Início das inscrições"
+    date: "até 07/04/23",
+    event: "Envio de artigos"
   },
   {
-    date: "2021-09-15",
-    event: "Início das submissões"
+    date: "até 07/05/23",
+    event: "Decisão preliminar de artigos aprovados:"
   },
   {
-    date: "2021-09-15",
-    event: "Início das submissões"
+    date: "até 21/05/23",
+    event: "Envio das versões corrigidas dos artigos:"
   },
   {
-    date: "2021-09-15",
-    event: "Início das submissões"
+    date: "até 21/06/23",
+    event: "Decisão final dos artigos:"
   },
   {
-    date: "2021-09-15",
-    event: "Início das submissões"
-  },
-  {
-    date: "2021-09-15",
-    event: "Início das submissões"
+    date: "até 10/07/23",
+    event: "Inscrição dos autores de artigos:"
   },
 ]
 
