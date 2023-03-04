@@ -4,7 +4,7 @@ import { calendarData } from '../constants'
 
 function Calendar() {
   return (
-    <div className='flex flex-col gap-1 w-3/4 pb-10 mx-auto font-semibold'>
+    <div className='flex flex-col gap-1 w-3/4 py-8 mx-auto font-semibold'>
         {calendarData.map((data, index) => (
             <div 
                 key={index}

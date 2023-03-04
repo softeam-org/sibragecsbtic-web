@@ -7,7 +7,7 @@ function Instructions({ data }) {
     <>
 
 
-      <div className="subcription-grid mb-10 flex flex-col items-center text-nord0 lg:grid grid-flow-col ">
+      <div name="instructions" className="subcription-grid mb-10 flex flex-col items-center text-nord0 lg:grid grid-flow-col ">
         {data.map((instruction, index) => (
           <div
             className={`flex items-start p-6 max-w-xl gap-4  ${
