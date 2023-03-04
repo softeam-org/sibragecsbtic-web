@@ -171,7 +171,7 @@ function Home() {
       
       
       <div className='flex flex-col justify-center items-center pb-8'>
-      <div className='flex justify-center gap-1 md:gap-28 flex-col md:flex-row'>
+      <div className='grid grid-cols-1 md:grid-cols-3'>
       <div className=' flex flex-col items-center'>
       <h3 className='font-bold text-lg pt-4 pb-4 text-center'>Apoio</h3>
         
