@@ -94,7 +94,7 @@ function Home() {
       </div>
       
 
-      <div name="sobre" className='text-base px-6 sm:px-6 md:px-10 lg:px-48 bg-gray-200 py-12'>
+      <div name="sobre" className='text-base px-6 sm:px-6 md:px-10 lg:px-48 2xl:px-72 bg-gray-200 py-12'>
         <h3 className='font-bold text-lg text-slate-900'>Sobre o evento</h3>
           <div className="my-4">
             <p>
@@ -122,8 +122,8 @@ function Home() {
           </div>
       </div>
       <div>
-      <h3 name="organizaçao" className='pt-4 px-6 sm:px-6 md:px-10 lg:px-48 font-bold text-lg text-slate-900'>Organização</h3>
-        <p className='py-4 px-6 sm:px-6 md:px-10 lg:px-48'>
+      <h3 name="organizaçao" className='pt-4 px-6 sm:px-6 md:px-10 lg:px-48 2xl:px-72 font-bold text-lg text-slate-900'>Organização</h3>
+        <p className='py-4 px-6 sm:px-6 md:px-10 lg:px-48 2xl:px-72'>
           Desde as suas primeiras edições (SIBRAGEC em 1999 e SBTIC em 2002), os eventos têm se caracterizado como dois dos principais fóruns nacionais de discussões pertinentes à “Gestão e Economia da Construção” e “Tecnologia da Informação e Comunicação”, bem como de integração e intercâmbio do conhecimento acadêmico com o setor produtivo. Em 2023, os dois eventos voltam a ocorrer em conjunto (SIBRAGEC+SBTIC 2023), contando com a soma de esforços de professores, pesquisadores e alunos de pós-graduação e graduação, como também construtores, projetistas, gestores e outros profissionais atuantes na Construção Civil.
         </p>
 
@@ -140,7 +140,7 @@ function Home() {
       </div>
       
       
-        <div className='px-3 sm:px-6 md:px-10 lg:px-24 py-8'>
+        <div className='px-3 sm:px-6 md:px-10 lg:px-24 2xl:px-48 py-8'>
 
         {componenteAtivo===1 && 
         <Slider {...settings} className='flex justify-center' > 
@@ -169,21 +169,26 @@ function Home() {
       </div>
       
       
-      {/* <div className='flex lg:gap-28 mt-9 items-center md:gap-16'>
+      
+      <div className='flex flex-col justify-center items-center pb-8'>
+      <div className='flex justify-center gap-1 md:gap-28 flex-col md:flex-row'>
       <div className=' flex flex-col items-center'>
-      <h3 className='font-bold text-lg pt-4 pb-4'>Apoio</h3>
-        <div className='flex'>
+      <h3 className='font-bold text-lg pt-4 pb-4 text-center'>Apoio</h3>
+        
+        <div>
         {logo.filter((image=>(image.type==="apoio"))).map((image) => (
-        <img key={image.id} src={image.image} className="w-auto md:h-20 lg:h-20" alt="Imagem" />))}
+        <div className='flex items-center justify-center'><img key={image.id} src={image.image} className=" w-1/2 md:w-auto md:h-16 " alt="Imagem" /></div>))}
         </div>
+        
+      
       </div>
 
 
-      <div className=' flex flex-col items-center'>
-      <h3 className='font-bold text-lg pt-4 pb-4 '>Organização</h3>
-      <div className='flex gap-8'>
-      {logo.filter((image=>(image.type==="organizacao"))).map((image) => (
-      <img key={image.id} src={image.image} className="w-auto h-28 " alt="Imagem" />))}
+       <div className='flex flex-col justify-center items-center'>
+       <h3 className='font-bold text-lg pt-4 pb-4 text-center '>Organização</h3>
+       <div className='grid grid-cols-2 sm:grid-cols-3 '>
+       {logo.filter((image=>(image.type==="organizacao"))).map((image) => (
+        <div className='flex justify-center items-center'><img key={image.id} src={image.image} className="w-auto h-28 " alt="Imagem" /></div>))}
       </div>
       </div>
 
@@ -194,21 +199,19 @@ function Home() {
       <img key={image.id} src={image.image} className="w-auto h-28 " alt="Imagem" />))}
       </div>
       </div>
-
       </div>
+      
 
-
-      <div className='flex items-center md:pb-12 '>
+      <div className='flex flex-col justify-center items-center'>
       <h3 className='font-bold text-lg pt-4 lg:pt-8 pb-6'>Co-organização</h3>
-      <div className='gap-6'>
+      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4'>
     
       {logo.filter((image=>(image.type==="co-organizacao"))).map((image) => (
-      <div><img key={image.id} src={image.image} className="w-auto h-28 " alt="Imagem" /></div>))}
+      <div className='flex justify-center items-center'><img key={image.id} src={image.image} className="w-auto h-28 " alt="Imagem" /></div>))}
       
       </div>
       </div>
-       */}
-
+      </div>
 
       
       
