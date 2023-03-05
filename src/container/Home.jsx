@@ -112,7 +112,7 @@ function Home() {
           Desde as suas primeiras edições (SIBRAGEC em 1999 e SBTIC em 2002), os eventos têm se caracterizado como dois dos principais fóruns nacionais de discussões pertinentes à “Gestão e Economia da Construção” e “Tecnologia da Informação e Comunicação”, bem como de integração e intercâmbio do conhecimento acadêmico com o setor produtivo. Em 2023, os dois eventos voltam a ocorrer em conjunto (SIBRAGEC+SBTIC 2023), contando com a soma de esforços de professores, pesquisadores e alunos de pós-graduação e graduação, como também construtores, projetistas, gestores e outros profissionais atuantes na Construção Civil.
         </p>
 
-      <div className='flex justify-center '>
+      <div className='flex justify-center gap-0 md:gap-6 '>
       <button onClick={() => handleClick(1)} className={`px-0 transition-color transition bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${componenteAtivo===1?"text-gray-900":"text-gray-400"}`}>
         Comite Cientifico
       </button>
@@ -156,13 +156,14 @@ function Home() {
       
       
       <div className='flex flex-col justify-center items-center pb-8'>
-      <div className='grid grid-cols-1 md:grid-cols-3'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-2'>
+
       <div className=' flex flex-col items-center'>
       <h3 className='font-bold text-lg pt-4 pb-4 text-center'>Apoio</h3>
         
-        <div>
+        <div className='grid grid-cols-2'>
         {logo.filter((image=>(image.type==="apoio"))).map((image) => (
-        <div className='flex items-center justify-center'><img key={image.id} src={image.image} className=" w-auto h-8 md:h-16 " alt="Imagem" /></div>))}
+        <div className='flex items-center justify-center'><img key={image.id} src={image.image} className=" w-auto h-12 md:h-16 " alt="Imagem" /></div>))}
         </div>
         
       
