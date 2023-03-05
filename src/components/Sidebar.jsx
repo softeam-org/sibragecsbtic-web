@@ -27,7 +27,7 @@ function Sidebar({ closeSidebar, sidebarOpen }) {
       >
         <div
           className="p-4 pr-5 flex justify-end"
-          onClick={() => toggleCloseSidebar()}
+          onClick={toggleCloseSidebar}
         >
           <img className={""} src={closeSvg} alt="close" />
         </div>
@@ -35,7 +35,7 @@ function Sidebar({ closeSidebar, sidebarOpen }) {
           <ul className={`text-nord0 flex flex-col gap-10`}>
             {navLinks.map((link, index) => (
               <li key={index} className={`text-3xl font-bold`}>
-                <Link to={link.path}>{link.name}</Link>
+                <Link onClick={toggleCloseSidebar} to={link.path}>{link.name}</Link>
               </li>
             ))}
           </ul>
