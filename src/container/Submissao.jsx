@@ -118,15 +118,7 @@ function Submissao() {
         <Instructions data={articleInstructions} />
         */}
         <div className="flex justify-center">
-          <iframe
-            className=""
-            width="560"
-            height="315"
-            src="https://youtu.be/_q8H9q9arzo"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/_q8H9q9arzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </Container>
     </div>
