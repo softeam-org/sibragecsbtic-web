@@ -44,14 +44,10 @@ function Submissao() {
         <div>
           <p className="text-nord-0 text-lg font-semibold w-full">
             As diretrizes gerais para submissão do artigo compacto estão
-            disponibilizadas no arquivo de modelo para publicação no SIBRAGEC. A
-            mesma contempla informações tanto do resumo a ser submetido (nesta
-            primeira etapa em português) como do artigo compacto propriamente
-            dito.
+            disponibilizadas no arquivo de modelo para publicação no SIBRAGEC.
             <br />
             <br />
-            Consulte as temáticas de submissão de artigos em {" "}
-            <Link to="">Políticas das Modalidades.</Link>
+            Consulte as linhas temáticas para submissão dos artigos logo abaixo.
             <br />
             <br />
             Contamos com sua participação. Esse é o principal evento acadêmico
