@@ -113,13 +113,13 @@ function Home() {
         </p>
 
       <div className='flex justify-center '>
-      <button onClick={() => handleClick(1)} className={`bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${componenteAtivo===1?"text-gray-900":"text-gray-400"}`}>
+      <button onClick={() => handleClick(1)} className={`transition-color transition bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${componenteAtivo===1?"text-gray-900":"text-gray-400"}`}>
         Comite Cientifico
       </button>
-      <button onClick={() => handleClick(2)} className={`bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${componenteAtivo===2?"text-gray-900":"text-gray-400"}`}>
+      <button onClick={() => handleClick(2)} className={`px-0 transition-color transition bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${componenteAtivo===2?"text-gray-900":"text-gray-400"}`}>
         Comissão Organizadora
       </button>
-      <button  onClick={() => handleClick(3)} className={`bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${componenteAtivo===3?"text-gray-900":"text-gray-400"}`}>
+      <button  onClick={() => handleClick(3)} className={`transition-color transition bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${componenteAtivo===3?"text-gray-900":"text-gray-400"}`}>
         Coordenação do Evento
       </button>
       </div>
