@@ -126,7 +126,7 @@ function Submissao() {
             className=""
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/ylm3gAoPXfA"
+            src="https://youtu.be/_q8H9q9arzo"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
