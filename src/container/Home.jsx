@@ -54,7 +54,7 @@ function Home() {
 
 
   return (
-    <div className="bg-slate-50 text-nord0 ">
+    <div className="bg-slate-50 text-nord0 h-full w-full">
       <div className='bg-[url] bg-cover w-full h-full  flex items-center justify-center relative' >
       <img className='object-cover' src={ImagemFundo}></img>
       <div className='bg-black w-full h-full absolute  opacity-25'>
@@ -71,7 +71,7 @@ function Home() {
         </div>
       </div>
 
-      <div className='flex px-32 py-3 sm:py-12 text-2xl justify-center itens-center font-bold text-nord5'>
+      <div className='flex py-3 sm:py-12 text-2xl justify-center itens-center font-bold text-nord5'>
   
         <Timer />
       </div>
@@ -189,7 +189,7 @@ function Home() {
 
       <div className='flex flex-col justify-center items-center'>
       <h3 className='font-bold text-lg pt-4 lg:pt-8 pb-6'>Co-organização</h3>
-      <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 md:gap-4'>
+      <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 md:gap-4 lg:gap-6'>
     
       {logo.filter((image=>(image.type==="co-organizacao"))).map((image) => (
       <div className='flex justify-center items-center'><img key={image.id} src={image.image} className="w-auto h-16 md:h-28 " alt="Imagem" /></div>))}
