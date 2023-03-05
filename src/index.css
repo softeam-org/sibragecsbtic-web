@@ -47,6 +47,11 @@ a.navlink:hover::after {
   transform: scale(1,1);
 }
 
+a.navlink.active::after {
+  transform: scale(1,1);
+}
+
+
 body {
   margin: 0;
   place-items: center;

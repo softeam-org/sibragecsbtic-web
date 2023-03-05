@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const coursesData = [
   {
@@ -32,7 +33,7 @@ const coursesData = [
 
 function Courses() {
   return (
-    <div className="bg-gray-50 py-20 px-3 lg:px-0">
+    <div name="minicursos" className="bg-gray-50 py-20 px-3 lg:px-0">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-gray-900">MiniCursos</h2>
@@ -59,11 +60,11 @@ function Courses() {
 
                 <h3 className="text-lg text-nord0 font-bold">{course.name}</h3>
                 <p className="text-zinc-400">{course.presenter}</p>
-                <a href="">
+                <Link to="">
                   <button className="bg-orange-500 border-0 text-white font-bold py-3 px-16  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in">
                     Inscreva-se
                   </button>
-                </a>
+                </Link>
               </div>
             ))}
           </div>

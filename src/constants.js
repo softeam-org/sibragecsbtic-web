@@ -6,43 +6,44 @@ export const navLinks = [
     name: "Início",
     path: "/",
     links: [
-      { name: "Sobre", path: "/sobre" },
-      { name: "Organização", path: "/sobre" },
+      { name: "Sobre", path: "sobre" },
+      { name: "Organização", path: "organizaçao" },
     ],
   },
   {
     name: "Programação",
     path: "/programacao",
     links: [
-      { name: "Horários", path: "/sobre" },
-      { name: "Palestrantes do dia", path: "/sobre" },
+      { name: "Horários", path: "horarios" },
+      { name: "Palestrantes do dia", path: "palestrantes" },
     ],
   },
   {
     name: "Inscrições",
     path: "/inscricoes",
     links: [
-      { name: "Sobre", path: "/sobre" },
-      { name: "Preços", path: "/sobre" },
-      { name: "MiniCursos", path: "/sobre" },
+      { name: "Sobre", path: "sobre" },
+      { name: "Preços", path: "preços" },
+      { name: "MiniCursos", path: "minicursos" },
     ],
   },
   {
     name: "Submissão",
     path: "/submissao",
     links: [
-      { name: "Artigos", path: "/Artigos" },
-      { name: "Calendário", path: "/sobre" },
-      { name: "Temáticas dos Artigos", path: "/sobre" },
+      { name: "Artigos", path: "artigos" },
+      { name: "Calendário", path: "calendario" },
+      { name: "Temáticas dos Artigos", path: "tematicas" },
+      { name: "Instruções", path: "instructions" },
     ],
   },
   {
     name: "Local",
     path: "/local",
     links: [
-      { name: "UFAL", path: "/local/ufal" },
-      { name: "Maceió", path: "/local/maceio" },
-      { name: "Hotel do evento", path: "/local/hotel-do-evento" },
+      { name: "UFAL", path: "ufal" },
+      { name: "Maceió", path: "maceio" },
+      { name: "Hotel do evento", path: "hotel-do-evento" },
     ],
   },
 ];
@@ -296,7 +297,7 @@ export const subscribeInstructions = [
 
   export const articleInstructions = [
     {
-      title: "Acesse a submissão ativa clicando em VISUALIZAR",
+      title: "As inscrições serão realizadas por meio do formulário eletrônico “link”. Nele, deverão ser preenchidos os dados pessoais e anexado o comprovante de pagamento bancário (depósito/transferência/PIX identificados), a ser realizado conforme dados de transferência.",
       text: ""
     },
     {
@@ -320,38 +321,38 @@ export const subscribeInstructions = [
 
 export const calendarData = [
   {
-    date: "2021-09-15",
-    event: "Início das inscrições"
+    date: "até 07/04/23",
+    event: "Envio de artigos"
   },
   {
-    date: "2021-09-15",
-    event: "Início das submissões"
+    date: "até 07/05/23",
+    event: "Decisão preliminar de artigos aprovados:"
   },
   {
-    date: "2021-09-15",
-    event: "Início das submissões"
+    date: "até 21/05/23",
+    event: "Envio das versões corrigidas dos artigos:"
   },
   {
-    date: "2021-09-15",
-    event: "Início das submissões"
+    date: "até 21/06/23",
+    event: "Decisão final dos artigos:"
   },
   {
-    date: "2021-09-15",
-    event: "Início das submissões"
-  },
-  {
-    date: "2021-09-15",
-    event: "Início das submissões"
+    date: "até 10/07/23",
+    event: "Inscrição dos autores de artigos:"
   },
 ]
 
-export const thematics =[
+export const thematicsSibragec = [
   {
     title: "Gestão da Cadeia de Suprimentos e Logística;",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão da Produção Ensino de Gestão da Construção;",
+    title: "Gestão da Produção;",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "Ensino de Gestão da Construção;",
     link: "https://picsum.photos/200/300",
   },
   {
@@ -391,7 +392,31 @@ export const thematics =[
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão da Inovação;",
+    title: "Gestão da Inovação",
+    link: "https://picsum.photos/200/300",
+  },
+  
+]
+
+export const thematicsSbtic = [
+  {
+    title: "TIC`s no desenvolvimento de projeto de edifícios e infraestruturas",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "TIC`s na gestão do conhecimento, integração e colaboração",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "TIC`s na gestão e operação de edifícios e infraestruturas",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "TIC`s no desenvolvimento das cidades e na gestão pública",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "TIC`s no ensino",
     link: "https://picsum.photos/200/300",
   },
   

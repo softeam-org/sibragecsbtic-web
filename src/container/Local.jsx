@@ -1,9 +1,10 @@
 import React from 'react'
 
+import Construction from "../components/Construction";
+
+
 function Local() {
-  return (
-    <div>Local</div>
-  )
+  return (<Construction />)
 }
 
 export default Local

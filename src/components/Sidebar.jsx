@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { navLinks } from "../constants";
 import closeSvg from "../assets/close.svg";
 import logo from "../assets/logo-01.svg";
+import { Link } from "react-router-dom";
 
 function Sidebar({ closeSidebar, sidebarOpen }) {
   const toggleCloseSidebar = () => {
@@ -26,7 +27,7 @@ function Sidebar({ closeSidebar, sidebarOpen }) {
       >
         <div
           className="p-4 pr-5 flex justify-end"
-          onClick={() => toggleCloseSidebar()}
+          onClick={toggleCloseSidebar}
         >
           <img className={""} src={closeSvg} alt="close" />
         </div>
@@ -34,7 +35,7 @@ function Sidebar({ closeSidebar, sidebarOpen }) {
           <ul className={`text-nord0 flex flex-col gap-10`}>
             {navLinks.map((link, index) => (
               <li key={index} className={`text-3xl font-bold`}>
-                <a href={link.path}>{link.name}</a>
+                <Link onClick={toggleCloseSidebar} to={link.path}>{link.name}</Link>
               </li>
             ))}
           </ul>
@@ -43,7 +44,7 @@ function Sidebar({ closeSidebar, sidebarOpen }) {
           <img className="w-full" src={logo} alt="" />
         </div>
       </div>
-      <div className={overlayClass}></div>
+      <div onClick={toggleCloseSidebar} className={overlayClass}></div>
     </>
   );
 }

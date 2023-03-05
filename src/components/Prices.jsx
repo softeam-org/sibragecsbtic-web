@@ -28,7 +28,7 @@ function Prices() {
   ];
 
   return (
-    <div className="text-nord0 pb-40 font-medium">
+    <div name="preços" className="text-nord0 pt-4 pb-40 font-medium">
       {/*Versão desktop */}
       <div className="hidden md:flex w-100 items-center justify-center gap-16 text-xl font-bold mb-16 text-zinc-300">
         <div onClick={() => setType("")}>

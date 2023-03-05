@@ -8,7 +8,7 @@ function Speakers({ day }) {
 
   return (
     <Container color="white">
-      <h2 className="text-3xl font-bold mb-16 lg:mt-20">Palestrantes do dia</h2>
+      <h2 name="palestrantes" className="text-3xl pt-4 font-bold mb-16 lg:mt-20">Palestrantes do dia</h2>
       <div >
         {speakers.map((speaker, index) => (
           <div
