@@ -19,8 +19,10 @@ function Layout({ children }) {
   useEffect(() => {
     if (toggleSidebar) {
       setSidebarOpen(true);
+      document.body.style.overflow = 'hidden';
     } else {
       setSidebarOpen(false);
+      document.body.style.overflow = 'unset';
     }
   }, [toggleSidebar]);
   return (
