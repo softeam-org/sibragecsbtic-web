@@ -16,7 +16,7 @@ function Card({image,name,description,institution, key}){
             {/* <div className="flex justify-center font-bold">
             <h3>{institution}</h3>
             </div> */}
-            <h3 className="text-slate-500 font-bold mb-6 md:mb-2 lg:mb-12 flex justify-center items-center mt-12 sm:mt-8 ">{institution}</h3>
+            <h3 className="text-slate-500 font-bold mb-6 md:mb-2 lg:mb-12 flex justify-center items-center ">{institution}</h3>
             
             </div>
             
