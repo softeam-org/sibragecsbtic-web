@@ -28,7 +28,7 @@ function Submissao() {
           <p>
             As diretrizes gerais para submissão do artigo compacto estão
             disponibilizadas no arquivo de modelo para publicação <Link
-              to={''} 
+              to={'https://drive.google.com/drive/u/0/folders/1lWCw2mAZ_QrGNLVKh-ejKu2umq3Zk1xV'} 
               className="underline cursor-pointer"
             >template</Link>.
             Em caso de dúvidas, entre em contato
