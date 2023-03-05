@@ -18,7 +18,7 @@ function Card({image,name,description,institution, key}){
             </div> */}
             
             </div>
-            <h3 className="text-slate-500 font-bold mb-6 md:mb-2 lg:mb-12 absolute bottom-0 left-1/2 transform -translate-x-1/2 ">{institution}</h3>
+            <h3 className="text-slate-500 font-bold mb-6 md:mb-2 lg:mb-12 absolute bottom-0 left-1/2 transform -translate-x-1/2 -webkit-transform -translate-x-1/2 ">{institution}</h3>
         </div>
     )
 }
