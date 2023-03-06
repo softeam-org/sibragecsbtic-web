@@ -28,6 +28,7 @@ import UNICAMP from "./assets/images/unicamp.png"
 import IFPB from "./assets/images/ifpb.png"
 import CBIM from "./assets/images/cbim.png"
 import ANTAC from "./assets/images/antac.png"
+import SOFTEAM from "./assets/images/softeam.png"
 
 
 
@@ -198,7 +199,7 @@ export const data = [{
 export const logo = [
     {
     id:1,
-    image: Proec,
+    image: SOFTEAM,
     type: "apoio"
   },
   {
@@ -255,5 +256,10 @@ export const logo = [
     id:12,
     image: ANTAC,
     type: "promocao"
+  },
+  {
+    id:13,
+    image: Proec,
+    type: "apoio"
   }
 ]
