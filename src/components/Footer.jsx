@@ -40,7 +40,7 @@ function Footer() {
         </div>
       </div>
       <div className='flex flex-col gap-2'>
-      <Link to='/submissao' onClick={() => scrollToTop()} className='text-nord4 font-bold'>Submissão</Link>
+      <Link to='/submissao' onClick={() => scrollToTop()} className='text-nord4 font-bold'>Submissões</Link>
         {/* <h3 className='text-nord4 font-bold'>Submissão</h3> */}
         <div className='flex flex-col gap-0 md:gap-1'>
         <a className='text-sm text-slate-400'>Artigos</a>
