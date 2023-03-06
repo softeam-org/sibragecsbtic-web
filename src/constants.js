@@ -395,6 +395,10 @@ export const thematicsSibragec = [
     title: "Gestão da Inovação",
     link: "https://picsum.photos/200/300",
   },
+  {
+    title: "Indústrias 4.0 e 5.0 com ênfase na construção",
+    link: "https://picsum.photos/200/300",
+  },
   
 ]
 
@@ -417,6 +421,10 @@ export const thematicsSbtic = [
   },
   {
     title: "TIC`s no ensino",
+    link: "https://picsum.photos/200/300",
+  },
+  {
+    title: "Indústria 4.0 e 5.0 com ênfase nas tecnologias e arquitetura",
     link: "https://picsum.photos/200/300",
   },
   
