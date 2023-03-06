@@ -29,7 +29,7 @@ export const navLinks = [
   },
   {
     name: "Submissão",
-    path: "/submissao",
+    path: "/submissoes",
     links: [
       { name: "Artigos", path: "artigos" },
       { name: "Calendário", path: "calendario" },
