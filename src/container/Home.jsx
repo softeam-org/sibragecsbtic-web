@@ -65,7 +65,7 @@ function Home() {
         <div className=' flex flex-col sm:gap-2 justify-center items-center '>
       
         <h1 className='text-xl lg:text-4xl font-bold pb-2 text-nord5 '>Indústria 5.0: Oportunidades e Desafios para Arquitetura e Construção</h1>
-        <h2 className='text-xxs text-nord5 font-medium'>13º Simpósio Brasileiro de Gestão e Economia da Construção e 4º Simpósio Brasileiro de Tecnologia da Informação e Comunicação na Construção</h2>
+        <h2 className='text-xxs lg:text-sm text-nord5 font-medium'>13º Simpósio Brasileiro de Gestão e Economia da Construção e 4º Simpósio Brasileiro de Tecnologia da Informação e Comunicação na Construção</h2>
 
         
         </div>
