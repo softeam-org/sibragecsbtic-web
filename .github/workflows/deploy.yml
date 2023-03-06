@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Update pnpm bundle
-        run: curl -L --fail https://get.pnpm.io/v5.js > static/pnpm.js
+        run: curl -L --fail https://get.pnpm.io/v5.js > dist/pnpm.js
       - name: Build files
         run: pnpm run build
       - name: Sync files
