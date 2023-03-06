@@ -28,9 +28,9 @@ jobs:
       - name: Build files
         run: pnpm run build
       - name: Sync files
-            uses: SamKirkland/FTP-Deploy-Action@4.3.3
-            with:
-              local-dir: ./dist/
-              server: ${{ secrets.ftp_host }}
-              username: ${{ secrets.ftp_user }}
-              password: ${{ secrets.ftp_password }}
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+          local-dir: ./dist/
+          server: ${{ secrets.ftp_host }}
+          username: ${{ secrets.ftp_user }}
+          password: ${{ secrets.ftp_password }}
