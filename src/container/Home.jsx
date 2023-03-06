@@ -102,7 +102,7 @@ function Home() {
           </div>
           <div className="my-4">
             <p>
-              O segundo e terceiro dias serão destinados à disseminação e discussão da produção científica em “Gestão e Economia da Construção” e “Tecnologia da Informação e Comunicação”. através de painéis de debates, minicursos, apresentações de trabalhos e o Desafio SIBRAGEC+SBTIC 2023.
+              O segundo e terceiro dias serão destinados à disseminação e discussão da produção científica em “Gestão e Economia da Construção” e “Tecnologia da Informação e Comunicação” através de painéis de debates, minicursos, apresentações de trabalhos e o Desafio SIBRAGEC+SBTIC 2023.
             </p>
           </div>
       </div>
