@@ -13,7 +13,7 @@ function Navlinks({ active, setActive }) {
     >
       <Link
         className={
-          "navlink font-semibold text-xl hover:cursor-pointer z-30" +
+          "navlink text-white font-semibold text-xl hover:cursor-pointer z-30" +
           (currentPath.pathname === link.path ? " active" : "")
         }
         to={link.path}
