@@ -12,7 +12,7 @@ import {
 import SectionTitle from "../components/SectionTitle";
 import { Link } from "react-router-dom";
 
-function Submissao() {
+function Submissoes() {
   return (
     <div name="artigos" className="bg-white  text-nord0">
       <Container color="white">
@@ -125,4 +125,4 @@ function Submissao() {
   );
 }
 
-export default Submissao;
+export default Submissoes;
