@@ -27,12 +27,17 @@ function Submissoes() {
           </p>
           <p>
             As diretrizes gerais para submissão do artigo compacto estão
-            disponibilizadas no arquivo de modelo para publicação <Link
-              to={'https://drive.google.com/drive/u/0/folders/1lWCw2mAZ_QrGNLVKh-ejKu2umq3Zk1xV'} 
+            disponibilizadas no arquivo de modelo para publicação{" "}
+            <Link
+              to={
+                "https://drive.google.com/drive/u/0/folders/1lWCw2mAZ_QrGNLVKh-ejKu2umq3Zk1xV"
+              }
               className="underline cursor-pointer"
-            >template</Link>.
-            Em caso de dúvidas, entre em contato
-            com nossa equipe pelo email: sibragec.sbtic2023@gmail.com.
+            >
+              template
+            </Link>
+            . Em caso de dúvidas, entre em contato com nossa equipe pelo email:
+            sibragec.sbtic2023@gmail.com.
           </p>
         </div>
         <div className="calendario mb-20">
@@ -43,11 +48,10 @@ function Submissoes() {
         <SectionTitle name="tematicas" title={"Temáticas dos Artigos"} />
         <div>
           <p className="text-nord-0 text-lg font-semibold w-full">
-            As diretrizes gerais para submissão do artigo compacto estão
-            disponibilizadas no arquivo de modelo para publicação no SIBRAGEC.
-            <br />
-            <br />
-            Consulte as linhas temáticas para submissão dos artigos logo abaixo.
+            Aqui os autores podem conferir as linhas temáticas para submissão de
+            artigos para o SIBRAGEC e para o SBTIC. Deve-se analisar de acordo
+            com a temática escolhida, em qual evento o trabalho se encaixa, para
+            que se possa utilizar o template específico de cada evento.
             <br />
             <br />
             Contamos com sua participação. Esse é o principal evento acadêmico
@@ -102,7 +106,8 @@ function Submissoes() {
         </div>
         <div className="flex flex-col items-center text-center gap-10 mb-10">
           <p className="text-nord-0 text-lg font-semibold w-full">
-            Você pode conferir o passo a passo para submissão do artigo acessando o botão abaixo:
+            Você pode conferir o passo a passo para submissão do artigo
+            acessando o botão abaixo:
           </p>
           <div className="flex justify-center">
             <Link
@@ -112,13 +117,21 @@ function Submissoes() {
             >
               Acessar
             </Link>
-        </div>
+          </div>
         </div>
         {/*
         <Instructions data={articleInstructions} />
         */}
         <div className="flex justify-center">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/_q8H9q9arzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/_q8H9q9arzo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </Container>
     </div>
