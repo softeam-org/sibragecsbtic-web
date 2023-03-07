@@ -112,6 +112,7 @@ function Home() {
               Outras informações estão disponibilizadas neste site, bem como nas mídias sociais do evento.
             </p>
           </div>
+          <div className='flex justify-center items-center'>
           <a
             href="https://www.instagram.com/sibragec.sbtic2023/"
             className="bg-orange-500 border-0 text-white font-bold py-3 px-8 shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4 w-48"
@@ -119,6 +120,7 @@ function Home() {
             <AiOutlineInstagram size={24}/>
             Instagram
           </a>
+          </div>
       </div>
       <div>
       <h3 name="organizaçao" className='pt-4 px-6 sm:px-6 md:px-10 lg:px-48 2xl:px-72 font-bold text-lg text-slate-900'>Organização</h3>
