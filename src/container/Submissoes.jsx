@@ -56,15 +56,13 @@ function Submissoes() {
             com a temática escolhida, em qual evento o trabalho se encaixa, para
             que se possa utilizar o template específico de cada evento.
             <br />
-            <br />
-            Contamos com sua participação. Esse é o principal evento acadêmico
-            de Gestão e Economia da Construção do Brasil!
-            <br />
             Outras informações estão disponibilizadas neste site, bem como nas
             mídias sociais do evento.
             <br />
             Para dúvidas em relação à submissão dos artigos, por favor, entre em
             contato com o Comitê Científico pelo e-mail: gt.gestao@antac.org.br.
+            <br />
+            Consulte as linhas temáticas para submissão dos artigos logo abaixo.
           </p>
 
           <div className="flex flex-col gap-10 lg:flex-row mt-10">

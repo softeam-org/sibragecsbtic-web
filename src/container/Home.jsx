@@ -105,6 +105,12 @@ function Home() {
               O segundo e terceiro dias serão destinados à disseminação e discussão da produção científica em “Gestão e Economia da Construção” e “Tecnologia da Informação e Comunicação” através de painéis de debates, minicursos, apresentações de trabalhos e o Desafio SIBRAGEC+SBTIC 2023.
             </p>
           </div>
+          <div className="my-4">
+            <p>
+              Contamos com sua participação. Esse é o principal evento acadêmico de Gestão e Economia da Construção do Brasil!
+              Outras informações estão disponibilizadas neste site, bem como nas mídias sociais do evento.
+            </p>
+          </div>
       </div>
       <div>
       <h3 name="organizaçao" className='pt-4 px-6 sm:px-6 md:px-10 lg:px-48 2xl:px-72 font-bold text-lg text-slate-900'>Organização</h3>
