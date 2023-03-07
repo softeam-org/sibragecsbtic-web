@@ -27,7 +27,7 @@ function Submissoes() {
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-around gap-4 ">
           <a
-            href="https://drive.google.com/uc?export=download&id=1-PAOxd-yuC26Uh30UwrIHjgoFpcBGqo7"
+            href="https://drive.google.com/uc?export=download&id=1T74RNmzmdedXrLidsp5QRMsyIYH79aEN"
             className="bg-orange-500 border-0 text-white font-bold py-3 px-8  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4"
             download
           >
@@ -35,7 +35,7 @@ function Submissoes() {
             Template SBTIC 2023
           </a>
           <a
-            href="https://drive.google.com/uc?export=download&id=1joI1R-kc4CbeJhl9UzCgDgSFlG1nE07p"
+            href="https://drive.google.com/uc?export=download&id=1153WrVlndy6hXtVVUwv_D0GYxi6mDp2z"
             className="bg-orange-500 border-0 text-white font-bold py-3 px-8  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4"
             download
           >
