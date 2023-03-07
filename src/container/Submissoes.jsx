@@ -59,10 +59,6 @@ function Submissoes() {
             Outras informações estão disponibilizadas neste site, bem como nas
             mídias sociais do evento.
             <br />
-            Para dúvidas em relação à submissão dos artigos, por favor, entre em
-            contato com o Comitê Científico pelo e-mail: {" "}
-            <a className="text-orange-500 text-underline" href="mailto:gt.gestao@antac.org.br">gt.gestao@antac.org.br</a>.
-            <br />
             <br/>
             Consulte as linhas temáticas para submissão dos artigos logo abaixo.
           </p>
