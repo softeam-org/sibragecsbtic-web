@@ -326,7 +326,7 @@ export const calendarData = [
   },
   {
     date: "até 07/05/23",
-    event: "Decisão preliminar de artigos aprovados"
+    event: "Decisão preliminar de artigos submetidos"
   },
   {
     date: "até 21/05/23",
