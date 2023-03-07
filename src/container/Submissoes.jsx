@@ -6,6 +6,7 @@ import Container from "../components/Container";
 import { thematicsSibragec, thematicsSbtic } from "../constants";
 import SectionTitle from "../components/SectionTitle";
 import { Link } from "react-router-dom";
+import { AiOutlineDownload } from "react-icons/ai";
 
 function Submissoes() {
   return (
@@ -15,33 +16,32 @@ function Submissoes() {
 
         <div className="flex flex-col py-10 font-semibold text-lg">
           <p>
-            Os artigos compactos (short papers) serão avaliados pelos membros do
-            Comitê Científico quanto ao enquadramento do assunto abordado à
-            temática do evento, à relevância científica, à adequação do método
-            de pesquisa e à qualidade da redação.{" "}
-          </p>
-          <p>
-            As diretrizes gerais para submissão do artigo compacto estão
-            disponibilizadas no arquivo de modelo para publicação template. Em
-            caso de dúvidas, entre em contato com nossa equipe pelo email:
-            sibragec.sbtic2023@gmail.com.
+            Os artigos compactos (short papers) serão avaliados pelos membros do Comitê Científico quanto ao enquadramento às áreas do evento, à relevância científica, à adequação do método de pesquisa e à qualidade da redação.
+            <br/>
+            Há dois templates de artigos com as diretrizes gerais para submissão: um relativo aos anais do SIBRAGEC e outro aos anais do SBTIC. Ambos estão disponíveis abaixo.
+            <br/>
+            <br/>
+            Em caso de dúvidas, entre em contato com nossa equipe pelo email: {" "}
+            <a className="text-orange-500 text-underline" href="mailto:sibragec.sbtic2023@gmail.com">sibragec.sbtic2023@gmail.com</a>.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-around gap-4 ">
-          <Link
-            target="_blank"
-            to="https://docs.google.com/document/d/1haZ2PZzn8jVFSFiUq5li4URopG8zCw5Z"
-            className="bg-orange-500 border-0 text-center text-white font-bold py-3 px-12  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in"
+          <a
+            href="https://drive.google.com/uc?export=download&id=1-PAOxd-yuC26Uh30UwrIHjgoFpcBGqo7"
+            className="bg-orange-500 border-0 text-white font-bold py-3 px-8  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4"
+            download
           >
+            <AiOutlineDownload size={24}/>
             Template SBTIC 2023
-          </Link>
-          <Link
-            to="https://docs.google.com/document/d/106rmA2mktN7X5BNiJl71yPoWcqkM4HbF"
-            target="_blank"
-            className="bg-orange-500 border-0 text-center text-white font-bold py-3 px-12  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in"
+          </a>
+          <a
+            href="https://drive.google.com/uc?export=download&id=1joI1R-kc4CbeJhl9UzCgDgSFlG1nE07p"
+            className="bg-orange-500 border-0 text-white font-bold py-3 px-8  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4"
+            download
           >
+            <AiOutlineDownload size={24}/>
             Template SIBRAGEC 2023
-          </Link>
+          </a>
         </div>
         <div className="calendario mb-20">
           <SectionTitle title={"Calendário"} />
@@ -60,8 +60,10 @@ function Submissoes() {
             mídias sociais do evento.
             <br />
             Para dúvidas em relação à submissão dos artigos, por favor, entre em
-            contato com o Comitê Científico pelo e-mail: gt.gestao@antac.org.br.
+            contato com o Comitê Científico pelo e-mail: {" "}
+            <a className="text-orange-500 text-underline" href="mailto:gt.gestao@antac.org.br">gt.gestao@antac.org.br</a>.
             <br />
+            <br/>
             Consulte as linhas temáticas para submissão dos artigos logo abaixo.
           </p>
 
@@ -110,13 +112,14 @@ function Submissoes() {
             acessando o botão abaixo:
           </p>
           <div className="flex justify-center">
-            <Link
-              target="_blank"
-              to="https://drive.google.com/file/d/1QZVAZ6l4K6tWt01ZdJIDuzR9it-wySSt/view?usp=sharing"
-              className="bg-orange-500 border-0 text-white font-bold py-3 px-8  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in"
+            <a
+              href="https://drive.google.com/uc?export=download&id=1QZVAZ6l4K6tWt01ZdJIDuzR9it-wySSt"
+              className="bg-orange-500 border-0 text-white font-bold py-3 px-8  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4"
+              download
             >
-              Acessar
-            </Link>
+              <AiOutlineDownload size={24}/>
+              Guia de Submissão
+            </a>
           </div>
         </div>
         {/*
