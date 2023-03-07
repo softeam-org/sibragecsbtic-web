@@ -326,69 +326,69 @@ export const calendarData = [
   },
   {
     date: "até 07/05/23",
-    event: "Decisão preliminar de artigos aprovados:"
+    event: "Decisão preliminar de artigos aprovados"
   },
   {
     date: "até 21/05/23",
-    event: "Envio das versões corrigidas dos artigos:"
+    event: "Envio das versões corrigidas dos artigos"
   },
   {
     date: "até 21/06/23",
-    event: "Decisão final dos artigos:"
+    event: "Decisão final dos artigos"
   },
   {
     date: "até 10/07/23",
-    event: "Inscrição dos autores de artigos:"
+    event: "Inscrição dos autores de artigos"
   },
 ]
 
 export const thematicsSibragec = [
   {
-    title: "Gestão da Cadeia de Suprimentos e Logística;",
+    title: "Gestão da Cadeia de Suprimentos e Logística",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão da Produção;",
+    title: "Gestão da Produção",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Ensino de Gestão da Construção;",
+    title: "Ensino de Gestão da Construção",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão de Contratos e de Aquisições;",
+    title: "Gestão de Contratos e de Aquisições",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão Sustentável nas Empresas e Canteiros de Obra;",
+    title: "Gestão Sustentável nas Empresas e Canteiros de Obra",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão da Qualidade;",
+    title: "Gestão da Qualidade",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão do Conhecimento e da Informação;",
+    title: "Gestão do Conhecimento e da Informação",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão de Custos;",
+    title: "Gestão de Custos",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão de Riscos;",
+    title: "Gestão de Riscos",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão Estratégica e Organizacional;",
+    title: "Gestão Estratégica e Organizacional",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão da Saúde e Segurança do Trabalho;",
+    title: "Gestão da Saúde e Segurança do Trabalho",
     link: "https://picsum.photos/200/300",
   },
   {
-    title: "Gestão da Manutenção e de Operações;",
+    title: "Gestão da Manutenção e de Operações",
     link: "https://picsum.photos/200/300",
   },
   {

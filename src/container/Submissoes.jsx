@@ -1,14 +1,9 @@
 import React from "react";
 
-import Instructions from "../components/Instructions";
 import Calendar from "../components/Calendar";
 import Container from "../components/Container";
 
-import {
-  articleInstructions,
-  thematicsSibragec,
-  thematicsSbtic,
-} from "../constants";
+import { thematicsSibragec, thematicsSbtic } from "../constants";
 import SectionTitle from "../components/SectionTitle";
 import { Link } from "react-router-dom";
 
@@ -27,7 +22,7 @@ function Submissoes() {
           </p>
           <p>
             As diretrizes gerais para submissão do artigo compacto estão
-            disponibilizadas no arquivo de modelo para publicação template . Em
+            disponibilizadas no arquivo de modelo para publicação template. Em
             caso de dúvidas, entre em contato com nossa equipe pelo email:
             sibragec.sbtic2023@gmail.com.
           </p>
