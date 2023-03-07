@@ -1,14 +1,9 @@
 import React from "react";
 
-import Instructions from "../components/Instructions";
 import Calendar from "../components/Calendar";
 import Container from "../components/Container";
 
-import {
-  articleInstructions,
-  thematicsSibragec,
-  thematicsSbtic,
-} from "../constants";
+import { thematicsSibragec, thematicsSbtic } from "../constants";
 import SectionTitle from "../components/SectionTitle";
 import { Link } from "react-router-dom";
 
@@ -27,7 +22,7 @@ function Submissoes() {
           </p>
           <p>
             As diretrizes gerais para submissão do artigo compacto estão
-            disponibilizadas no arquivo de modelo para publicação template . Em
+            disponibilizadas no arquivo de modelo para publicação template. Em
             caso de dúvidas, entre em contato com nossa equipe pelo email:
             sibragec.sbtic2023@gmail.com.
           </p>
@@ -61,15 +56,13 @@ function Submissoes() {
             com a temática escolhida, em qual evento o trabalho se encaixa, para
             que se possa utilizar o template específico de cada evento.
             <br />
-            <br />
-            Contamos com sua participação. Esse é o principal evento acadêmico
-            de Gestão e Economia da Construção do Brasil!
-            <br />
             Outras informações estão disponibilizadas neste site, bem como nas
             mídias sociais do evento.
             <br />
             Para dúvidas em relação à submissão dos artigos, por favor, entre em
             contato com o Comitê Científico pelo e-mail: gt.gestao@antac.org.br.
+            <br />
+            Consulte as linhas temáticas para submissão dos artigos logo abaixo.
           </p>
 
           <div className="flex flex-col gap-10 lg:flex-row mt-10">

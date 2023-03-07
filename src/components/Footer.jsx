@@ -15,7 +15,7 @@ function Footer() {
     <div >
       <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 bg-nord0 sm:px-8 lg:px-28 px-5 pt-12 gap-6 sm:gap-1'>
       <div className='flex flex-col gap-2'>
-        <Link to='/' onClick={() => scrollToTop()} className='text-nord4 font-bold'>Início</Link>
+        <Link to='/' onClick={scrollToTop} className='text-nord4 font-bold'>Início</Link>
         {/* <h3 className='text-nord4 font-bold'>Início</h3> */}
         <div className='flex flex-col gap-0 md:gap-1'>
         <a className='text-sm text-slate-400'>Sobre</a>
@@ -23,7 +23,7 @@ function Footer() {
         </div>
       </div>
       <div className='flex flex-col gap-2'>
-      <Link to='/programacao' onClick={() => scrollToTop()} className='text-nord4 font-bold'>Programação</Link>
+      <Link to='/programacao' onClick={scrollToTop} className='text-nord4 font-bold'>Programação</Link>
         {/* <h3 className='text-nord4 font-bold'>Programação</h3> */}
         <div className='flex flex-col gap-0 md:gap-1'>
         <a className='text-sm text-slate-400'>Horarios</a>
@@ -31,7 +31,7 @@ function Footer() {
         </div>
       </div>
       <div className='flex flex-col gap-2'>
-      <Link to='/inscricoes' onClick={() => scrollToTop()} className='text-nord4 font-bold'>Inscrições</Link>
+      <Link to='/inscricoes' onClick={scrollToTop} className='text-nord4 font-bold'>Inscrições</Link>
         {/* <h3 className='text-nord4 font-bold'>Inscrição</h3> */}
         <div className='flex flex-col gap-0 md:gap-1'>
         <a className='text-sm text-slate-400'>Sobre</a>
@@ -40,7 +40,7 @@ function Footer() {
         </div>
       </div>
       <div className='flex flex-col gap-2'>
-      <Link to='/submissao' onClick={() => scrollToTop()} className='text-nord4 font-bold'>Submissões</Link>
+      <Link to='/submissoes' onClick={scrollToTop} className='text-nord4 font-bold'>Submissões</Link>
         {/* <h3 className='text-nord4 font-bold'>Submissão</h3> */}
         <div className='flex flex-col gap-0 md:gap-1'>
         <a className='text-sm text-slate-400'>Artigos</a>
@@ -49,7 +49,7 @@ function Footer() {
         </div>
       </div>
       <div className='flex flex-col gap-2'>
-      <Link to='/local' onClick={() => scrollToTop()} className='text-nord4 font-bold'>Local</Link>
+      <Link to='/local' onClick={scrollToTop} className='text-nord4 font-bold'>Local</Link>
         {/* <h3 className='text-nord4 font-bold '>Local</h3> */}
         <div className='flex flex-col gap-0 md:gap-1'>
         <a className='text-sm text-slate-400'>Hotel do evento</a>
