@@ -13,7 +13,7 @@ function Timer() {
 
   function calculateTimeLeft() {
     // Replace this with the date you want to count down to
-    const countDownDate = new Date("2023-11-27T23:59:59Z").getTime();
+    const countDownDate = new Date("2023-11-08T23:59:59Z").getTime();
     const now = new Date().getTime();
     const difference = countDownDate - now;
 
