@@ -18,7 +18,7 @@ function Local() {
       
       </div>
       <div className='relative h-40 md:h-96 overflow-hidden'>
-        <img src={Hotel} alt='Imagem Hotel' className='w-full absolute top-0 md: -top-20 lg:-top-60' ></img>
+        <img src={Hotel} alt='Imagem Hotel' className='w-full absolute top-0 md:-top-20 lg:-top-60' ></img>
       </div>
       <div className='flex justify-center items-center py-8'>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/EVJCEMDTMrA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
