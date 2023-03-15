@@ -83,6 +83,9 @@ function Home() {
       <div name="sobre" className='text-base px-6 sm:px-6 md:px-10 lg:px-48 2xl:px-72 bg-gray-200 py-12'>
         <h3 className='font-bold text-lg text-slate-900'>Sobre o evento</h3>
           <div className="my-4">
+            <p>O evento ocorrerá de 08 a 10 de novembro, no SESC Atalaia Hotel em Aracaju-SE.</p>
+          </div>
+          <div className="my-4">
             <p>
               O Simpósio Brasileiro de Gestão e Economia da Construção (SIBRAGEC) e o Simpósio Brasileiro de Tecnologia da Informação e Comunicação na Construção (SBTIC) são eventos bienais promovidos, respectivamente pelos Grupos de Trabalho “Gestão e Economia da Construção” e “Tecnologia da Informação e Comunicação” da Associação Nacional de Tecnologia do Ambiente Construído (ANTAC), que têm como objetivos promover a cooperação entre pesquisadores e disseminar os avanços técnico-científicos nessa temática.
             </p>
