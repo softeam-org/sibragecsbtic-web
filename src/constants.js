@@ -41,9 +41,9 @@ export const navLinks = [
     name: "Local",
     path: "/local",
     links: [
-      { name: "UFS", path: "ufal" },
-      { name: "Aracaju", path: "maceio" },
-      { name: "Hotel do evento", path: "hotel-do-evento" },
+      { name: "Local do evento", path: "local-do-evento" },
+      { name: "Aracaju", path: "aracaju" },
+      
     ],
   },
 ];
