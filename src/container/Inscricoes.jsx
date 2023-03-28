@@ -11,8 +11,6 @@ import { Link } from "react-router-dom";
 import Construction from "../components/Construction";
 
 function Inscricoes() {
-  return (<Construction />);
-{/*
 return (
   <div name="sobre" className="bg-white">
   <Container color="nord6">
@@ -38,7 +36,7 @@ return (
           <Courses />
           </div>
           );
-        */}
+
         }
         
         export default Inscricoes;
