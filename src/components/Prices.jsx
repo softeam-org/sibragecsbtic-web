@@ -70,7 +70,7 @@ function Prices() {
       </div>
 
       {/*Versão mobile */}
-      <div>
+      <div className="md:hidden">
         <select
           id="type-select"
           className="block w-full p-2 my-6 rounded-md bg-white border-gray-300 shadow-md  focus:border-zinc-300 focus:ring focus:ring-zinc-200 focus:ring-opacity-50"
