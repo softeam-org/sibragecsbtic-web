@@ -56,6 +56,16 @@ function Submissoes() {
         </div>
         <div className="calendario mb-20">
           <SectionTitle title={"Calendário"} />
+
+          <h2
+            className="text-xl py-2 text-center font-semibold"
+          ><span
+              className="text-red-500"
+          >
+            ATENÇÃO! 
+            &nbsp;
+            </span>
+            Prorrogado o prazo de submissão para artigos compactos. Confira as novas datas abaixo.</h2>
           <Calendar />
         </div>
 
@@ -144,6 +154,7 @@ function Submissoes() {
           ></iframe>
         </div>
       </Container>
+      
     </div>
   );
 }
