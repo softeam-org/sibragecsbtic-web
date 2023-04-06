@@ -12,17 +12,28 @@ function Submissoes() {
   return (
     <div name="artigos" className="bg-white  text-nord0">
       <Container color="white">
-        <SectionTitle title={"Artigos"} />
+        <SectionTitle title={"Artigos Compactos"} />
 
         <div className="flex flex-col py-10 font-semibold text-lg">
           <p>
-            Os artigos compactos (short papers) serão avaliados pelos membros do Comitê Científico quanto ao enquadramento às áreas do evento, à relevância científica, à adequação do método de pesquisa e à qualidade da redação.
-            <br/>
-            Há dois templates de artigos com as diretrizes gerais para submissão: um relativo aos anais do SIBRAGEC e outro aos anais do SBTIC. Ambos estão disponíveis abaixo.
-            <br/>
-            <br/>
-            Em caso de dúvidas, entre em contato com nossa equipe pelo email: {" "}
-            <a className="text-orange-500 text-underline" href="mailto:sibragec.sbtic2023@gmail.com">sibragec.sbtic2023@gmail.com</a>.
+            Os artigos compactos (short papers) serão avaliados pelos membros do
+            Comitê Científico quanto ao enquadramento às áreas do evento, à
+            relevância científica, à adequação do método de pesquisa e à
+            qualidade da redação.
+            <br />
+            Há dois templates de artigos com as diretrizes gerais para
+            submissão: um relativo aos anais do SIBRAGEC e outro aos anais do
+            SBTIC. Ambos estão disponíveis abaixo.
+            <br />
+            <br />
+            Em caso de dúvidas, entre em contato com nossa equipe pelo email:{" "}
+            <a
+              className="text-orange-500 text-underline"
+              href="mailto:sibragec.sbtic2023@gmail.com"
+            >
+              sibragec.sbtic2023@gmail.com
+            </a>
+            .
           </p>
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-around gap-4 ">
@@ -31,7 +42,7 @@ function Submissoes() {
             className="bg-orange-500 border-0 text-white font-bold py-3 px-8  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4"
             download
           >
-            <AiOutlineDownload size={24}/>
+            <AiOutlineDownload size={24} />
             Template SBTIC 2023
           </a>
           <a
@@ -39,7 +50,7 @@ function Submissoes() {
             className="bg-orange-500 border-0 text-white font-bold py-3 px-8  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4"
             download
           >
-            <AiOutlineDownload size={24}/>
+            <AiOutlineDownload size={24} />
             Template SIBRAGEC 2023
           </a>
         </div>
@@ -59,7 +70,7 @@ function Submissoes() {
             Outras informações estão disponibilizadas neste site, bem como nas
             mídias sociais do evento.
             <br />
-            <br/>
+            <br />
             Consulte as linhas temáticas para submissão dos artigos logo abaixo.
           </p>
 
@@ -113,7 +124,7 @@ function Submissoes() {
               className="bg-orange-500 border-0 text-white font-bold py-3 px-8  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4"
               download
             >
-              <AiOutlineDownload size={24}/>
+              <AiOutlineDownload size={24} />
               Guia de Submissão
             </a>
           </div>
