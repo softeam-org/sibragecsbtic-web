@@ -154,7 +154,48 @@ function Submissoes() {
           ></iframe>
         </div>
       </Container>
-      
+      <Container color="nord7">
+        <div className="w-100 flex justify-center mb-10 mt-8">
+          <h3 className="text-center text-nord1 text-2xl font-bold">
+            CHAMADA PARA EDIÇÃO ESPECIAL SOBRE GESTÃO E ECONOMIA DA CONSTRUÇÃO E
+            TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO NA CONSTRUÇÃO
+          </h3>
+        </div>
+
+        <div className="flex flex-col items-center text-left gap-10 mb-10">
+          <p className="text-nord-0 text-lg font-semibold w-full">
+            A Revista Ambiente Construído irá produzir em 2024 uma Edição Especial sobre Gestão e Economia da Construção e Tecnologia da Informação e Comunicação na Construção. Trata-se de mais uma ação articulada da Revista com os Grupos de Trabalho da ANTAC, visando contribuir para a melhoria da qualidade de congressos da área.
+          </p>
+          <p className="text-nord-0 text-lg font-semibold w-full">
+            Os artigos aceitos para publicação nesta edição da Revista poderão ser apresentados em Sessão Técnica Especial no SIBRAGEC+SBTIC 2023 a se realizar em Aracaju, Sergipe, Brasil, de 08 a 10 de novembro de 2023. Poderão ser submetidos artigos em português, espanhol e, preferencialmente, em inglês.
+          </p>
+          <p className="text-nord-0 text-lg font-semibold w-full">
+            Todos os artigos serão avaliados segundo os procedimentos usuais da Revista, por três avaliadores do corpo de avaliadores da Revista, de acordo com o calendário a seguir:
+          </p>
+          <p className="text-nord-0 text-lg font-semibold w-full">
+            (a) Submissão do artigo até 29.04.2023
+          </p>
+          <p className="text-nord-0 text-lg font-semibold w-full">
+            (b) Parecer final dos editores 30.08.2023
+          </p>
+          <p className="text-nord-0 text-lg font-semibold w-full">
+            (c) Publicação da Revista: N1 V24
+          </p>
+          <p className="text-nord-0 text-lg font-semibold w-full">
+            Endereço para submissão:{" "}
+            <a
+              href="https://www.seer.ufrgs.br/index.php/ambienteconstruido/about/submissions 
+            "
+            className="text-orange-500 text-underline"
+            >
+              https://www.seer.ufrgs.br/index.php/ambienteconstruido/about/submissions
+            </a>
+            <br />
+            <br />
+            Confira mais detalhes sobre a chamada aqui: <a href="" className="text-orange-500 text-underline"> Link</a>
+          </p>
+        </div>
+      </Container>
     </div>
   );
 }
