@@ -14,7 +14,7 @@ function Calendar() {
                         <p >{data.event}</p>
                     </div>
                     <div className='w-3/5 md:w-2/5 p-1 flex justify-center'>
-                        <p>{data.date}</p>
+                        <p><s>{data?.crossed}</s>  {data.date}</p>
                     </div>
             </div>
         ))}
