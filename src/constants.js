@@ -35,6 +35,7 @@ export const navLinks = [
       { name: "Calendário", path: "calendario" },
       { name: "Temáticas dos Artigos", path: "tematicas" },
       { name: "Instruções", path: "instructions" },
+      { name: "Revista Ambiente Construído", path: "magazine" },
     ],
   },
   {
@@ -321,7 +322,8 @@ export const subscribeInstructions = [
 
 export const calendarData = [
   {
-    date: "até 07/04/23",
+    date: "até 21/04/23",
+    crossed: 'até 07/04/23',
     event: "Envio de artigos"
   },
   {
