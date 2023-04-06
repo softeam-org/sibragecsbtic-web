@@ -192,7 +192,7 @@ function Submissoes() {
             </a>
             <br />
             <br />
-            Confira mais detalhes sobre a chamada aqui: <a href="" className="text-orange-500 text-underline"> Link</a>
+            Confira mais detalhes sobre a chamada aqui: <a href="https://drive.google.com/file/d/1scoIjPXHwclJ0jGaq-iovth3RzZvdO4X/view?usp=share_link" className="text-orange-500 text-underline"> Link</a>
           </p>
         </div>
       </Container>
