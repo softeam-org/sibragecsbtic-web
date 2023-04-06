@@ -117,8 +117,8 @@ function Submissoes() {
           </div>
         </div>
       </Container>
-      <Container color="nord6">
-        <div className="w-100 flex justify-center mb-10 mt-8">
+      <Container color="nord6" name="instructions">
+        <div className="w-100 flex justify-center mb-10 mt-8" >
           <h3 className="text-center text-nord1 text-2xl font-bold">
             COMO CARREGAR O ARQUIVO DO ARTIGO NO NOVO SISTEMA
           </h3>
@@ -154,7 +154,7 @@ function Submissoes() {
           ></iframe>
         </div>
       </Container>
-      <Container color="nord7">
+      <Container color="nord7" name="magazine">
         <div className="w-100 flex justify-center mb-10 mt-8">
           <h3 className="text-center text-nord1 text-2xl font-bold">
             CHAMADA PARA EDIÇÃO ESPECIAL SOBRE GESTÃO E ECONOMIA DA CONSTRUÇÃO E

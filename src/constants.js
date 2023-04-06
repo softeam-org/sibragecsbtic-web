@@ -35,6 +35,7 @@ export const navLinks = [
       { name: "Calendário", path: "calendario" },
       { name: "Temáticas dos Artigos", path: "tematicas" },
       { name: "Instruções", path: "instructions" },
+      { name: "Revista Ambiente Construído", path: "magazine" },
     ],
   },
   {
