@@ -1,5 +1,5 @@
-import React from "react";
-
+import React,{ useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 import Calendar from "../components/Calendar";
 import Container from "../components/Container";
 
@@ -9,8 +9,22 @@ import { Link } from "react-router-dom";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Submissoes() {
+  const location = useLocation();
+  const artigosRef = useRef(null);
+  const calendarioRef = useRef(null);
+  const tematicaRef = useRef(null);
+
+  useEffect(() => {
+    if (location.hash === "#artigos") {
+      artigosRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (location.hash === "#calendario") {
+      calendarioRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (location.hash === "#tematica") {
+      tematicaRef.current.scrollIntoView({ behavior: "smooth" });
+    } 
+  }, [location.hash]);
   return (
-    <div name="artigos" className="bg-white  text-nord0">
+    <div name="artigos" id='artigos' ref={artigosRef} className="bg-white  text-nord0">
       <Container color="white">
         <SectionTitle title={"Artigos Compactos"} />
 
@@ -54,7 +68,7 @@ function Submissoes() {
             Template SIBRAGEC 2023
           </a>
         </div>
-        <div className="calendario mb-20">
+        <div id='calendario' ref={calendarioRef} className="calendario mb-20">
           <SectionTitle title={"Calendário"} />
 
           <h2 className="text-xl py-2 text-center font-semibold">
@@ -65,7 +79,7 @@ function Submissoes() {
           <Calendar />
         </div>
 
-        <SectionTitle name="tematicas" title={"Temáticas dos Artigos"} />
+        <div id='tematica' ref={tematicaRef}><SectionTitle name="tematicas" title={"Temáticas dos Artigos"} /></div>
         <div>
           <p className="text-nord-0 text-lg font-semibold w-full">
             Aqui os autores podem conferir as linhas temáticas para submissão de
