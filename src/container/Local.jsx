@@ -67,7 +67,7 @@ function Local() {
           </div>
         </div>
 
-        <div className='relative h-40 md:h-96 2xl:h-[1200px] overflow-hidden'>
+        <div className='relative h-40 md:h-96 2xl:h-[700px] overflow-hidden'>
           <img
             src={Hotel}
             alt='Imagem Hotel'
