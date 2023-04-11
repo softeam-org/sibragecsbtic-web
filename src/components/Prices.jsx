@@ -1,55 +1,35 @@
 import React from "react";
 
+import { prices } from "../constants";
+
 function Prices() {
-  const [type, setType] = React.useState("Evento");
+  const [type, setType] = React.useState("all");
 
-  const rows = [
-    {
-      title: "Profissional",
-      price: {
-        antac: ["R$ 680,00", "R$ 680,00", "R$ 680,00"],
-        nonAntac: ["R$ 765,00", "R$ 765,00", "R$ 765,00"],
-      },
-    },
-    {
-      title: "Estudante de Pós-graduação",
-      price: {
-        antac: ["R$ 680,00", "R$ 680,00", "R$ 680,00"],
-        nonAntac: ["R$ 765,00", "R$ 765,00", "R$ 765,00"],
-      },
-    },
-    {
-      title: "Estudante de Graduação",
-      price: {
-        antac: ["R$ 680,00", "R$ 680,00", "R$ 680,00"],
-        nonAntac: ["R$ 765,00", "R$ 765,00", "R$ 765,00"],
-      },
-    },
-  ];
-
+  console.log()
+  
   return (
     <div name="preços" className="text-nord0 pt-4 pb-40 font-medium">
       {/*Versão desktop */}
       <div className="hidden md:flex w-100 items-center justify-center gap-16 text-xl font-bold mb-16 text-zinc-300">
-        <div onClick={() => setType("")}>
+        <div onClick={() => setType("all")}>
           <p
             className={`transition-all hover:text-nord0 hover:cursor-pointer ${
-              type === "Evento" ? "text-nord0" : ""
+              type === "all" ? "text-nord0" : ""
             }`}
           >
             Evento
           </p>
         </div>
-        <div onClick={() => setType("Dia da indústria")}>
+        <div onClick={() => setType("industryDay")}>
           <p
             className={`transition-all hover:text-nord0 hover:cursor-pointer ${
-              type === "Dia da indústria" ? "text-nord0" : ""
+              type === "industryDay" ? "text-nord0" : ""
             }`}
           >
             Dia da indústria
           </p>
         </div>
-        <div onClick={() => setType("Jantar")}>
+       {/* <div onClick={() => setType("Jantar")}>
           <p
             className={`transition-all hover:text-nord0 hover:cursor-pointer ${
               type === "Jantar" ? "text-nord0" : ""
@@ -57,11 +37,11 @@ function Prices() {
           >
             Jantar
           </p>
-        </div>
-        <div onClick={() => setType("Minicurso")}>
+          </div> */}
+        <div onClick={() => setType("minicourses")}>
           <p
             className={`transition-all hover:text-nord0 hover:cursor-pointer ${
-              type === "Minicurso" ? "text-nord0" : ""
+              type === "minicourses" ? "text-nord0" : ""
             }`}
           >
             Minicurso
@@ -95,18 +75,20 @@ function Prices() {
             <div className="table-row">
               <div className="table-cell"></div>
               <div className="table-cell"></div>
-              <div className="table-cell text-center pb-4">1º dia</div>
-              <div className="table-cell text-center pb-4">2º dia</div>
-              <div className="table-cell text-center pb-4">3º dia</div>
+              <div className="table-cell text-center pb-4">Até 15/07</div>
+              <div className="table-cell text-center pb-4">Até 15/10</div>
+              <div className="table-cell text-center pb-4">No local</div>
             </div>
           </div>
           <div className="table-row-group">
-            {rows.map((row) => {
+            {prices[type].map((row) => {
               return (
                 <div className="table-row">
-                  <div className="table-cell font-bold text-xl align-middle pr-2">
+                  <div className="table-cell w-64 font-bold text-xl align-middle pr-2">
                     {row.title}
                   </div>
+
+                  {/*Primeira coluna */}
                   <div className="table-cell text-center">
                     <div className="px-7 pt-4 md:py-0 lg:py-6 border border-black">
                       Sócio ANTAC em dia
@@ -115,6 +97,9 @@ function Prices() {
                       Não-sócio ANTAC
                     </div>
                   </div>
+
+
+                  {/*Segunda coluna*/}
                   <div className="table-cell text-center">
                     <div className="px-7 pt-4 pb-7 md:py-0 lg:py-6 border border-black border-l-0 border-b-0">
                       {row.price.antac[0]}
@@ -123,6 +108,8 @@ function Prices() {
                       {row.price.nonAntac[0]}
                     </div>
                   </div>
+
+                  {/*Terceira coluna*/}
                   <div className="table-cell text-center">
                     <div className="px-7 pt-4 pb-7 md:py-0 lg:py-6 border border-black border-l-0 border-b-0">
                       {row.price.antac[1]}
@@ -131,6 +118,9 @@ function Prices() {
                       {row.price.nonAntac[1]}
                     </div>
                   </div>
+
+
+                  {/*Quarta coluna*/}
                   <div className="table-cell text-center">
                     <div className="px-7 pt-4 pb-7 md:py-0 lg:py-6 border border-black border-l-0 border-b-0">
                       {row.price.antac[2]}
