@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from "react";
+import React, { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import Instructions from "../components/Instructions";
 import Prices from "../components/Prices";
@@ -23,17 +23,21 @@ function Inscricoes() {
       preocosRef.current.scrollIntoView({ behavior: "smooth" });
     } else if (location.hash === "#minicursos") {
       minicursoRef.current.scrollIntoView({ behavior: "smooth" });
-    } 
+    }
   }, [location.hash]);
   return (
-    <div name="sobre" id='sobre' ref={sobreRef} className="bg-white">
+    <div name="sobre" id="sobre" ref={sobreRef} className="bg-white">
       <Container color="nord6">
         <SectionTitle title={"Inscrições"} />
         <div className="w-100 flex justify-center mb-10 mt-8">
           <h3 className=" text-nord1 text-2xl font-bold">Como se inscrever</h3>
         </div>
         <Instructions data={subscribeInstructions} />
-        <div id="precos" ref={preocosRef}><Prices /></div>
+        <div id="precos" ref={preocosRef}>
+
+          <Prices />
+          
+        </div>
         <div className="flex flex-col w-100 justify-center items-center gap-6">
           <p className="text-nord-0 text-xl font-bold">
             Clique no botão para se inscrever no evento
@@ -45,8 +49,11 @@ function Inscricoes() {
           </Link>
         </div>
       </Container>
-      <div id="minicursos" ref={minicursoRef}><Courses /></div>
-      
+      <div id="minicursos" ref={minicursoRef}>
+
+        <Courses />
+
+      </div>
     </div>
   );
 }
