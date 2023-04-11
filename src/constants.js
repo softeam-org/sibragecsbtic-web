@@ -431,3 +431,91 @@ export const thematicsSbtic = [
   },
   
 ]
+
+
+export const prices = {
+
+  all : [
+    {
+      title: "Profissional",
+      price: {
+        antac: ["R$ 650,00", "R$ 750,00", "R$ 900,00"],
+        nonAntac: ["R$ 750,00", "R$ 850,00", "R$ 1000,00"],
+      },
+    },
+    {
+      title: "Estudante de Pós-graduação",
+      price: {
+        antac: ["R$ 450,00", "R$ 550,00", "R$ 650,00"],
+        nonAntac: ["R$ 600,00", "R$ 700,00", "R$ 800,00"],
+      },
+    },
+    {
+      title: "Est. de Graduação (Autor)",
+      price: {
+        antac: ["R$ 350,00", "R$ 400,00", "R$ 450,00"],
+        nonAntac: ["R$ 450,00", "R$ 500,00", "R$ 550,00"],
+      },
+      
+    },
+    {
+      title: "Est. de Graduação (Ouvinte)",
+      price: {
+        antac: ["R$ 260,00", "R$ 310,00", "R$ 360,00"],
+        nonAntac: ["R$ 320,00", "R$ 360,00", "R$ 410,00"],
+      },
+      
+    },
+  ],
+
+  industryDay : [
+    {
+      title: "Profissional",
+      price: {
+        antac: ["R$ 300,00", "R$ 350,00", "R$ 400,00"],
+        nonAntac: ["R$ 350,00", "R$ 400,00", "R$ 450,00"],
+      },
+    },
+    {
+      title: "Estudante de Pós-graduação",
+      price: {
+        antac: ["R$ 230,00", "R$ 280,00", "R$ 330,00"],
+        nonAntac: ["R$ 290,00", "R$ 340,00", "R$ 390,00"],
+      },
+    },
+    {
+      title: "Estudante de Graduação",
+      price: {
+        antac: ["R$ 150,00", "R$ 200,00", "R$ 250,00"],
+        nonAntac: ["R$ 200,00", "R$ 250,00", "R$ 300,00"],
+      },
+      
+    },
+   
+  ],
+
+  minicourses: [
+    {
+      title: "Profissional",
+      price: {
+        antac: ["R$ 150,00", "R$ 200,00", "R$ 300,00"],
+        nonAntac: ["R$ 250,00", "R$ 300,00", "R$ 400,00"],
+      },
+    },
+    {
+      title: "Estudante de Pós-graduação",
+      price: {
+        antac: ["R$ 100,00", "R$ 150,00", "R$ 200,00"],
+        nonAntac: ["R$ 160,00", "R$ 250,00", "R$ 300,00"],
+      },
+    },
+    {
+      title: "Estudante de Graduação",
+      price: {
+        antac: ["R$ 75,00", "R$ 100,00", "R$ 150,00"],
+        nonAntac: ["R$ 100,00", "R$ 150,00", "R$ 200,00"],
+      },
+      
+    },
+  ]
+}
