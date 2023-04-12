@@ -278,7 +278,7 @@ export const subscribeInstructions = [
     "CNPJ: 59.838.045/0001-82 (para pix ou transferência de outros bancos)"],
   },
   {
-    title: "Cada inscrição dará direito a publicação de dois artigos nos anais do evento. Os autores deverão efetuar sua inscrição até 15/09/2021.",
+    title: "Cada inscrição completa dará direito a publicação de dois artigos nos anais do evento, exceto a modalidade “Estudante de graduação - ouvinte”.  Os autores deverão efetuar sua inscrição até 10/07/2023.",
     text: "",
   },
   {
