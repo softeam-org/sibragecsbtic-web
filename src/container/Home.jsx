@@ -100,7 +100,7 @@ function Home(props) {
       >
         <div className="max-w-6xl mx-auto">
           <h3 className='font-bold text-xl  text-slate-900'>Sobre o evento</h3>
-          <div className='my-4 font-semibold text-lg'>
+          <div className='my-4 font-bold text-lg'>
             <p>
               O evento ocorrerá de 08 a 10 de novembro, no SESC Atalaia Hotel em
               Aracaju-SE.

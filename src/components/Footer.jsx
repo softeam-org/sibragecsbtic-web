@@ -6,12 +6,12 @@ import { Link as ScrollLink } from "react-scroll";
 import Navlinks from "./Navlinks";
 
 function Footer() {
-  function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }
+  // function scrollToTop() {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth",
+  //   });
+  // }
 
   const currentPath = useLocation();
 
@@ -21,9 +21,9 @@ function Footer() {
       <div className="max-w-6xl mx-auto">
       <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 bg-nord0 pt-12 gap-6 sm:gap-1'>
         <div className='flex flex-col gap-2'>
-          <Link to='/' onClick={scrollToTop} className='text-nord4 font-bold'>
+          <a className='text-nord4 font-bold'>
             Início
-          </Link>
+          </a>
           <div className='flex flex-col gap-0 md:gap-1'>
             <Link to='/#sobre' 
               activeclassname="active"
@@ -32,13 +32,13 @@ function Footer() {
           </div>
         </div>
         <div className='flex flex-col gap-2'>
-          <Link
-            to='/programacao'
-            onClick={scrollToTop}
+          <a
+            // to='/programacao'
+            // onClick={scrollToTop}
             className='text-nord4 font-bold'
           >
             Programação
-          </Link>
+          </a>
           {/* <h3 className='text-nord4 font-bold'>Programação</h3> */}
           <div className='flex flex-col gap-0 md:gap-1'>
             <a className='text-sm text-slate-400'>Horarios</a>
@@ -46,13 +46,13 @@ function Footer() {
           </div>
         </div>
         <div className='flex flex-col gap-2'>
-          <Link
-            to='/inscricoes'
-            onClick={scrollToTop}
+          <a
+            // to='/inscricoes'
+            // onClick={scrollToTop}
             className='text-nord4 font-bold'
           >
             Inscrições
-          </Link>
+          </a>
           {/* <h3 className='text-nord4 font-bold'>Inscrição</h3> */}
           <div className='flex flex-col gap-0 md:gap-1'>
             <Link to='/inscricoes#sobre' className='text-sm text-slate-400'>Sobre</Link>
@@ -61,13 +61,13 @@ function Footer() {
           </div>
         </div>
         <div className='flex flex-col gap-2'>
-          <Link
-            to='/submissoes'
-            onClick={scrollToTop}
+          <a
+            // to='/submissoes'
+            // onClick={scrollToTop}
             className='text-nord4 font-bold'
           >
             Submissões
-          </Link>
+          </a>
           <div className='flex flex-col gap-0 md:gap-1'>
             <Link to='/submissoes#artigos' className='text-sm text-slate-400'>Artigos</Link>
             <Link to='/submissoes#calendario' className='text-sm text-slate-400'>Calendario</Link>
@@ -75,13 +75,13 @@ function Footer() {
           </div>
         </div>
         <div className='flex flex-col gap-2'>
-          <Link
-            to='/local'
-            onClick={scrollToTop}
+          <a
+            // to='/local'
+            // onClick={scrollToTop}
             className='text-nord4 font-bold'
           >
             Local
-          </Link>
+          </a>
           <div className='flex flex-col gap-0 md:gap-1'>
             <Link to='/local#hotel' className='text-sm text-slate-400'>Hotel do evento</Link>
             <Link to='/local#aracaju' className='text-sm text-slate-400'>Venha sentir Aracaju</Link>

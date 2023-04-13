@@ -29,6 +29,10 @@ function Inscricoes() {
     <div name="sobre" id="sobre" ref={sobreRef} className="bg-white">
       <Container color="nord6">
         <SectionTitle title={"Inscrições"} />
+        <div className="w-100 flex flex-col items-center justify-center mb-16 mt-8">
+          <h3 className=" text-nord1 text-2xl font-bold mb-3">As inscrições para o SIBRAGEC+SBTIC 2023 já estão disponíveis!</h3>
+          <p className=" text-nord1 text-md font-semibold">Confira os preços das inscrições para profissionais, estudantes de pós-graduação, e estudantes de graduação para o simpósio, Industry Day e minicursos.</p>
+        </div>
         <div className="w-100 flex justify-center mb-10 mt-8">
           <h3 className=" text-nord1 text-2xl font-bold">Como se inscrever</h3>
         </div>
@@ -37,16 +41,6 @@ function Inscricoes() {
 
           <Prices />
           
-        </div>
-        <div className="flex flex-col w-100 justify-center items-center gap-6">
-          <p className="text-nord-0 text-xl font-bold">
-            Clique no botão para se inscrever no evento
-          </p>
-          <Link to="/" rel="noreferrer">
-            <button className="bg-orange-500 border-0 text-white font-bold py-3 px-16  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in">
-              Inscreva-se
-            </button>
-          </Link>
         </div>
       </Container>
       <div id="minicursos" ref={minicursoRef}>
