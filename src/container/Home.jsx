@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Timer from "../components/Timer";
 import Card from "../components/Card";
 import Slider from "react-slick";
@@ -10,9 +10,21 @@ import VideoPlayer from "../components/VideoPlayer";
 import ImagemFundo from "../assets/images/imagemFundo.jpg";
 import { data, logo } from "../array";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { useLocation } from "react-router-dom";
 
-function Home() {
+function Home(props) {
   const [componenteAtivo, setComponenteAtivo] = useState(1);
+  const location = useLocation();
+  const aboutRef = useRef(null);
+  const orgRef = useRef(null);
+
+  useEffect(() => {
+    if (location.hash === "#sobre") {
+      aboutRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (location.hash === "#organizacao") {
+      orgRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location.hash]);
 
   const settings = {
     dots: true,
@@ -82,94 +94,101 @@ function Home() {
 
       <div
         name='sobre'
-        className='text-base px-6 sm:px-6 md:px-10 lg:px-48 2xl:px-72 bg-gray-200 py-12'
+        id='sobre'
+        ref={aboutRef}
+        className='text-base bg-gray-200 py-12'
       >
-        <h3 className='font-bold text-lg text-slate-900'>Sobre o evento</h3>
-        <div className='my-4'>
-          <p>
-            O evento ocorrerá de 08 a 10 de novembro, no SESC Atalaia Hotel em
-            Aracaju-SE.
-          </p>
-        </div>
-        <div className='my-4'>
-          <p>
-            O Simpósio Brasileiro de Gestão e Economia da Construção (SIBRAGEC)
-            e o Simpósio Brasileiro de Tecnologia da Informação e Comunicação na
-            Construção (SBTIC) são eventos bienais promovidos, respectivamente
-            pelos Grupos de Trabalho “Gestão e Economia da Construção” e
-            “Tecnologia da Informação e Comunicação” da Associação Nacional de
-            Tecnologia do Ambiente Construído (ANTAC), que têm como objetivos
-            promover a cooperação entre pesquisadores e disseminar os avanços
-            técnico-científicos nessa temática.
-          </p>
-        </div>
-        <div className='my-4'>
-          <p className='lg:pb-4'>
-            Com o tema central “Indústria 5.0: oportunidades e desafios para a
-            indústria da construção”, o SIBRAGEC + SBTIC 2023 deseja aprofundar
-            os impactos e desafios da Construção 4.0 e discutir avanços para
-            incorporar o foco humano na tomada de decisões proposto pela
-            Indústria 5.0. Pretende-se, com isso, promover uma ampla discussão
-            sobre os mecanismos de difusão e integração do conhecimento
-            científico existente, as estratégias empreendidas, tanto pelo meio
-            acadêmico quanto pelo setor produtivo para promover esta integração,
-            as oportunidades e barreiras para a transferência do conhecimento
-            científico e de novas tecnologias desenvolvidas no ambiente
-            acadêmico para ação e o desenvolvimento da indústria da construção
-            civil, que compreende as áreas de Engenharia, Arquitetura e
-            Construção.
-          </p>
-        </div>
+        <div className="max-w-6xl mx-auto">
+          <h3 className='font-bold text-xl  text-slate-900'>Sobre o evento</h3>
+          <div className='my-4 font-bold text-lg'>
+            <p>
+              O evento ocorrerá de 08 a 10 de novembro, no SESC Atalaia Hotel em
+              Aracaju-SE.
+            </p>
+          </div>
+          <div className='my-4 text-lg font-semibold'>
+            <p>
+              O Simpósio Brasileiro de Gestão e Economia da Construção
+              (SIBRAGEC) e o Simpósio Brasileiro de Tecnologia da Informação e
+              Comunicação na Construção (SBTIC) são eventos bienais promovidos,
+              respectivamente pelos Grupos de Trabalho “Gestão e Economia da
+              Construção” e “Tecnologia da Informação e Comunicação” da
+              Associação Nacional de Tecnologia do Ambiente Construído (ANTAC),
+              que têm como objetivos promover a cooperação entre pesquisadores e
+              disseminar os avanços técnico-científicos nessa temática.
+            </p>
+          </div>
+          <div className='my-4'>
+            <p className='lg:pb-4 text-lg font-semibold'>
+              Com o tema central “Indústria 5.0: oportunidades e desafios para a
+              indústria da construção”, o SIBRAGEC + SBTIC 2023 deseja
+              aprofundar os impactos e desafios da Construção 4.0 e discutir
+              avanços para incorporar o foco humano na tomada de decisões
+              proposto pela Indústria 5.0. Pretende-se, com isso, promover uma
+              ampla discussão sobre os mecanismos de difusão e integração do
+              conhecimento científico existente, as estratégias empreendidas,
+              tanto pelo meio acadêmico quanto pelo setor produtivo para
+              promover esta integração, as oportunidades e barreiras para a
+              transferência do conhecimento científico e de novas tecnologias
+              desenvolvidas no ambiente acadêmico para ação e o desenvolvimento
+              da indústria da construção civil, que compreende as áreas de
+              Engenharia, Arquitetura e Construção.
+            </p>
+          </div>
 
-        <VideoPlayer />
+          <VideoPlayer />
 
-        <h3 className='font-bold text-lg pt-4 lg:pt-8'>
-          Um pouco sobre a programação
-        </h3>
-        <div className='my-4'>
-          <p>
-            O primeiro dia do evento “Industry Day”, objetiva a integração entre
-            academia e indústria. Representantes da indústria e especialistas
-            renomados, que estão envolvidos com processos de inovação do setor,
-            dialogarão e compartilharão suas experiências e visões sobre a
-            Indústria 5.0.
-          </p>
-        </div>
-        <div className='my-4'>
-          <p>
-            O segundo e terceiro dias serão destinados à disseminação e
-            discussão da produção científica em “Gestão e Economia da
-            Construção” e “Tecnologia da Informação e Comunicação” através de
-            painéis de debates, minicursos, apresentações de trabalhos e o
-            Desafio SIBRAGEC+SBTIC 2023.
-          </p>
-        </div>
-        <div className='my-4'>
-          <p>
-            Contamos com sua participação. Esse é o principal evento acadêmico
-            de Gestão e Economia da Construção do Brasil! Outras informações
-            estão disponibilizadas neste site, bem como nas mídias sociais do
-            evento.
-          </p>
-        </div>
-        <div className='flex justify-center items-center'>
-          <a
-            href='https://www.instagram.com/sibragec.sbtic2023/'
-            className='bg-orange-500 border-0 text-white font-bold py-3 px-8 shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4 w-48'
-          >
-            <AiOutlineInstagram size={24} />
-            Instagram
-          </a>
+          <h3 className='font-bold text-xl pt-4 lg:pt-8'>
+            Um pouco sobre a programação
+          </h3>
+          <div className='my-4 text-lg font-semibold'>
+            <p>
+              O primeiro dia do evento “Industry Day”, objetiva a integração
+              entre academia e indústria. Representantes da indústria e
+              especialistas renomados, que estão envolvidos com processos de
+              inovação do setor, dialogarão e compartilharão suas experiências e
+              visões sobre a Indústria 5.0.
+            </p>
+          </div>
+          <div className='my-4 text-lg font-semibold'>
+            <p>
+              O segundo e terceiro dias serão destinados à disseminação e
+              discussão da produção científica em “Gestão e Economia da
+              Construção” e “Tecnologia da Informação e Comunicação” através de
+              painéis de debates, minicursos, apresentações de trabalhos e o
+              Desafio SIBRAGEC+SBTIC 2023.
+            </p>
+          </div>
+          <div className='my-4 text-lg font-semibold'>
+            <p>
+              Contamos com sua participação. Esse é o principal evento acadêmico
+              de Gestão e Economia da Construção do Brasil! Outras informações
+              estão disponibilizadas neste site, bem como nas mídias sociais do
+              evento.
+            </p>
+          </div>
+          <div className='flex justify-center items-center'>
+            <a
+              href='https://www.instagram.com/sibragec.sbtic2023/'
+              className='bg-orange-500 border-0 text-white font-bold py-3 px-8 shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4 w-48'
+            >
+              <AiOutlineInstagram size={24} />
+              Instagram
+            </a>
+          </div>
         </div>
       </div>
-      <div>
+
+      <div className="max-w-6xl mx-auto">
         <h3
           name='organizaçao'
-          className='pt-4 px-6 sm:px-6 md:px-10 lg:px-48 2xl:px-72 font-bold text-lg text-slate-900'
+          id='organizacao'
+          ref={orgRef}
+          className='pt-10  font-bold text-lg text-slate-900'
         >
           Organização
         </h3>
-        <p className='py-4 px-6 sm:px-6 md:px-10 lg:px-48 2xl:px-72'>
+        <p className='py-4 text-lg font-semibold'>
           Desde as suas primeiras edições (SIBRAGEC em 1999 e SBTIC em 2002), os
           eventos têm se caracterizado como dois dos principais fóruns nacionais
           de discussões pertinentes à “Gestão e Economia da Construção” e
@@ -208,7 +227,7 @@ function Home() {
           </button>
         </div>
 
-        <div className='px-3 sm:px-6 md:px-10 lg:px-24 2xl:px-48 py-8'>
+        <div className=' py-8'>
           {componenteAtivo === 1 && (
             <Slider {...settings} className='flex justify-center'>
               {data
