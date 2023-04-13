@@ -98,7 +98,7 @@ function Home(props) {
         ref={aboutRef}
         className='text-base bg-gray-200 py-12'
       >
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto px-3">
           <h3 className='font-bold text-xl  text-slate-900'>Sobre o evento</h3>
           <div className='my-4 font-bold text-lg'>
             <p>
@@ -184,11 +184,11 @@ function Home(props) {
           name='organizaçao'
           id='organizacao'
           ref={orgRef}
-          className='pt-10  font-bold text-lg text-slate-900'
+          className='pt-10  font-bold text-lg text-slate-900 px-3'
         >
           Organização
         </h3>
-        <p className='py-4 text-lg font-semibold'>
+        <p className='py-4 text-lg font-semibold px-3'>
           Desde as suas primeiras edições (SIBRAGEC em 1999 e SBTIC em 2002), os
           eventos têm se caracterizado como dois dos principais fóruns nacionais
           de discussões pertinentes à “Gestão e Economia da Construção” e
