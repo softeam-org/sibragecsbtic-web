@@ -7,8 +7,6 @@ import Container from "../components/Container";
 
 import { subscribeInstructions } from "../constants";
 import SectionTitle from "../components/SectionTitle";
-import { Link } from "react-router-dom";
-import Construction from "../components/Construction";
 
 function Inscricoes() {
   const location = useLocation();
