@@ -68,7 +68,6 @@ function Prices() {
         <h2>Preço das inscrições</h2>
       </div>
 
-      {/*Versão desktop */}
       <div className='overflow-x-scroll md:overflow-x-hidden py-4'>
         <div className=' table w-full text-lg border-separate border-spacing-0'>
           <div className='table-header-group'>
