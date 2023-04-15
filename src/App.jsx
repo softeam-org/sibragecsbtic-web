@@ -6,6 +6,7 @@ import Submissoes from './container/Submissoes';
 import Programacao from './container/Programacao';
 import Layout from './container/Layout';
 import SummerSchool from './container/SummerSchool';
+import Desafio from './container/Desafio';
 
 const App = () => {
   // const navigate = useNavigate();
@@ -17,7 +18,8 @@ const App = () => {
           <Route path='local/*' element={<Local />} />
           <Route path='submissoes/*' element={<Submissoes />} />
           <Route path='programacao/*' element={<Programacao />} />
-          <Route path='summerschool/*' element={<SummerSchool />} />
+          <Route path='summer-school/*' element={<SummerSchool />} />
+          <Route path='desafio/*' element={<Desafio />} />
           {/* <Route path='*' element={<NotFound />} /> */}
       </Routes>
     </Layout>
