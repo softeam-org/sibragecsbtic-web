@@ -53,7 +53,12 @@ export const navLinks = [
     links: [
     ],
   },
-
+  {
+    name: "Desafio",
+    path: "/desafio",
+    links: [
+      ],
+  },
 ];
 
 // Path: src\components\Navbar\index.js
