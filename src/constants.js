@@ -47,6 +47,13 @@ export const navLinks = [
       
     ],
   },
+  {
+    name: "Summer School",
+    path: "/summer-school",
+    links: [
+    ],
+  },
+
 ];
 
 // Path: src\components\Navbar\index.js
