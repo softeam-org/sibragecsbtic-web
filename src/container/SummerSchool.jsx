@@ -1,12 +1,25 @@
 import React from 'react'
 import SectionTitle from '../components/SectionTitle'
 import Container from '../components/Container'
+import { useLocation } from "react-router-dom";
+import { useEffect, useRef } from "react";
 
 function SummerSchool() {
+
+    const location = useLocation();
+    const sobreRef = useRef(null);
+    const calendarioRef = useRef(null);
+
+    useEffect(() => {
+        if (location.hash === "#sobre") {
+            sobreRef.current.scrollIntoView({ behavior: "smooth" });
+    }   else if (location.hash === "#calendario") {
+            calendarioRef.current.scrollIntoView({ behavior: "smooth" });}
+    }, [location.hash]);
     return (
         <Container color="nord6">
 
-            <div className='text-nord1 text-md font-semibold pt-2 text-lg'>
+            <div id='sobre' ref={sobreRef} className='text-nord1 text-md font-semibold pt-2 text-lg'>
                 <SectionTitle title={"Summer School"} />
 
                 <div className="w-100 flex flex-col items-center justify-center">
@@ -40,7 +53,7 @@ function SummerSchool() {
                     </p>
                 </div>
                 <br />
-                <div>
+                <div id='calendaio' ref={calendarioRef}>
                     <h3 className='text-2xl'>Calendário:</h3>
                     <ul className='flex flex-col gap-4 pt-4'>
                         <li>- Submissões: até 10/05/23 </li>

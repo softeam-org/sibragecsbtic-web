@@ -1,12 +1,21 @@
 import React from 'react'
 import SectionTitle from '../components/SectionTitle'
 import Container from '../components/Container'
+import { useLocation } from "react-router-dom";
+import { useEffect, useRef } from "react";
 
 function Desafio() {
+    const location = useLocation();
+    const infoRef = useRef(null);
+
+    useEffect(() => {
+        if (location.hash === "#info") {
+            infoRef.current.scrollIntoView({ behavior: "smooth" });}
+    }, [location.hash]);
     return (
         <Container color="nord6">
 
-            <div className='text-nord1 text-md font-semibold pt-2 text-lg'>
+            <div id='info' ref={infoRef} className='text-nord1 text-md font-semibold pt-2 text-lg'>
                 <SectionTitle title={"Desafio SIBRAGEC+SBTIC"} />
 
                 <div className="w-100 flex flex-col items-center justify-center">
@@ -33,13 +42,15 @@ function Desafio() {
                     <br />
 
                     <p>
-                        A submissão deverá ser realizada exclusivamente por e-mail:  <a
-                            href="https://evento.ufal.br/sibragec2021/submissao/desafio-1"
-                            className="text-orange-500 text-underline"
-                        >
-                            https://evento.ufal.br/sibragec2021/submissao/desafio-1
-                        </a>
+                        A submissão deverá ser realizada exclusivamente por e-mail:  
+                    
                     </p>
+                    <a
+                        href="https://evento.ufal.br/sibragec2021/submissao/desafio-1"
+                        className="text-orange-500 text-underline break-words"
+                    >
+                        https://evento.ufal.br/sibragec2021/submissao/desafio-1
+                    </a>
                 </div>
             </div>
         </Container>
