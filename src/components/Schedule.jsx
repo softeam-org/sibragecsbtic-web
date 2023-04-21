@@ -9,7 +9,7 @@ function Schedule({ day }) {
         <SectionTitle title={dayData[day].date} />
         <div className='text-xl pb-10 flex flex-col gap-10'>
             {dayData[day].schedule.map((item, index) => (
-                <div className='flex flex-col lg:flex-row justify-between mb-6' key={index}>
+                <div className='flex flex-col lg:flex-row gap-1 lg:gap-20 mb-6' key={index}>
                     <div className=' text-nord1 font-bold '>{item.time}</div>
                     <div className='max-w-3xl'>
                         <p className='text-nord1 font-bold mb-4 '>{item.title}</p>
