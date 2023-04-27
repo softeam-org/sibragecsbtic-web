@@ -18,7 +18,7 @@ function Footer() {
   return (
     <div className='bg-nord0'>
       <div className='max-w-6xl mx-auto px-3'>
-        <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 bg-nord0 pt-12 gap-6 sm:gap-1'>
+        <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 bg-nord0 pt-12 gap-6 sm:gap-3'>
           <div className='flex flex-col gap-2'>
             <a className='text-nord4 font-bold'>Início</a>
             <div className='flex flex-col gap-0 md:gap-1'>
@@ -115,6 +115,40 @@ function Footer() {
               </Link>
             </div>
           </div>
+
+          <div className='flex flex-col gap-2'>
+            <a
+              // to='/local'
+              // onClick={scrollToTop}
+              className='text-nord4 font-bold'
+            >
+              Summer Scholl
+            </a>
+            <div className='flex flex-col gap-0 md:gap-1'>
+              <Link to='summer-school/#sobre' className='text-sm text-slate-400'>
+                Sobre
+              </Link>
+              <Link to='summer-school/#calendario' className='text-sm text-slate-400'>
+                Calendário
+              </Link>
+            </div>
+          </div>
+
+          <div className='flex flex-col gap-2'>
+            <a
+              // to='/local'
+              // onClick={scrollToTop}
+              className='text-nord4 font-bold'
+            >
+              Desafio
+            </a>
+            <div className='flex flex-col gap-0 md:gap-1'>
+              <Link to='desafio/#info' className='text-sm text-slate-400'>
+                Informações
+              </Link>
+            </div>
+          </div>
+
         </div>
 
         <div className='h-24 w-full relative overflow-hidden bg-nord0'>

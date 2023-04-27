@@ -24,7 +24,7 @@ function Header({ toggleFunction }) {
         </Link>
         
         <div className="flex flex-col items-center gap-16">
-          <div className="flex gap-20 pb-2 lg:pb-10 ">
+          <div className="flex gap-5 pb-2 lg:pb-10 ">
            <Navlinks active={active} setActive={setActive} />
             <AiOutlineMenu color="white" onClick={ toggleFunction } size={30} className="lg:hidden" />
           </div>

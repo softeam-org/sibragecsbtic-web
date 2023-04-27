@@ -1,5 +1,13 @@
-import Luciano_IFS from "./assets/images/luciano.jpg";
-import Sergio from "./assets/images/sergio.jpg";
+import Reymard from "./assets/images/reymard.png"
+import Tatiana from "./assets/images/tatiana.jpeg"
+import Regina from "./assets/images/regina.png"
+import Herbert from "./assets/images/herbert.jpeg"
+import Eduardo from "./assets/images/eduardo.jpg"
+import Clarissa from "./assets/images/clarissa.png"
+import Emerson from "./assets/images/emerson.jpg"
+import Caroline from "./assets/images/caroline.jpg"
+
+
 
 export const navLinks = [
   {
@@ -47,6 +55,18 @@ export const navLinks = [
       
     ],
   },
+  {
+    name: "Summer School",
+    path: "/summer-school",
+    links: [
+    ],
+  },
+  {
+    name: "Desafio",
+    path: "/desafio",
+    links: [
+      ],
+  },
 ];
 
 // Path: src\components\Navbar\index.js
@@ -54,211 +74,374 @@ export const navLinks = [
 
 export const dayData = {
   1: {
-    date: "Segunda, 30 de janeiro",
+    date: "Quarta, 08 de Novembro",
     schedule: [
       {
-        time: "8h:30 - 10h:00",
-        title: "Abertura",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elitiasty. Quisquam, quod.",
+        time: "08h:30 - 09h:00",
+        title: "ABERTURA",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: []
+      },
+      {
+        time: "09h:00 - 10h:30",
+        title: "PALESTRA 1: Advances of Industry 4.0 and 5.0: modular and offsite construction, digitalized manufacturing process and automation.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "John Doe",
-            photo: Sergio,
+            name: "Prof. PhD. Mohamed Al-Hussein",
+            photo: "https://picsum.photos/200/300",
           },
           {
-            name: "John Doe",
-            photo: Luciano_IFS,
+            name: "Prof. PhD. Béda Barkokebas",
+            photo: "https://picsum.photos/200/300",
+          }
+        ],
+      },
+      {
+        time: "10h:30 - 10h:45",
+        title: "INTERVALO",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: []
+      },
+      {
+        time: "10h:45 - 12h:15",
+        title: "MESA REDONDA 1: Gêmeos Digitais",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: [
+          {
+            name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
+            photo: Reymard,
+          },
+          {
+            name: "Prof. Dr. Fabiano Correa (USP)",
+            photo: "https://picsum.photos/200/300",
+          },
+          {
+            name: "Profª. Drª. Dayana Bastos Costa (UFBA)",
+            photo: "https://picsum.photos/200/300",
+          },
+          {
+            name: "Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
+            photo: "https://picsum.photos/200/300",
+          },
+          {
+            name: "Prof. Dr. Eduardo Toledo Santos (USP)",
+            photo: Eduardo,
           }
         ]
       },
       {
-        time: "10h:00 - 11h:30",
-        title: "Gestão Estratégica e Organizacional;",
+        time: "12h:15 - 14h:00",
+        title: "ALMOÇO",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: []
+      },
+      {
+        time: "14h:00 - 15h:30",
+        title: "PALESTRA 2: Robótica no canteiro de obras",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "John Doe",
+            name: "Prof. PhD. José Pinto Duarte  (Penn State University)",
             photo: "https://picsum.photos/200/300",
-          }
+          },
+          {
+            name: "Prof.ª Drª. Regina Coeli Ruschel(UNICAMP)",
+            photo: Regina,
+          },
         ]
       },
       {
-        time: "10h:00 - 11h:30",
-        title: "Lorem ipsum dolor sit amet 1",
+        time: "15h:30 - 15h:45",
+        title: "INTERVALO",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: []
+      },
+      {
+        time: "15h:45 - 17h:15",
+        title: "MESA REDONDA 2: Soluções digitais em relação a canteiros inteligentes",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "John Doe",
+            name: "André Quinderé - CEO AVAL Engenharia (Agilean): Soluções inteligentes para planejamento e controle de obras",
             photo: "https://picsum.photos/200/300",
-          }
+          },
+          {
+            name: "Volmer Leal de Sena - Dahua Technology: Inteligência artificial aplicada nas incorporadoras e construtoras",
+            photo: "https://picsum.photos/200/300",
+          },
+          {
+            name: "Sergio Fernando Domingues - Empresa Tarjab: Captura e processamento de imagens com inteligência artificial para segurança do trabalho",
+            photo: "https://picsum.photos/200/300",
+          },
+          {
+            name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
+            photo: Reymard,
+          },
         ]
       },
       {
-        time: "10h:00 - 11h:30",
-        title: "Lorem ipsum dolor sit amet 2",
+        time: "17h:30 - 18h:30",
+        title: "MINICURSOS",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        speakers: [
-          {
-            name: "John Doe",
-            photo: "https://picsum.photos/200/300",
-          }
-        ]
+        speakers: []
       },
     ],
     speakers: [
       {
-        name: "John Doe",
+        name: "Prof. PhD. Mohamed Al-Hussein (University of Alberta)",
         photo: "https://picsum.photos/300/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "John Doe",
+        name: "Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "John Doe",
-        photo: "https://picsum.photos/400/300",
+        name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
+        photo: Reymard,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
+      {
+        name: "Prof. Dr. Fabiano Correa (USP)",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Profª. Drª. Dayana Bastos Costa (UFBA)",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Prof. Dr. Eduardo Toledo Santos (USP)",
+        photo: Eduardo,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Prof. PhD. José Pinto Duarte  (Penn State University)",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Prof.ª Drª. Regina Coeli Ruschel(UNICAMP)",
+        photo: Regina,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "André Quinderé - CEO AVAL Engenharia (Agilean)",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Volmer Leal de Sena - Dahua Technology",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Sergio Fernando Domingues - Empresa Tarjab",
+        photo: "https://picsum.photos/200/300",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+
     ]
   },
   2: {
-    date: "Terça, 31 de janeiro",
+    date: "Quinta, 09 de Novembro",
     schedule: [
       {
-        time: "8h:30 - 10h:00",
-        title: "Abertura",
+        time: "08h:30 - 10h:15",
+        title: "SUMMER SCHOOL",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "John Doe",
+            name: "Prof.ª Dr.ª Regina Coeli Ruschel (Unicamp))",
+            photo: Regina,
+          },
+          {
+            name: "Prof. Dr. Ariosvaldo Denis Granja (Unicamp)",
             photo: "https://picsum.photos/200/300",
           },
           {
-            name: "John Doe",
+            name: "Prof. Dr. Fabiano Rogério Corrêa (USP)",
             photo: "https://picsum.photos/200/300",
           }
         ]
       },
       {
-        time: "10h:00 - 11h:30",
-        title: "Lorem ipsum dolor sit amet 1",
+        time: "10h:15 - 12h:15",
+        title: "INTERVALO",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        speakers: [
-          {
-            name: "John Doe",
-            photo: "https://picsum.photos/200/300",
-          }
-        ]
+        speakers: []
       },
       {
-        time: "10h:00 - 11h:30",
-        title: "Lorem ipsum dolor sit amet 2",
+        time: "12h:15 - 14h:00",
+        title: "ALMOÇO",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        speakers: [
-          {
-            name: "John Doe",
-            photo: "https://picsum.photos/200/300",
-          }
-        ]
+        speakers: []
       },
       {
-        time: "10h:00 - 11h:30",
-        title: "Lorem ipsum dolor sit amet 3",
+        time: "14h:00 - 15h:45",
+        title: "SESSÕES DE POSTERS 3 e 4",
+        description: "Apresentação de artigos aceitos pelo Comitê Científico",
+        speakers: []
+      },
+      {
+        time: "15h:45 - 16h:15",
+        title: "INTERVALO",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        speakers: [
-          {
-            name: "John Doe",
-            photo: "https://picsum.photos/200/300",
-          }
-        ]
+        speakers: []
+      },
+      {
+        time: "16h:15 - 17h:45",
+        title: "SESSÕES TÉCNICAS 1 e 2",
+        description: "Apresentação de artigos aceitos para a Edição especial da Revista Ambiente Construído",
+        speakers: []
+      },
+      {
+        time: "17h:45 - 20h:00",
+        title: "REUNIÃO DOS GTs GESTÃO E ECONOMIA DA CONSTRUÇÃO & TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: []
+      },
+      {
+        time: "20h:00 - 22h:00",
+        title: "JANTAR DE CONFRATERNIZAÇÃO",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: []
       },
     ],
     speakers: [
       {
-        name: "John Doe",
+        name: "Prof.ª Dr.ª Regina Coeli Ruschel (Unicamp))",
+        photo: Regina,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Prof. Dr. Ariosvaldo Denis Granja (Unicamp)",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "John Doe",
-        photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-      },
-      {
-        name: "John Doe",
+        name: "Prof. Dr. Fabiano Rogério Corrêa (USP)",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
     ]
   },
   3: {
-    date: "Quarta, 1 de fevereiro",
+    date: "Sexta, 10 de Novembro",
     schedule: [
       {
-        time: "8h:30 - 10h:00",
-        title: "Abertura",
+        time: "08h:30 - 10h:00",
+        title: "PALESTRA 3: Análises ergonômicas baseadas em realidade virtual (RV) para reduzir lesões ocupacionais",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "John Doe",
+            name: "Profª. PhD. Regina Barkokebas (Pontificia Universidad Católica de Chile)",
             photo: "https://picsum.photos/200/300",
           },
           {
-            name: "John Doe",
-            photo: "https://picsum.photos/200/300",
+            name: "Prof. Drª. Tatiana Gondim do Amaral (UFG)",
+            photo: Tatiana,
           }
         ]
       },
       {
-        time: "10h:00 - 11h:30",
-        title: "Gestão da Produção Ensino de Gestão da Construção",
+        time: "10h:00 - 10h:15",
+        title: "INTERVALO",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: []
+      },
+      {
+        time: "10h:15 - 12h:00",
+        title: "SESSÕES POSTERS 5 e 6",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: []
+      },
+      {
+        time: "12h:00 - 14h:00",
+        title: "ALMOÇO",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: []
+      },
+      {
+        time: "14h:00 - 15h:15",
+        title: "SESSÕES POSTERS 7 e 8",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        speakers: []
+      },
+      {
+        time: "14h:00 - 15h:15",
+        title: "PITCH DO DESAFIO SIBRAGEC/SBTIC",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
-            name: "John Doe",
-            photo: "https://picsum.photos/200/300",
+            name: "Profª. Drª. Clarissa Notariano Biotto (UFC)",
+            photo: Clarissa,
+          },
+          {
+            name: "Prof. Me. Emerson Meireles de Carvalho (UFS)",
+            photo: Emerson,
+          },
+          {
+            name: "Prof. Ma. Caroline Almeida Aragão Cabral (CBIM-SE)",
+            photo: Caroline,
+          },
+          {
+            name: "Prof. Me. Herbert Melo Cruz (IFS)",
+            photo: Herbert,
           }
         ]
       },
       {
-        time: "10h:00 - 11h:30",
-        title: "Lorem ipsum dolor sit amet 2",
+        time: "15h:45 - 16h:00",
+        title: "INTERVALO",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        speakers: [
-          {
-            name: "John Doe",
-            photo: "https://picsum.photos/200/300",
-          }
-        ]
+        speakers: []
       },
       {
-        time: "10h:00 - 11h:30",
-        title: "Lorem ipsum dolor sit amet 3",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        speakers: [
-          {
-            name: "John Doe",
-            photo: "https://picsum.photos/200/300",
-          }
-        ]
+        time: "16h:00 - 17h:45",
+        title: "SESSÕES TÉCNICAS 3 e 4",
+        description: "Apresentação de artigos aceitos para a Edição especial da Revista Ambiente Construído.",
+        speakers: []
+      },
+      {
+        time: "18h:00 - 20h:00",
+        title: "ENCERRAMENTO",
+        description: "Premiação do Desafio SIBRAGEC / SBTIC e Summer School.",
+        speakers: []
       },
     ],
     speakers: [
       {
-        name: "John Doe",
+        name: "Profª. PhD. Regina Barkokebas (Pontificia Universidad Católica de Chile)",
         photo: "https://picsum.photos/200/300",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "John Doe",
-        photo: "https://picsum.photos/200/300",
+        name: "Prof. Drª. Tatiana Gondim do Amaral (UFG)",
+        photo: Tatiana,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
-        name: "John Doe",
-        photo: "https://picsum.photos/200/300",
+        name: "Profª. Drª. Clarissa Notariano Biotto (UFC)",
+        photo: Clarissa,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Prof. Me. Emerson Meireles de Carvalho (UFS)",
+        photo: Emerson,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Prof. Ma. Caroline Almeida Aragão Cabral (CBIM-SE)",
+        photo: Caroline,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      },
+      {
+        name: "Prof. Me. Herbert Melo Cruz (IFS)",
+        photo: Herbert,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
     ]

@@ -7,6 +7,21 @@ function Prices() {
 
   console.log();
 
+  const handleEventType = (type) => { // Checa o tipo de evento e seta o tipo de evento no mobile
+    switch (type) {
+      case "Dia da indústria":
+        setType("industryDay");
+        break;
+     /*  case "Jantar":
+        setType("Jantar"); */
+        break;
+      case "Minicurso":
+        setType("minicourses");
+        break;
+      default:
+        setType("all");
+    }
+  };
   return (
     <div name='preços' className='text-nord0 pt-4 pb-20 font-medium'>
       {/*Versão desktop */}
@@ -55,11 +70,11 @@ function Prices() {
           id='type-select'
           className='block w-full p-2 my-6 rounded-md bg-white border-gray-300 shadow-md  focus:border-zinc-300 focus:ring focus:ring-zinc-200 focus:ring-opacity-50'
           value={type}
-          onChange={(event) => setType(event.target.value)}
+          onChange={(event) => handleEventType(event.target.value)}
         >
           <option value='Evento'>Evento</option>
           <option value='Dia da indústria'>Dia da indústria</option>
-          <option value='Jantar'>Jantar</option>
+         {/*  <option value='Jantar'>Jantar</option> */}
           <option value='Minicurso'>Minicurso</option>
         </select>
       </div>
@@ -68,7 +83,6 @@ function Prices() {
         <h2>Preço das inscrições</h2>
       </div>
 
-      {/*Versão desktop */}
       <div className='overflow-x-scroll md:overflow-x-hidden py-4'>
         <div className=' table w-full text-lg border-separate border-spacing-0'>
           <div className='table-header-group'>
@@ -81,7 +95,7 @@ function Prices() {
             </div>
           </div>
           <div className='table-row-group'>
-            {prices[type].map((row) => {
+            {prices[type]?.map((row) => {
               return (
                 <div className='table-row'>
                   <div className='table-cell w-64 font-bold text-xl align-middle pr-2'>

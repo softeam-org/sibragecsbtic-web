@@ -9,8 +9,6 @@ function Local() {
   const location = useLocation();
   const hotelRef = useRef(null);
   const aracajuRef = useRef(null);
-  console.log(location);
-  console.log(hotelRef);
 
   useEffect(() => {
     if (location.hash === "#hotel") {

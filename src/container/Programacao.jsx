@@ -9,8 +9,8 @@ function Programacao() {
   const [dia, setDia] = React.useState(1);
   const dias = [1, 2, 3];
 
-  return (<Construction />)
-  {/*
+  // return (<Construction />)
+  
   return (
     <div className="bg-white text-nord0 pb-10">
       <Container color="nord6">
@@ -38,7 +38,7 @@ function Programacao() {
       <Speakers day={dia} />
     </div>
   );
-*/}
+
 }
 
 export default Programacao;
