@@ -464,23 +464,23 @@ export const subscribeInstructions = [
 export const calendarData = [
   {
     date: "até 21/04/23",
-    crossed: 'até 07/04/23',
+    crossed: 'até  23/04/2023',
     event: "Envio de artigos"
   },
   {
-    date: "até 07/05/23",
+    date: "até 21/05/2023",
     event: "Decisão preliminar de artigos submetidos"
   },
   {
-    date: "até 21/05/23",
+    date: "até 05/06/2023",
     event: "Envio das versões corrigidas dos artigos"
   },
   {
-    date: "até 21/06/23",
+    date: "até 03/07/2023",
     event: "Decisão final dos artigos"
   },
   {
-    date: "até 10/07/23",
+    date: "até 17/07/2023",
     event: "Inscrição dos autores de artigos"
   },
 ]
