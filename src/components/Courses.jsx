@@ -37,7 +37,7 @@ function Courses() {
           </p>
           <div className="w-100 flex flex-col lg:flex-row justify-center items-center gap-12">
             {coursesData.map((course) => (
-              <div className="flex flex-col items-center justify-center px-9 py-9 gap-5 shadow-lg rounded-lg bg-white">
+              <div className="flex flex-col items-center justify-center max-w-sm px-9 py-9 gap-5 shadow-lg rounded-lg bg-white">
                 <img
                   src={course.image}
                   className="w-72 h-48 object-cover"
