@@ -9,7 +9,7 @@ function Prices() {
 
   const handleEventType = (type) => { // Checa o tipo de evento e seta o tipo de evento no mobile
     switch (type) {
-      case "Dia da indústria":
+      case "Industry Day":
         setType("industryDay");
         break;
      /*  case "Jantar":
@@ -41,7 +41,7 @@ function Prices() {
               type === "industryDay" ? "text-nord0" : ""
             }`}
           >
-            Dia da indústria
+            Industry Day
           </p>
         </div>
         {/* <div onClick={() => setType("Jantar")}>
@@ -73,7 +73,7 @@ function Prices() {
           onChange={(event) => handleEventType(event.target.value)}
         >
           <option value='Evento'>Evento</option>
-          <option value='Dia da indústria'>Dia da indústria</option>
+          <option value='Industry Day'>Industry Day</option>
          {/*  <option value='Jantar'>Jantar</option> */}
           <option value='Minicurso'>Minicurso</option>
         </select>
@@ -152,8 +152,13 @@ function Prices() {
           <p className='text-nord1 text-lg font-semibold pt-6 pb-12'>
             A Comissão Organizadora do SIBRAGEC+SBTIC 2023 está lançando o
             pacote de inscrições em grupo, com 10% de desconto para grupos acima
-            de 10 pessoas. Para mais informações, entre em contato com nossa
-            equipe através do email: sibragec.sbtic2023@gmail.com .
+            de 5 pessoas. Para mais informações, entre em contato com nossa
+            equipe através do email: <a
+              className="text-orange-500 text-underline"
+              href="mailto:sibragec.sbtic2023@gmail.com"
+            >
+              sibragec.sbtic2023@gmail.com
+            </a>.
           </p>
           <div className="flex flex-col w-100 justify-center items-center gap-6">
           <p className="text-nord-0 text-xl font-bold">
