@@ -9,7 +9,7 @@ function Prices() {
 
   const handleEventType = (type) => { // Checa o tipo de evento e seta o tipo de evento no mobile
     switch (type) {
-      case "Dia da indústria":
+      case "Industry Day":
         setType("industryDay");
         break;
      /*  case "Jantar":
@@ -41,7 +41,7 @@ function Prices() {
               type === "industryDay" ? "text-nord0" : ""
             }`}
           >
-            Dia da indústria
+            Industry Day
           </p>
         </div>
         {/* <div onClick={() => setType("Jantar")}>
@@ -73,7 +73,7 @@ function Prices() {
           onChange={(event) => handleEventType(event.target.value)}
         >
           <option value='Evento'>Evento</option>
-          <option value='Dia da indústria'>Dia da indústria</option>
+          <option value='Industry Day'>Industry Day</option>
          {/*  <option value='Jantar'>Jantar</option> */}
           <option value='Minicurso'>Minicurso</option>
         </select>
