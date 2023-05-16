@@ -56,7 +56,7 @@ function SummerSchool() {
                 <div id='calendaio' ref={calendarioRef}>
                     <h3 className='text-2xl'>Calendário:</h3>
                     <ul className='flex flex-col gap-4 pt-4'>
-                        <li>- Submissões: até 10/05/23 </li>
+                        <li>- Submissões: até 21/05/2023 </li>
                         <li>- Aceite final das propostas: até 10/06/23</li>
                         <li>- Envio das instruções para elaboração da 3MT: 15/07/23</li>
                         <li>- Recebimento da 3MT: 25/10/2023</li>

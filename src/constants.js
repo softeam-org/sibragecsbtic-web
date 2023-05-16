@@ -79,13 +79,11 @@ export const dayData = {
       {
         time: "08h:30 - 09h:00",
         title: "ABERTURA",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
         time: "09h:00 - 10h:30",
         title: "PALESTRA 1: Advances of Industry 4.0 and 5.0: modular and offsite construction, digitalized manufacturing process and automation.",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
             name: "Prof. PhD. Mohamed Al-Hussein",
@@ -100,13 +98,11 @@ export const dayData = {
       {
         time: "10h:30 - 10h:45",
         title: "INTERVALO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
         time: "10h:45 - 12h:15",
         title: "MESA REDONDA 1: Gêmeos Digitais",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
             name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
@@ -133,13 +129,11 @@ export const dayData = {
       {
         time: "12h:15 - 14h:00",
         title: "ALMOÇO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
         time: "14h:00 - 15h:30",
         title: "PALESTRA 2: Robótica no canteiro de obras",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
             name: "Prof. PhD. José Pinto Duarte  (Penn State University)",
@@ -154,13 +148,11 @@ export const dayData = {
       {
         time: "15h:30 - 15h:45",
         title: "INTERVALO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
         time: "15h:45 - 17h:15",
         title: "MESA REDONDA 2: Soluções digitais em relação a canteiros inteligentes",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
             name: "André Quinderé - CEO AVAL Engenharia (Agilean): Soluções inteligentes para planejamento e controle de obras",
@@ -183,7 +175,6 @@ export const dayData = {
       {
         time: "17h:30 - 18h:30",
         title: "MINICURSOS",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
     ],
@@ -191,57 +182,46 @@ export const dayData = {
       {
         name: "Prof. PhD. Mohamed Al-Hussein (University of Alberta)",
         photo: "https://picsum.photos/300/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
         photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
         photo: Reymard,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. Dr. Fabiano Correa (USP)",
         photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Profª. Drª. Dayana Bastos Costa (UFBA)",
         photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. Dr. Eduardo Toledo Santos (USP)",
         photo: Eduardo,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. PhD. José Pinto Duarte  (Penn State University)",
         photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof.ª Drª. Regina Coeli Ruschel(UNICAMP)",
         photo: Regina,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "André Quinderé - CEO AVAL Engenharia (Agilean)",
         photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Volmer Leal de Sena - Dahua Technology",
         photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Sergio Fernando Domingues - Empresa Tarjab",
         photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
 
     ]
@@ -252,7 +232,6 @@ export const dayData = {
       {
         time: "08h:30 - 10h:15",
         title: "SUMMER SCHOOL",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
             name: "Prof.ª Dr.ª Regina Coeli Ruschel (Unicamp))",
@@ -271,13 +250,11 @@ export const dayData = {
       {
         time: "10h:15 - 12h:15",
         title: "INTERVALO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
         time: "12h:15 - 14h:00",
         title: "ALMOÇO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
@@ -289,7 +266,6 @@ export const dayData = {
       {
         time: "15h:45 - 16h:15",
         title: "INTERVALO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
@@ -301,13 +277,11 @@ export const dayData = {
       {
         time: "17h:45 - 20h:00",
         title: "REUNIÃO DOS GTs GESTÃO E ECONOMIA DA CONSTRUÇÃO & TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
         time: "20h:00 - 22h:00",
         title: "JANTAR DE CONFRATERNIZAÇÃO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
     ],
@@ -315,17 +289,14 @@ export const dayData = {
       {
         name: "Prof.ª Dr.ª Regina Coeli Ruschel (Unicamp))",
         photo: Regina,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. Dr. Ariosvaldo Denis Granja (Unicamp)",
         photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. Dr. Fabiano Rogério Corrêa (USP)",
         photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
     ]
   },
@@ -335,7 +306,6 @@ export const dayData = {
       {
         time: "08h:30 - 10h:00",
         title: "PALESTRA 3: Análises ergonômicas baseadas em realidade virtual (RV) para reduzir lesões ocupacionais",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
             name: "Profª. PhD. Regina Barkokebas (Pontificia Universidad Católica de Chile)",
@@ -350,31 +320,26 @@ export const dayData = {
       {
         time: "10h:00 - 10h:15",
         title: "INTERVALO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
         time: "10h:15 - 12h:00",
         title: "SESSÕES POSTERS 5 e 6",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
         time: "12h:00 - 14h:00",
         title: "ALMOÇO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
         time: "14h:00 - 15h:15",
         title: "SESSÕES POSTERS 7 e 8",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
         time: "14h:00 - 15h:15",
         title: "PITCH DO DESAFIO SIBRAGEC/SBTIC",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: [
           {
             name: "Profª. Drª. Clarissa Notariano Biotto (UFC)",
@@ -397,7 +362,6 @@ export const dayData = {
       {
         time: "15h:45 - 16h:00",
         title: "INTERVALO",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
         speakers: []
       },
       {
@@ -417,32 +381,26 @@ export const dayData = {
       {
         name: "Profª. PhD. Regina Barkokebas (Pontificia Universidad Católica de Chile)",
         photo: "https://picsum.photos/200/300",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. Drª. Tatiana Gondim do Amaral (UFG)",
         photo: Tatiana,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Profª. Drª. Clarissa Notariano Biotto (UFC)",
         photo: Clarissa,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. Me. Emerson Meireles de Carvalho (UFS)",
         photo: Emerson,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. Ma. Caroline Almeida Aragão Cabral (CBIM-SE)",
         photo: Caroline,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
       {
         name: "Prof. Me. Herbert Melo Cruz (IFS)",
         photo: Herbert,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       },
     ]
   }
@@ -506,23 +464,23 @@ export const subscribeInstructions = [
 export const calendarData = [
   {
     date: "até 21/04/23",
-    crossed: 'até 07/04/23',
+    crossed: 'até  23/04/2023',
     event: "Envio de artigos"
   },
   {
-    date: "até 07/05/23",
+    date: "até 21/05/2023",
     event: "Decisão preliminar de artigos submetidos"
   },
   {
-    date: "até 21/05/23",
+    date: "até 05/06/2023",
     event: "Envio das versões corrigidas dos artigos"
   },
   {
-    date: "até 21/06/23",
+    date: "até 03/07/2023",
     event: "Decisão final dos artigos"
   },
   {
-    date: "até 10/07/23",
+    date: "até 17/07/2023",
     event: "Inscrição dos autores de artigos"
   },
 ]

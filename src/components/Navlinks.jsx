@@ -23,7 +23,7 @@ function Navlinks({ active, setActive }) {
       </Link>
       <div
         className={`
-            absolute top-40 text-center flex flex-col items-center gap-5 w-32 bg-nord0 rounded-md transition ease-in pb-5 z-20
+            absolute top-40 pt-5 text-center flex flex-col items-center gap-5 w-32 bg-nord0 rounded-md transition ease-in pb-5 z-20
             ${
               active === link.name
                 ? "visible opacity-100"
