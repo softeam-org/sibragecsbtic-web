@@ -11,9 +11,13 @@ function Schedule({ day }) {
             {dayData[day].schedule.map((item, index) => (
                 <div className='flex flex-col lg:flex-row gap-1 lg:gap-32 mb-6' key={index}>
                     <div className=' text-nord1 font-bold '>{item.time}</div>
-                    <div className='max-w-3xl'>
+                    <div className='max-w-3xl w-full'>
                         <p className='text-nord1 font-bold mb-4 '>{item.title}</p>
                         <p className='text-gray-500 font-semibold'>{item.description}</p>
+                        <div>
+                        {item.speakers.map((speaker, index) => (
+                                <p className='text-sm font-semibold'>{speaker.name}</p>))}
+                        </div>
                         <div className='flex flex-row-reverse justify-center sm:justify-start mt-2 sm:mt-0'>
                             {item.speakers.map((speaker, index) => (
                                 <img 

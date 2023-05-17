@@ -1,12 +1,19 @@
 import Reymard from "./assets/images/reymard.png"
-import Tatiana from "./assets/images/tatiana.jpeg"
+//import Tatiana from "./assets/images/tatiana.jpeg"
 import Regina from "./assets/images/regina.png"
 import Herbert from "./assets/images/herbert.jpeg"
-import Eduardo from "./assets/images/eduardo.jpg"
+import Eduardo from "./assets/images/Eduardo.png"
 import Clarissa from "./assets/images/clarissa.png"
 import Emerson from "./assets/images/emerson.jpg"
 import Caroline from "./assets/images/caroline.jpg"
-
+import Mohamed from "./assets/images/Mohamed.png"
+import Béda from "./assets/images/Béda.png"
+import Regina_Barkokebas from "./assets/images/Regina_Barkokebas.png"
+import Fabiano_Rogerio from "./assets/images/Fabiano_Rogerio.png"
+import Jose_Pinto from "./assets/images/José_Pinto.png"
+import André_Quinderé from "./assets/images/André_Quinderé.png"
+import Tatiana_Gondim from "./assets/images/Tatiana_Gondim.png"
+import sem_foto from "./assets/images/sem_foto.jpg"
 
 
 export const navLinks = [
@@ -86,12 +93,12 @@ export const dayData = {
         title: "PALESTRA 1: Advances of Industry 4.0 and 5.0: modular and offsite construction, digitalized manufacturing process and automation.",
         speakers: [
           {
-            name: "Prof. PhD. Mohamed Al-Hussein",
-            photo: "https://picsum.photos/200/300",
+            name: "Prof. PhD. Mohamed Al-Hussein ( University of Alberta)",
+            photo: Mohamed,
           },
           {
-            name: "Prof. PhD. Béda Barkokebas",
-            photo: "https://picsum.photos/200/300",
+            name: "Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
+            photo: Béda,
           }
         ],
       },
@@ -110,16 +117,16 @@ export const dayData = {
           },
           {
             name: "Prof. Dr. Fabiano Correa (USP)",
-            photo: "https://picsum.photos/200/300",
+            photo: Fabiano_Rogerio,
             description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
           },
           {
             name: "Profª. Drª. Dayana Bastos Costa (UFBA)",
-            photo: "https://picsum.photos/200/300",
+            photo: sem_foto,
           },
           {
             name: "Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
-            photo: "https://picsum.photos/200/300",
+            photo: Béda,
           },
           {
             name: "Prof. Dr. Eduardo Toledo Santos (USP)",
@@ -138,7 +145,7 @@ export const dayData = {
         speakers: [
           {
             name: "Prof. PhD. José Pinto Duarte  (Penn State University)",
-            photo: "https://picsum.photos/200/300",
+            photo: Jose_Pinto,
           },
           {
             name: "Prof.ª Drª. Regina Coeli Ruschel(UNICAMP)",
@@ -157,15 +164,7 @@ export const dayData = {
         speakers: [
           {
             name: "André Quinderé - CEO AVAL Engenharia (Agilean): Soluções inteligentes para planejamento e controle de obras",
-            photo: "https://picsum.photos/200/300",
-          },
-          {
-            name: "Volmer Leal de Sena - Dahua Technology: Inteligência artificial aplicada nas incorporadoras e construtoras",
-            photo: "https://picsum.photos/200/300",
-          },
-          {
-            name: "Sergio Fernando Domingues - Empresa Tarjab: Captura e processamento de imagens com inteligência artificial para segurança do trabalho",
-            photo: "https://picsum.photos/200/300",
+            photo: André_Quinderé,
           },
           {
             name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
@@ -182,35 +181,38 @@ export const dayData = {
     speakers: [
       {
         name: "Prof. PhD. Mohamed Al-Hussein (University of Alberta)",
-        photo: "https://picsum.photos/300/300",
+        photo: Mohamed,
         description: "Pesquisador muito requisitado nas áreas de construção modular, pré-fabricação, lean manufacturing, otimização do processo de construção e BIM. A pesquisa do Dr. Al-Hussein foi publicada em quase 400 artigos nos principais jornais e anais de conferências."
       },
       {
         name: "Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
-        photo: "https://picsum.photos/200/300",
+        photo: Béda,
         description:"Professor adjunto da Pontifícia Universidad Católica de Chile na área de industrialização e automação na construção. É também coordenador da Aliança Brasileira para a Construção Modular (ABCModular), um ecossistema do Centro de Inovação para a Construção Sustentável - CICS/USP, formado por empresas e academia. Trabalha com sistemas de construção industrializados desde 2010. Após sua mudança para o Canadá, passou a trabalhar ativamente com fábricas de construção modular no Canadá e Brasil, desenvolvendo sistemas de informação combinando dados gerados por modelos BIM e dados coletados em tempo real por diferentes sensores. Também desenvolve estudos de viabilidade para a implantação de sistemas de construção industrializados, além de melhorias em processos em linhas de produção e canteiros de obra. Sua área de interesse consiste no desenvolvimento de métodos para controle de produção inteligentes e integrados a sistemas de informação para a melhoria contínua na construção modular. É engenheiro civil formado pela Escola Politécnica da Universidade de Pernambuco, mestre e doutor pela Universidade de Alberta (Canadá)."
       },
       {
         name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
         photo: Reymard,
+        description:"É professor de Engenharia Civil na Universidade Federal da Bahia. Ele esteve envolvido com a indústria da construção nos últimos 15 anos, onde conduziu pesquisas, ensinou e auxiliou a indústria na área de Gestão da Construção, incluindo melhoria de processos, mentalidade enxuta, modelagem da informação na construção e Blockchain. É autor e co-autor de 09 artigos de periódicos e 49 artigos de conferências revisados por pares até o momento."
       },
       {
         name: "Prof. Dr. Fabiano Correa (USP)",
-        photo: "https://picsum.photos/200/300",
+        photo: Fabiano_Rogerio,
         description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
 
       },
       {
         name: "Profª. Drª. Dayana Bastos Costa (UFBA)",
-        photo: "https://picsum.photos/200/300",
+        photo: sem_foto,
       },
       {
         name: "Prof. Dr. Eduardo Toledo Santos (USP)",
         photo: Eduardo,
+        description:"Engenheiro, Mestre e Doutor em Engenharia Elétrica pela Escola Politécnica da USP. Professor da Escola Politécnica da USP e Vice Coordenador do Mestrado Profissional em Inovação na Construção Civil. É relator do GT Objetos BIM da Comissão Especial de Estudos sobre BIM (CEE-134) da ABNT. Diretor de Divulgação da ANTAC. Diretor das entidades internacionais ISGG, ISCCBE e CIB. Membro da BIM Excellence Initiative e do CIB W78. Especialista do Comitê Estratégico BIM do Governo Federal. Revisor técnico das edições brasileiras do "+"BIM Handbook"+". Editor para Língua Portuguesa do BIM Dictionary."
       },
       {
         name: "Prof. PhD. José Pinto Duarte  (Penn State University)",
-        photo: "https://picsum.photos/200/300",
+        photo: Jose_Pinto,
+        description:"Graduado em Arquitetura pela Universidade Técnica de Lisboa, Portugal, mestre em Design Methods e PHD em Design and Computation pelo MIT, EUA. Atualmente, ele é Chair in Design Innovation e diretor do Stuckeman Center for Design Computing na Penn State University, EUA, bem como professor de arquitetura e engenharia. Foi Reitor e Professor da Faculdade de Arquitetura da Universidade de Lisboa e Presidente da eCAADe - educação e investigação em desenho arquitetônico assistido por computador na Europa. O foco principal de sua pesquisa é o uso de novas tecnologias para customização em massa em projetos arquitetônicos, urbanos e de produtos."
       },
       {
         name: "Prof.ª Drª. Regina Coeli Ruschel(UNICAMP)",
@@ -218,15 +220,16 @@ export const dayData = {
       },
       {
         name: "André Quinderé - CEO AVAL Engenharia (Agilean)",
-        photo: "https://picsum.photos/200/300",
+        photo: André_Quinderé,
+        description:" CEO da Aval Tecnologia, engenheiro civil com pós-graduação em gestão de projetos e experiência em implantação de novas tecnologias e práticas do Lean Construction em diversos tipos de obra, totalizando mais de 3.000.000,00 de m² de área construída impactados. É um dos responsáveis pelo desenvolvimento do Agilean, solução pioneira em levar o Lean Construction de forma digital ao canteiro de obras e vencedora do Prêmio CBIC de Inovação e Sustentabilidade 2020."
       },
       {
         name: "Volmer Leal de Sena - Dahua Technology",
-        photo: "https://picsum.photos/200/300",
+        photo: sem_foto,
       },
       {
         name: "Sergio Fernando Domingues - Empresa Tarjab",
-        photo: "https://picsum.photos/200/300",
+        photo: sem_foto,
       },
 
     ]
@@ -241,14 +244,15 @@ export const dayData = {
           {
             name: "Prof.ª Dr.ª Regina Coeli Ruschel (Unicamp))",
             photo: Regina,
+            description:"É Engenheira Civil, Mestre em Mecânica do Solos, Doutora em Engenharia Elétrica e Livre docente em Projeto Auxiliado por Computador. É Pesquisadora e Professora Colaboradora na Universidade Estadual de Campinas. Atua ativamente junto à ABNT na CCE134 e no BIM Fórum Brasil. Desenvolve pesquisas em Modelagem da Informação da Construção. Foi pioneira na introdução do BIM no ensino de graduação no Brasil."
           },
           {
             name: "Prof. Dr. Ariosvaldo Denis Granja (Unicamp)",
-            photo: "https://picsum.photos/200/300",
+            photo: sem_foto,
           },
           {
             name: "Prof. Dr. Fabiano Rogério Corrêa (USP)",
-            photo: "https://picsum.photos/200/300",
+            photo: Fabiano_Rogerio,
             description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
           }
         ]
@@ -265,7 +269,7 @@ export const dayData = {
       },
       {
         time: "14h:00 - 15h:45",
-        title: "SESSÕES DE POSTERS 3 e 4",
+        title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
         description: "Apresentação de artigos aceitos pelo Comitê Científico",
         speakers: []
       },
@@ -276,7 +280,7 @@ export const dayData = {
       },
       {
         time: "16h:15 - 17h:45",
-        title: "SESSÕES TÉCNICAS 1 e 2",
+        title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
         description: "Apresentação de artigos aceitos para a Edição especial da Revista Ambiente Construído",
         speakers: []
       },
@@ -295,14 +299,15 @@ export const dayData = {
       {
         name: "Prof.ª Dr.ª Regina Coeli Ruschel (Unicamp))",
         photo: Regina,
+        description:"É Engenheira Civil, Mestre em Mecânica do Solos, Doutora em Engenharia Elétrica e Livre docente em Projeto Auxiliado por Computador. É Pesquisadora e Professora Colaboradora na Universidade Estadual de Campinas. Atua ativamente junto à ABNT na CCE134 e no BIM Fórum Brasil. Desenvolve pesquisas em Modelagem da Informação da Construção. Foi pioneira na introdução do BIM no ensino de graduação no Brasil."
       },
       {
         name: "Prof. Dr. Ariosvaldo Denis Granja (Unicamp)",
-        photo: "https://picsum.photos/200/300",
+        photo: sem_foto,
       },
       {
         name: "Prof. Dr. Fabiano Rogério Corrêa (USP)",
-        photo: "https://picsum.photos/200/300",
+        photo: Fabiano_Rogerio,
         description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
 
       },
@@ -317,11 +322,11 @@ export const dayData = {
         speakers: [
           {
             name: "Profª. PhD. Regina Barkokebas (Pontificia Universidad Católica de Chile)",
-            photo: "https://picsum.photos/200/300",
+            photo: Regina_Barkokebas,
           },
           {
             name: "Prof. Drª. Tatiana Gondim do Amaral (UFG)",
-            photo: Tatiana,
+            photo: Tatiana_Gondim,
           }
         ]
       },
@@ -332,7 +337,12 @@ export const dayData = {
       },
       {
         time: "10h:15 - 12h:00",
-        title: "SESSÕES POSTERS 5 e 6",
+        title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
+        speakers: []
+      },
+      {
+        time: "10h:15 - 12h:00",
+        title: "VISITA TÉCNICA",
         speakers: []
       },
       {
@@ -342,7 +352,7 @@ export const dayData = {
       },
       {
         time: "14h:00 - 15h:15",
-        title: "SESSÕES POSTERS 7 e 8",
+        title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
         speakers: []
       },
       {
@@ -374,7 +384,7 @@ export const dayData = {
       },
       {
         time: "16h:00 - 17h:45",
-        title: "SESSÕES TÉCNICAS 3 e 4",
+        title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
         description: "Apresentação de artigos aceitos para a Edição especial da Revista Ambiente Construído.",
         speakers: []
       },
@@ -388,12 +398,14 @@ export const dayData = {
     speakers: [
       {
         name: "Profª. PhD. Regina Barkokebas (Pontificia Universidad Católica de Chile)",
-        photo: "https://picsum.photos/200/300",
+        photo: Regina_Barkokebas,
         description:"Arquiteta e Urbanista pela Universidade Federal de Pernambuco (UFPE, 2013), Mestre em Gestão da Construção pela Universidade de Alberta (University of Alberta, Canadá, 2017), e Doutora em Gestão da Construção pela Universidade de Alberta (University of Alberta, Canadá, 2022). É Professora Adjunta no Departamento de Engenharia e Gestão da Construção e na área de Engenharia de Projeto (DILAB) na Pontificia Universidad Católica de Chile. Atualmente, sua pesquisa foca em análise ergonômica e avaliação de riscos ergonômicos na construção civil baseadas em simulações de atividades laborais utilizando realidade virtual e sistema de captura de movimento."
       },
       {
         name: "Prof. Drª. Tatiana Gondim do Amaral (UFG)",
-        photo: Tatiana,
+        photo: Tatiana_Gondim,
+        description:"É engenheira civil, Mestre e Doutora em Engenharia Civil pela UFSC. É professora da UFG e Subcoordenadora do Curso de Especialização em Construção Civil. Integra o Mestrado Profissional do Programa de Pós-graduação em Engenharia de Produção (PPGEP - UFG) da Engenharia de Produção e do Mestrado Profissional em Finanças e Obras Públicas (PROFIAP - UFG) da Faculdade de Ciências e Tecnologia (FCT)."
+
       },
       {
         name: "Profª. Drª. Clarissa Notariano Biotto (UFC)",

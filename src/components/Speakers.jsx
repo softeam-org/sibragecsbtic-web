@@ -13,7 +13,7 @@ function Speakers({ day }) {
         {speakers.map((speaker, index) => (
           <div
             key={index}
-            className="bg-gray-100 flex flex-col gap-5 lg:flex-row lg:gap-0 py-16 px-2 lg:pl-16 lg:pr-6 mb-10 items-center justify-between"
+            className="bg-gray-100 flex flex-col gap-5 lg:flex-row lg:gap-20 py-16 px-2 lg:pl-16 lg:pr-6 mb-10 items-center"
           >
             <img
               src={speaker.photo}
@@ -21,7 +21,7 @@ function Speakers({ day }) {
               className="w-44 h-44 rounded-full object-cover"
             />
             <div>
-              <h2 className="font-bold mb-6 text-xl text-center">
+              <h2 className="font-bold mb-6 text-xl">
                 {speaker.name}
               </h2>
               <p className="text-zinc-500 text-xl max-w-3xl">
