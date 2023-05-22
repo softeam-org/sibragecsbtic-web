@@ -223,14 +223,6 @@ export const dayData = {
         photo: André_Quinderé,
         description:" CEO da Aval Tecnologia, engenheiro civil com pós-graduação em gestão de projetos e experiência em implantação de novas tecnologias e práticas do Lean Construction em diversos tipos de obra, totalizando mais de 3.000.000,00 de m² de área construída impactados. É um dos responsáveis pelo desenvolvimento do Agilean, solução pioneira em levar o Lean Construction de forma digital ao canteiro de obras e vencedora do Prêmio CBIC de Inovação e Sustentabilidade 2020."
       },
-      {
-        name: "Volmer Leal de Sena - Dahua Technology",
-        photo: sem_foto,
-      },
-      {
-        name: "Sergio Fernando Domingues - Empresa Tarjab",
-        photo: sem_foto,
-      },
 
     ]
   },
