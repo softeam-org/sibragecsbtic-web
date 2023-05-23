@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 const coursesData = [
   {
     id: 1,
-    name: "Inteligência Artificial na Construção ( Prof. Dr. Marco Antônio Brasiel - UFS)",
+    name: "Inteligência Artificial na Construção",
     image: "https://biblus.accasoftware.com/ptb/wp-content/uploads/sites/5/2022/10/inteligencia-artificial-em-construcoes.webp",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies ultricies, nunc nisl ultricies nisl, nec ultricies nisl nisl sit amet nisl. Sed euismod, nisl vitae ultricies ultricies, nunc nisl ultricies nisl, nec ultricies nisl nisl sit amet nisl.",
-    presenter: "Prof. Dr. Maurício Moreira e Silva Bernardes - UFRGS",
+    presenter: "Prof. Dr. Marco Antônio Brasiel - UFS",
     link: "",
   },
   {
     id: 2,
-    name: "A integração de tecnologias I4.0 (Indústria 4.0) e os Gêmeos Digitais  ( Prof. Dr. Fabiano Correa - USP)",
+    name: "A integração de tecnologias I4.0 (Indústria 4.0) e os Gêmeos Digitais",
     image: "https://i0.wp.com/adsknews.autodesk.com/app/uploads/2021/02/ADK_DigitalTwin_Opt2_1920x1000.jpg?resize=658%2C342&ssl=1",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies ultricies, nunc nisl ultricies nisl, nec ultricies nisl nisl sit amet nisl. Sed euismod, nisl vitae ultricies ultricies, nunc nisl ultricies nisl, nec ultricies nisl nisl sit amet nisl.",
-    presenter: "Prof. Dr. Maurício Moreira e Silva Bernardes - UFRGS",
+    presenter: " Prof. Dr. Fabiano Correa - USP",
     link: "",
   },
 ];

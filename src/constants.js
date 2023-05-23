@@ -217,6 +217,7 @@ export const dayData = {
       {
         name: "Prof.ª Drª. Regina Coeli Ruschel(UNICAMP)",
         photo: Regina,
+        description:" É Engenheira Civil, Mestre em Mecânica do Solos, Doutora em Engenharia Elétrica e Livre docente em Projeto Auxiliado por Computador. É Pesquisadora e Professora Colaboradora na Universidade Estadual de Campinas. Atua ativamente junto à ABNT na CCE134 e no BIM Fórum Brasil. Desenvolve pesquisas em Modelagem da Informação da Construção. Foi pioneira na introdução do BIM no ensino de graduação no Brasil."
       },
       {
         name: "André Quinderé - CEO AVAL Engenharia (Agilean)",
