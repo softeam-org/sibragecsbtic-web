@@ -42,15 +42,19 @@ function Desafio() {
                     <br />
 
                     <p>
-                        A submissão deverá ser realizada exclusivamente por e-mail:  
+                        A submissão deverá ser realizada exclusivamente por e-mail.
                     
                     </p>
-                    <a
-                        href="https://evento.ufal.br/sibragec2021/submissao/desafio-1"
-                        className="text-orange-500 text-underline break-words"
-                    >
-                        https://evento.ufal.br/sibragec2021/submissao/desafio-1
-                    </a>
+                    <div className='flex justify-center mt-8'>
+                        <a
+                            href="https://evento.ufal.br/sibragec2021/submissao/desafio-1"
+                            target='_blank'
+                        >
+                            <button className="bg-orange-500 border-0 text-white font-bold text-md shadow-md hover:shadow-lg rounded-md hover:bg-orange-400">
+                                Veja como foi a edição anterior
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </Container>
