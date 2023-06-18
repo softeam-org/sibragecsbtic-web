@@ -594,30 +594,30 @@ export const prices = {
     {
       title: "Profissional",
       price: {
-        antac: ["R$ 650,00", "R$ 750,00", "R$ 900,00"],
-        nonAntac: ["R$ 750,00", "R$ 850,00", "R$ 1000,00"],
+        antac: ["R$ 650,02", "R$ 750,02", "R$ 900,02"],
+        nonAntac: ["R$ 750,02", "R$ 850,02", "R$ 1000,02"],
       },
     },
     {
       title: "Estudante de Pós-graduação",
       price: {
-        antac: ["R$ 450,00", "R$ 550,00", "R$ 650,00"],
-        nonAntac: ["R$ 600,00", "R$ 700,00", "R$ 800,00"],
+        antac: ["R$ 450,02", "R$ 550,02", "R$ 650,02"],
+        nonAntac: ["R$ 600,02", "R$ 700,02", "R$ 800,02"],
       },
     },
     {
       title: "Est. de Graduação (Autor)",
       price: {
-        antac: ["R$ 350,00", "R$ 400,00", "R$ 450,00"],
-        nonAntac: ["R$ 450,00", "R$ 500,00", "R$ 550,00"],
+        antac: ["R$ 350,02", "R$ 400,02", "R$ 450,02"],
+        nonAntac: ["R$ 450,02", "R$ 500,02", "R$ 550,02"],
       },
       
     },
     {
       title: "Est. de Graduação (Ouvinte)",
       price: {
-        antac: ["R$ 260,00", "R$ 310,00", "R$ 360,00"],
-        nonAntac: ["R$ 320,00", "R$ 360,00", "R$ 410,00"],
+        antac: ["R$ 260,02", "R$ 310,02", "R$ 360,02"],
+        nonAntac: ["R$ 320,02", "R$ 360,02", "R$ 410,02"],
       },
     },
   ],
@@ -626,22 +626,22 @@ export const prices = {
     {
       title: "Profissional",
       price: {
-        antac: ["R$ 300,00", "R$ 350,00", "R$ 400,00"],
-        nonAntac: ["R$ 350,00", "R$ 400,00", "R$ 450,00"],
+        antac: ["R$ 300,02", "R$ 350,02", "R$ 400,02"],
+        nonAntac: ["R$ 350,02", "R$ 400,02", "R$ 450,02"],
       },
     },
     {
       title: "Estudante de Pós-graduação",
       price: {
-        antac: ["R$ 230,00", "R$ 280,00", "R$ 330,00"],
-        nonAntac: ["R$ 290,00", "R$ 340,00", "R$ 390,00"],
+        antac: ["R$ 230,02", "R$ 280,02", "R$ 330,02"],
+        nonAntac: ["R$ 290,02", "R$ 340,02", "R$ 390,02"],
       },
     },
     {
       title: "Estudante de Graduação",
       price: {
-        antac: ["R$ 150,00", "R$ 200,00", "R$ 250,00"],
-        nonAntac: ["R$ 200,00", "R$ 250,00", "R$ 300,00"],
+        antac: ["R$ 150,02", "R$ 200,02", "R$ 250,02"],
+        nonAntac: ["R$ 200,02", "R$ 250,02", "R$ 300,02"],
       },
       
     },
@@ -652,22 +652,22 @@ export const prices = {
     {
       title: "Profissional",
       price: {
-        antac: ["R$ 150,00", "R$ 200,00", "R$ 300,00"],
-        nonAntac: ["R$ 250,00", "R$ 300,00", "R$ 400,00"],
+        antac: ["R$ 150,02", "R$ 200,02", "R$ 300,02"],
+        nonAntac: ["R$ 250,02", "R$ 300,02", "R$ 400,02"],
       },
     },
     {
       title: "Estudante de Pós-graduação",
       price: {
-        antac: ["R$ 100,00", "R$ 150,00", "R$ 200,00"],
-        nonAntac: ["R$ 160,00", "R$ 250,00", "R$ 300,00"],
+        antac: ["R$ 100,02", "R$ 150,02", "R$ 200,02"],
+        nonAntac: ["R$ 160,02", "R$ 250,02", "R$ 300,02"],
       },
     },
     {
       title: "Estudante de Graduação",
       price: {
-        antac: ["R$ 75,00", "R$ 100,00", "R$ 150,00"],
-        nonAntac: ["R$ 100,00", "R$ 150,00", "R$ 200,00"],
+        antac: ["R$ 75,02", "R$ 100,02", "R$ 150,02"],
+        nonAntac: ["R$ 100,02", "R$ 150,02", "R$ 200,02"],
       },
       
     },
