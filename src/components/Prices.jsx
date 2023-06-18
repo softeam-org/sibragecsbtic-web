@@ -89,7 +89,7 @@ function Prices() {
             <div className='table-row'>
               <div className='table-cell'></div>
               <div className='table-cell'></div>
-              <div className='table-cell text-center pb-4'>Até 15/07</div>
+              <div className='table-cell text-center pb-4'>Até 08/08</div>
               <div className='table-cell text-center pb-4'>Até 15/10</div>
               <div className='table-cell text-center pb-4'>No local</div>
             </div>
