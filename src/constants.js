@@ -1,5 +1,5 @@
 import Reymard from "./assets/images/reymard.png"
-//import Tatiana from "./assets/images/tatiana.jpeg"
+import Tatiana from "./assets/images/tatiana.jpeg"
 import Regina from "./assets/images/regina.png"
 import Herbert from "./assets/images/herbert.jpeg"
 import Eduardo from "./assets/images/Eduardo.png"
@@ -11,8 +11,19 @@ import Béda from "./assets/images/Béda.png"
 import Regina_Barkokebas from "./assets/images/Regina_Barkokebas.png"
 import Fabiano_Rogerio from "./assets/images/Fabiano_Rogerio.png"
 import Jose_Pinto from "./assets/images/José_Pinto.png"
-import André_Quinderé from "./assets/images/André_Quinderé.png"
+import Andre from "./assets/images/Andre.png"
 import Tatiana_Gondim from "./assets/images/Tatiana_Gondim.png"
+import Dayana from "./assets/images/Dayana.png"
+import Denis from "./assets/images/Denis.png"
+import Marcelo from "./assets/images/marcelo.jpg"
+import Heineck from "./assets/images/Heineck.png"
+import Pamella from "./assets/images/Pamella.png"
+import Amelia from "./assets/images/Amelia.png"
+import Debora from "./assets/images/debora.jpg"
+import Maria_Luiza from "./assets/images/Maria_Luiza.png"
+import Bernardo from "./assets/images/Bernardo.png"
+import Fabricio from "./assets/images/Fabricio.png"
+
 import sem_foto from "./assets/images/sem_foto.jpg"
 
 
@@ -93,11 +104,11 @@ export const dayData = {
         title: "PALESTRA 1: Advances of Industry 4.0 and 5.0: modular and offsite construction, digitalized manufacturing process and automation.",
         speakers: [
           {
-            name: "Prof. PhD. Mohamed Al-Hussein ( University of Alberta)",
+            name: "Palestrante: Prof. PhD. Mohamed Al-Hussein (University of Alberta)",
             photo: Mohamed,
           },
           {
-            name: "Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
+            name: "Moderador: Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
             photo: Béda,
           }
         ],
@@ -109,27 +120,23 @@ export const dayData = {
       },
       {
         time: "10h:45 - 12h:15",
-        title: "MESA REDONDA 1: Gêmeos Digitais",
+        title: "MESA REDONDA 1: Digitalização no canteiro de obras",
         speakers: [
           {
-            name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
+            name: "Palestrante: Prof. Dr. Fabiano Correa (USP)",
             photo: Reymard,
           },
           {
-            name: "Prof. Dr. Fabiano Correa (USP)",
+            name: "Palestrante: Profª. Drª. Dayana Bastos Costa (UFBA)",
             photo: Fabiano_Rogerio,
             description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
           },
           {
-            name: "Profª. Drª. Dayana Bastos Costa (UFBA)",
+            name: "Palestrante: Eng. André Quinderé - CEO AVAL Engenharia (Agilean)",
             photo: sem_foto,
           },
           {
-            name: "Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
-            photo: Béda,
-          },
-          {
-            name: "Prof. Dr. Eduardo Toledo Santos (USP)",
+            name: "Moderador: Prof. Dr. Eduardo Toledo Santos (USP)",
             photo: Eduardo,
           }
         ]
@@ -144,11 +151,11 @@ export const dayData = {
         title: "PALESTRA 2: Robótica no canteiro de obras",
         speakers: [
           {
-            name: "Prof. PhD. José Pinto Duarte  (Penn State University)",
+            name: "Palestrante: Prof. PhD. José Pinto Duarte  (Penn State University)",
             photo: Jose_Pinto,
           },
           {
-            name: "Prof.ª Drª. Regina Coeli Ruschel(UNICAMP)",
+            name: "Moderador: Prof.ª Drª. Regina Coeli Ruschel(UNICAMP)",
             photo: Regina,
           },
         ]
@@ -160,14 +167,14 @@ export const dayData = {
       },
       {
         time: "15h:45 - 17h:15",
-        title: "MESA REDONDA 2: Soluções digitais em relação a canteiros inteligentes",
+        title: "PALESTRA 3: Industry 5.0: Construction production control",
         speakers: [
           {
-            name: "André Quinderé - CEO AVAL Engenharia (Agilean): Soluções inteligentes para planejamento e controle de obras",
-            photo: André_Quinderé,
+            name: "Palestrante: Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
+            photo: Béda,
           },
           {
-            name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
+            name: "Moderador: Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
             photo: Reymard,
           },
         ]
@@ -202,7 +209,8 @@ export const dayData = {
       },
       {
         name: "Profª. Drª. Dayana Bastos Costa (UFBA)",
-        photo: sem_foto,
+        photo: Dayana,
+        description: "Atualmente faz parte do Comitê de Assessoramento do Capes Print (UFBA) e Câmera de Engenharias FAPESB. É coordenadora do Grupo de Trabalho de Trends and KPI e membro do comitê executivo do GLF CEM - Global Leadership Forum in Construction Engineering and Management, e Deputy Editor da Engineering Construction Architectural Management - ECAM. Atua como Adhoc do CNPq, Capes e FAPs. Tem experiência na área de Construção Civil, com ênfase em gestão e tecnologia das construções, atuando nos seguintes temas: gestão de obras, incluindo medição de desempenho, planejamento e controle de obra, gestão da qualidade, gestão sustentável em canteiros, Building Information Modelling e Veículos Aéreos Não Tripulados."
       },
       {
         name: "Prof. Dr. Eduardo Toledo Santos (USP)",
@@ -221,7 +229,7 @@ export const dayData = {
       },
       {
         name: "André Quinderé - CEO AVAL Engenharia (Agilean)",
-        photo: André_Quinderé,
+        photo: Andre,
         description:" CEO da Aval Tecnologia, engenheiro civil com pós-graduação em gestão de projetos e experiência em implantação de novas tecnologias e práticas do Lean Construction em diversos tipos de obra, totalizando mais de 3.000.000,00 de m² de área construída impactados. É um dos responsáveis pelo desenvolvimento do Agilean, solução pioneira em levar o Lean Construction de forma digital ao canteiro de obras e vencedora do Prêmio CBIC de Inovação e Sustentabilidade 2020."
       },
 
@@ -240,8 +248,8 @@ export const dayData = {
             description:"É Engenheira Civil, Mestre em Mecânica do Solos, Doutora em Engenharia Elétrica e Livre docente em Projeto Auxiliado por Computador. É Pesquisadora e Professora Colaboradora na Universidade Estadual de Campinas. Atua ativamente junto à ABNT na CCE134 e no BIM Fórum Brasil. Desenvolve pesquisas em Modelagem da Informação da Construção. Foi pioneira na introdução do BIM no ensino de graduação no Brasil."
           },
           {
-            name: "Prof. Dr. Ariosvaldo Denis Granja (Unicamp)",
-            photo: sem_foto,
+            name: "Prof. Dr. Ariovaldo Denis Granja (Unicamp)",
+            photo: Denis,
           },
           {
             name: "Prof. Dr. Fabiano Rogério Corrêa (USP)",
@@ -249,6 +257,49 @@ export const dayData = {
             description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
           }
         ]
+      },
+      {
+        time: "08h:30 - 10h:15",
+        title: "WORKSHOP GAMES FOR LEAN",
+        speakers: [
+          {
+            name: "jogo 01: Mashimelo game – Doutoranda Maria Luiza Abath Escorel Borges (UNICAMP) e Doutorando Fabricio Vargas (UFRGS)",
+            photo: Maria_Luiza,
+          },
+          {
+            photo: Fabricio,
+          },
+          {
+            name: "jogo 02: Climb Engenharia – Dr. Bernardo Martim Beck da Silva Etges (Climb)",
+            photo: Bernardo,
+          },
+          {
+            name: "jogo 03: Lean experience - Eng. André Quinderé - CEO AVAL Engenharia (Agilean)",
+            photo: Andre,
+          },
+          {
+            name: "jogo 04: LeanBuilder: explorando Lean com jogo de montar – Profa. Dra. Débora de Gois Santos (UFS), Mestranda Amélia Gomes Nunes (UFS) e Mestranda Pamella Menezes Teodósio (UFS)",
+            photo: Debora,
+          },
+          {
+            photo: Amelia,
+          },
+          {
+            photo: Pamella,
+          },
+          {
+            name: "Mediadores: Profa. Dra. Tatiana Gondim do Amaral (UFG) e Prof. PhD. Luiz Fernando Mahlmann Heineck (UEC)",
+            photo: Tatiana,
+          },
+          {
+            photo: sem_foto,
+          }
+        ]
+      },
+      {
+        time: "08h:30 - 10h:15",
+        title: "VISITA TÉCNICA",
+        speakers: []
       },
       {
         time: "10h:15 - 12h:15",
