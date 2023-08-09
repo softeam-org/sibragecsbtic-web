@@ -346,8 +346,9 @@ export const dayData = {
         description:"É Engenheira Civil, Mestre em Mecânica do Solos, Doutora em Engenharia Elétrica e Livre docente em Projeto Auxiliado por Computador. É Pesquisadora e Professora Colaboradora na Universidade Estadual de Campinas. Atua ativamente junto à ABNT na CCE134 e no BIM Fórum Brasil. Desenvolve pesquisas em Modelagem da Informação da Construção. Foi pioneira na introdução do BIM no ensino de graduação no Brasil."
       },
       {
-        name: "Prof. Dr. Ariosvaldo Denis Granja (Unicamp)",
-        photo: sem_foto,
+        name: "Prof. Dr. Ariovaldo Denis Granja (UNICAMP)",
+        photo: Denis,
+        description: "Ingressou no nível de Professor Doutor na Universidade Estadual de Campinas (Unicamp) em 2003 e é Coordenador do Laboratório de Gerenciamento na Construção (LAGERCON). É docente permanente do Curso de Pós-Graduação em Engenharia Civil da Unicamp. Obteve Graduação em Engenharia Civil pela Pontifícia Universidade Católica de Campinas (1986), Master of Engineering pela Cologne University Of Applied Sciences, Germany (1995), Doutorado em Engenharia Civil pela Universidade Estadual de Campinas - Unicamp (2002), e Livre docência pela Universidade Estadual de Campinas - Unicamp (2016), passando ao nível de Professor Associado. De 2010 a 2014 exerceu o cargo de Chefe do Departamento de Arquitetura e Construção da Faculdade de Engenharia Civil, Arquitetura e Urbanismo da Unicamp (FECFAU/Unicamp)). Foi Coordenador do Grupo de Trabalho em Gestão e Economia na Construção, da Associação Nacional de Tecnologia do Ambiente Construído (ANTAC) de 2009 a 2011.Foi Coordenador de Pesquisa da FECFAU/Unicamp de 2017 a 2020. Desde 2022 é Editor para a área de Gestão e Economia na Construção da Revista Ambiente Construído, da Associação Nacional de Tecnologia do Ambiente Construído (ANTAC). Foi professor visitante da University of Huddersfield (UK), no Innovative Design Lab (IDL) entre março e abril de 2023 (Erasmus+ Programme). Tem atuado como Assessor Científico de agências, tais como CAPES, CNPq, Fapesp e também como Assessor de periódicos científicos da área, entre eles o Journal of Construction Engineering and Management; Construction Management and Economics; Engineering, Construction and Architectural Management; Journal of Engineering, Project and Production Management; Smart and Sustainable Built Environment; Revista Ambiente Construído; Gestão & Tecnologia de Projetos, Pesquisa em Arquitetura e Construção, entre outros. Antes do ingresso na Academia, acumulou extensa experiência profissional na indústria da construção civil, contemplando gestão da produção de edificações diversas, planejamento e controle de empreendimentos, gestão da produção e estudos sobre a qualidade de investimentos e exposição aos riscos de empreendimentos do setor. Seus interesses atuais de pesquisa dentro do campo de conhecimento sobre gerenciamento e economia na construção civil incluem: Gerenciamento de custos e de riscos; Gerenciamento e melhoria de processos construtivos; Gerenciamento de requisitos e desenvolvimento de produto; Planejamento e controle da produção; Gestão da produção. As temáticas atuais de pesquisa incluem: Lean Thinking/Lean Construction, Custeio-meta (target costing), IPD (integrated project delivery) e TVD (target value design); Métodos inovadores para criação, captura de percepção e entrega do valor a clientes e usuários; Estratégias para a redução e realocação de custos; Integração e colaboração entre stakeholders em cadeias de suprimentos; Integração de sistemas de planejamento e controle da produção; Valoração da flexibilidade em condições de incerteza com uso da teoria de opções reais e Sinergias entre living labs e lean em habitação social."
       },
       {
         name: "Prof. Dr. Fabiano Rogério Corrêa (USP)",
@@ -355,6 +356,51 @@ export const dayData = {
         description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
 
       },
+      {
+        name: "Doutoranda Maria Luiza Abath Escorel Borges (UNICAMP)",
+        photo: Maria_Luiza,
+        description: "É doutoranda em Engenharia Civil com ênfase em Gerenciamento e Tecnologia na Construção pelo Programa de Pós-Graduação em Engenharia Civil da Universidade Estadual de Campinas (UNICAMP), com período sanduíche na University of Huddersfield (Inglaterra, Reino Unido). Tem mestrado em Engenharia Civil com ênfase em Processos Construtivos pelo Programa de Pós-Graduação em Engenharia Civil da Universidade Federal do Rio Grande do Norte (UFRN). Tem MBA em Plataforma BIM pelo Instituto Brasileiro de Educação Continuada (INBEC). Sua graduação é em Engenharia Civil pelo Centro Universitário de João Pessoa (UNIPÊ). Atuou na Atlantis Construtora, onde possuía funções de fiscalização e acompanhamento de serviços, controle de pagamentos e implementação da filosofia Lean nos processos construtivos. Atualmente faz parte do Laboratório de Gerenciamento da Construção (LAGERCON). Sua principal área de pesquisa é Gestão da construção, com foco em tecnologia, BIM, Lean Construction e o uso de algoritmos computacionais."
+      },
+      {
+        name: "Doutorando Fabrício Berger de Vargas (UFRGS)",
+        photo: Fabricio,
+        description: "É doutorando na área de Gestão da Construção na UFRGS. Tem experiência em trabalho em equipe nos EUA, Brasil, Chile e Moçambique. Atuou principalmente nas áreas de projeto, coordenação, planejamento e controle da produção, e supervisão de obras. Atualmente é consultor Lean na LD Consulting, focado na implementação e transformação Lean no ambiente de construção no Brasil e Chile e é Professor em Cursos de Especialização em Engenharia Civil. Experiência e Áreas de Conhecimento: Gerenciamento da Construção com foco na Construção Enxuta, Planejamento e Controle da Produção & Logística, Planejamento e Controle da Produção baseado em localização & Linha de Balanço, Building Information Modeling (BIM) como suporte à tomada de decisões na indústria da Arquitetura, Engenharia e Construção - AEC (Fases de projeto, planejamento, logística e custos - BIM 4D e 5D), Mapeamento e otimização de processos e fluxos de trabalho, Controle de Qualidade & Melhoria Contínua, Gestão Visual, Transparência da informação e Design Thinking."
+      },
+      {
+        name: "Dr. Bernardo Martim Beck da Silva Etges (Climb)",
+        photo: Bernardo,
+        description: "É Engenheiro Civil formado pela UFRGS em 2009 e mestre em Engenharia de Produção pelo PPGEP-UFRGS em 2012. Tem doutorado pelo PPGCI-UFRGS com ênfase em Gestão e Economia da Construção. Desde 2013, atuo como Consultor em implementação de programas de aumento de produtividade e com foco em promover a Excelência Operacional, melhorias operacionais e processos de inovação nas empresas construtoras. Atuação em mais de 30 projetos na América Latina e África."
+      },
+      {
+        name: "André Quinderé (Agilean)",
+        photo: Andre,
+        description: "É CEO da Aval Tecnologia, engenheiro civil com pós-graduação em gestão de projetos e tem experiência em implantação de novas tecnologias e práticas do Lean Construction em diversos tipos de obra, totalizando mais de 3.000.000,00 de m² de área construída impactados. É um dos responsáveis pelo desenvolvimento do Agilean, solução pioneira em levar o Lean Construction de forma digital ao canteiro de obras e vencedora do Prêmio CBIC de Inovação e Sustentabilidade 2020."
+      },
+      {
+        name: "Profa. Dra. Débora de Gois Santos (UFS)",
+        photo: Debora,
+        description: "Possui graduação em Engenharia Civil pela Universidade Federal de Sergipe (1998), mestrado em Engenharia Civil pela Universidade Federal de Santa Catarina (2000) e doutorado em Engenharia de Produção pela Universidade Federal de Santa Catarina (2004). Atualmente é professora Associada 4 do Departamento de Engenharia Civil da Universidade Federal de Sergipe e revisora das Revistas Ambiente Construído (1678-8621), Principia, Scientia Plena, Conexões: Ciência e Tecnologia, Desenvolvimento e Meio Ambiente (1518-952X), e Produção Online (1676-1901). Foi Chefe de Departamento e Coordenadora de curso de Engenharia Civil de 12/2009 a 12/2011. Foi Diretora de Extensão de 08/2013 a 06/2014. Foi Coordenadora do Programa de Pós-Graduação em Engenharia Civil da UFS no período de 01/2016 a 01/2018. Foi Coordenadora do GT de Gestão e Economia da Construção da ANTAC (Associação Nacional de Tecnologia do Ambiente Construído) (2019-2021). Foi Diretora de Relações Interinstitucionais da ANTAC (2020-2022). Atualmente é Coordenadora do Laboratório de Construção Civil (LACC) da UFS, Membro da Comissão de Estudos para a norma de Garantia de Edificações da ABNT (CE 02.140.003) e Membro da Comissão de Materiais da Aseopp - Grupo de Estudos de Normas Técnicas. Tem experiência na área de Engenharia Civil, com ênfase em Gestão da construção, atuando principalmente nos seguintes temas: construção enxuta, norma de desempenho de edificações e gerenciamento de resíduos."
+      },
+      {
+        name: "Mestranda Amélia Gomes Nunes (UFS)",
+        photo: Amelia,
+        description: "Atualmente, é mestranda de Engenharia civil pelo Programa de Pós-graduação em Engenharia Civil (PROEC), da Universidade Federal de Sergipe (UFS), na linha de pesquisa Gestão, Materiais e Sustentabilidade do Ambiente Construído. Tem graduação em Engenharia civil pela Universidade Federal de Sergipe (2017-2023). Técnica em edificações pelo Instituto Federal de Sergipe - Campus Aracaju (2013-2017). Participou como Bolsista do Programa Institucional de Bolsas de Iniciação Científica (PIBIC) pela Universidade Federal de Sergipe (2020-2022). Participa de projetos de pesquisa nas áreas de Construção Civil, Processos Construtivos (2020-2022). Desenvolve pesquisa na linha de pesquisa Gerenciamento de processos de produção, pelo grupo de Pesquisa Construção Civil da Universidade Federal de Sergipe."
+      },
+      {
+        name: "Mestranda Pamella Menezes Teodósio (UFS)",
+        photo: Pamella,
+        description: "É técnica em Edificações, 2012-2016, pelo Instituto Federal de Sergipe - Campus Lagarto. Graduada em Engenharia Civil, 2016-2021, pela Universidade Federal de Sergipe - Campus São Cristóvão. Participa de projetos de pesquisas nas áreas de hidrologia, desenvolvimento sustentável e materiais de construção, 2014-2016, 2015-2016 e 2018-2019, respectivamente. Atualmente, é mestranda de Engenharia civil pelo Programa de Pós-graduação em Engenharia Civil (PROEC), da Universidade Federal de Sergipe (UFS), na linha de pesquisa Gestão, Materiais e Sustentabilidade do Ambiente Construído."
+      },
+      {
+        name: "Profa. Dra. Tatiana Gondim do Amaral (UFG)",
+        photo: Tatiana,
+        description: "É mestre e doutora em Engenharia Civil pela Universidade Federal de Santa Catarina. É professora da Escola de Engenharia Civil da Universidade Federal de Goiás e Subcoordenadora do Curso de Especialização em Construção Civil. Tem experiência na área de Engenharia Civil e Engenharia de Produção, atuando principalmente nos seguintes temas: gestão da produção, gestão de sistemas de produção, produção enxuta, gestão da segurança do trabalho, medição de desempenho de empresas e empreendimentos de construção e gestão do processo de desenvolvimento do produto. Atua no mestrado profissional em Administração Pública (PROFIAP) e no Programa de Pós Graduação em Engenharia de Produção (PPGEP)."
+      },
+      {
+        name: "Prof. PhD. Luiz Fernando Mahlmann Heineck (UEC)",
+        photo: Heineck,
+        description: "Possui graduação em Administração de Empresas e Engenharia Civil pela Universidade Federal do Rio Grande do Sul, com titulação respectivamente em 1977 e 1976. Participou da 1ª turma de Mestrado do Programa de Pós-graduação em Engenharia Civil, opção Construção (NORIE) da Universidade Federal do Rio Grande do Sul em 1978, quando recebeu sua primeira bolsa de pesquisa pelo CNPq, vínculo que mantém com esta instituição há 37 anos, hoje na qualidade de pesquisador I - C. É Ph.D. (Doctor of Philosophy) pela Leeds University, Inglaterra, com tese na área de Administração da Construção (Construction Management) publicada em 1983. Fez pós-doutorado na área de Economia da Construção e Habitação pela Universidade de Utrecht, Holanda em 1999. Participou das atividades de ensino e pesquisa nas áreas de Engenharia Civil e Gestão da Produção (Engenharia de Produção) nas Universidades Federais do Rio Grande do Sul (1983-1988), Universidade Federal de Santa Catarina (1989 - 2006), admitido por concurso como professor titular, e Universidade Federal do Ceará (2006 - 2013), onde se aposentou nesta qualidade. É professor adjunto do CESA, Centro de Estudos Sociais Aplicados da Universidade Estadual do Ceará, até a presente data. Atua nas áreas de tecnologia da construção civil e sua inovação, mercado imobiliário, gestão da construção, produtividade, planejamento e controle de obras, economia da construção e habitação. Na sua carreira acadêmica orientou 63 alunos de mestrado com dissertações concluídas e 15 alunos de doutorado com teses concluídas. Dos mestrandos 38 continuaram seus estudos a nível de doutorado. Do total de orientandos, 50 são professores universitários."
+      }
     ]
   },
   3: {
@@ -365,11 +411,11 @@ export const dayData = {
         title: "PALESTRA 3: Análises ergonômicas baseadas em realidade virtual (RV) para reduzir lesões ocupacionais",
         speakers: [
           {
-            name: "Profª. PhD. Regina Barkokebas (Pontificia Universidad Católica de Chile)",
+            name: "Palestrante: Profª. PhD. Regina Barkokebas (Pontificia Universidad Católica de Chile)",
             photo: Regina_Barkokebas,
           },
           {
-            name: "Prof. Drª. Tatiana Gondim do Amaral (UFG)",
+            name: "Moderadora: Profa. Drª. Tatiana Gondim do Amaral (UFG)",
             photo: Tatiana_Gondim,
           }
         ]
@@ -382,6 +428,7 @@ export const dayData = {
       {
         time: "10h:15 - 12h:00",
         title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
+        description: "Apresentação de artigos aceitos pelo Comitê Científico",
         speakers: []
       },
       {
@@ -397,6 +444,7 @@ export const dayData = {
       {
         time: "14h:00 - 15h:15",
         title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
+        description: "Apresentação de artigos aceitos para a Edição especial da Revista Ambiente Construído.",
         speakers: []
       },
       {
@@ -418,6 +466,10 @@ export const dayData = {
           {
             name: "Prof. Me. Herbert Melo Cruz (IFS)",
             photo: Herbert,
+          },
+          {
+            name: "Profa. Dra. Débora de Gois Santos (UFS)",
+            photo: Debora,
           }
         ]
       },
@@ -454,19 +506,29 @@ export const dayData = {
       {
         name: "Profª. Drª. Clarissa Notariano Biotto (UFC)",
         photo: Clarissa,
+        description: "Clarissa é professora adjunta do Departamento de Arquitetura e Urbanismo e Design (DAUD) do Centro de Tecnologia da Universidade Federal do Ceará (UFC). É co-fundadora da rede de pesquisa Young Researchers for Architecture, Engineering and Construction Industry (YR4AECI). Foi pesquisadora de pós-doutorado sobre os temas Lean Design Management e BIM na Universidade Federal de São Carlos (UFSCar) pelo Programa de Pós-graduação em Engenharia Civil (PPGECiv), e pelo NUPRE (Núcleo de Pesquisa em Racionalização e Desempenho de Edificações). Na mesma instituição, Clarissa foi professora substituta do Departamento de Engenharia Civil (DECiv) entre agosto de 2019 a agosto de 2021. Clarissa desenvolveu sua tese de doutorado na Universidade de Huddersfield, Reino Unido, com bolsa de doutorado pleno do CNPq pelo Programa Ciência sem Fronteiras (2019). Tem mestrado em Gestão e Economia da Construção pelo Núcleo Orientado para a Inovação da Edificação (NORIE) do Programa de Pós Graduação em Engenharia Civil da UFRGS, nota 7 CAPES (2012). Desenvolveu dissertação aplicando BIM 4D na gestão da produção. Possui graduação em Arquitetura e Urbanismo pela Universidade de São Paulo (2009). Sua área de interesse é a integração de gestão do processo de projeto, produção off-site e construção utilizando o Lean Construction como filosofia de produção, bem como ferramentas location-based schedules."
       },
       {
         name: "Prof. Me. Emerson Meireles de Carvalho (UFS)",
         photo: Emerson,
+        description: "Possui graduação em Engenharia Civil pela Universidade Federal de Sergipe (1988), curso de especialização em Avaliações e Perícias de Engenharia, e Mestrado em Desenvolvimento e Meio Ambiente pela Universidade Federal de Sergipe - Rede RODEMA. Atualmente, é professor assistente da Universidade Federal de Sergipe, Departamento de Engenharia Civil, engenheiro civil - M&C Engenharia Ltda. Tem experiência na área de Engenharia Civil, com ênfase em edificações, atuando principalmente nos seguintes temas: construção civil, avaliações e perícias, qualidade, meio ambiente e gestão de resíduos de construção."
       },
       {
         name: "Prof. Ma. Caroline Almeida Aragão Cabral (CBIM-SE)",
         photo: Caroline,
+        description: "Arquiteta e mestre em Arquitetura pela Universidade de Coimbra, Portugal (2012). Presidente da Câmera Brasileira de BIM (CBIM-SE). "
       },
       {
         name: "Prof. Me. Herbert Melo Cruz (IFS)",
         photo: Herbert,
+        description: "Possui graduação em Engenharia Civil pela Universidade Federal de Sergipe (UFS), especialização em Educação Empreendedora pela PUC-Rio e mestrado em Engenharia Civil pela UFS. Tem como área de atuação e desenvolvimento de pesquisas a Gestão e Planejamento da Produção. É integrante do grupo de pesquisa Construção Civil-UFS, em que tem desenvolvido pesquisas na área de Gestão da Construção. É membro associado do Grupo de Trabalho de Gestão e Economia da Construção da ANTAC (Associação Nacional de Tecnologia do Ambiente Construído). Foi coordenador e professor do curso de Engenharia Civil do Centro Universitário Ages (BA), participando de processos de reconhecimento e aprovação de cursos de Engenharia Civil e Arquitetura e Urbanismo. Foi professor efetivo do Instituto Federal da Bahia do curso de Arquitetura e Urbanismo. Atualmente é professor, membro do NDE e colegiado do curso de Engenharia Civil do Instituto Federal de Sergipe, ministrando as disciplinas da área de Gestão e Construção Civil."
       },
+      {
+        name: "Profa. Dra. Débora de Gois Santos (UFS)",
+        photo: Debora,
+        description: "Possui graduação em Engenharia Civil pela Universidade Federal de Sergipe (1998), mestrado em Engenharia Civil pela Universidade Federal de Santa Catarina (2000) e doutorado em Engenharia de Produção pela Universidade Federal de Santa Catarina (2004). Atualmente é professora Associada 4 do Departamento de Engenharia Civil da Universidade Federal de Sergipe e revisora das Revistas Ambiente Construído (1678-8621), Principia, Scientia Plena, Conexões: Ciência e Tecnologia, Desenvolvimento e Meio Ambiente (1518-952X), e Produção Online (1676-1901). Foi Chefe de Departamento e Coordenadora de curso de Engenharia Civil de 12/2009 a 12/2011. Foi Diretora de Extensão de 08/2013 a 06/2014. Foi Coordenadora do Programa de Pós-Graduação em Engenharia Civil da UFS no período de 01/2016 a 01/2018. Foi Coordenadora do GT de Gestão e Economia da Construção da ANTAC (Associação Nacional de Tecnologia do Ambiente Construído) (2019-2021). Foi Diretora de Relações Interinstitucionais da ANTAC (2020-2022). Atualmente é Coordenadora do Laboratório de Construção Civil (LACC) da UFS, Membro da Comissão de Estudos para a norma de Garantia de Edificações da ABNT (CE 02.140.003) e Membro da Comissão de Materiais da Aseopp - Grupo de Estudos de Normas Técnicas. Tem experiência na área de Engenharia Civil, com ênfase em Gestão da construção, atuando principalmente nos seguintes temas: construção enxuta, norma de desempenho de edificações e gerenciamento de resíduos."
+      }
+      
     ]
   }
 }
