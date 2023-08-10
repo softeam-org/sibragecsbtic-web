@@ -34,11 +34,22 @@ function Local() {
 
             <div className="flex gap-4 flex-col lg:max-w-[550px]">
               <p className='text-lg font-medium'>
-                O SIBRAGEC+SBTIC 2023 ocorrerá no HOTEL SESC ATALAIA em
-                ARACAJU-SE, situado de frente para o mar da mais famosa praia de
-                Aracaju - a Praia de Atalaia - e contando com toda beleza e
-                comodidade turística da maior e mais bela orla do Brasil, a orla
-                de Atalaia.
+                Sobre o Local do evento
+                O SIBRAGEC+SBTIC 2023 ocorrerá no HOTEL SESC ATALAIA em ARACAJU-SE, situado de frente para o mar da mais famosa praia de Aracaju - a Praia de Atalaia - e contando com toda beleza e comodidade turística da maior e mais bela orla do Brasil, a orla de Atalaia.
+
+                Os participantes do evento podem se hospedar também no Celi Hotel Aracaju&nbsp; 
+                (<a href="https://www.celihotel.com.br" 
+                  target="_blank"
+                  className="text-orange-500 text-underline"
+                >
+                  https://www.celihotel.com.br
+                </a>) ou no Ibis Budget Aracaju&nbsp;
+                (<a href="https://all.accor.com/hotel/8676/index.pt-br.shtml" 
+                  target="_blank"
+                  className="text-orange-500 text-underline"
+                >
+                  https://all.accor.com/hotel/8676/index.pt-br.shtml
+                </a>), que ficam próximo ao local do evento.
               </p>
               <div className='flex flex-col items-center gap-4 py-4'>
                 <p className='text-lg font-medium'>
@@ -55,13 +66,13 @@ function Local() {
             </div>
 
             <iframe
-                width="560"
-                height="315"
-                src='https://www.youtube.com/embed/EVJCEMDTMrA'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-              ></iframe>
-            
+              width="560"
+              height="315"
+              src='https://www.youtube.com/embed/EVJCEMDTMrA'
+              title='YouTube video player'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            ></iframe>
+
           </div>
         </div>
 

@@ -607,7 +607,7 @@ export const calendarData = [
     event: "Decisão final dos artigos"
   },
   {
-    date: "até 17/07/2023",
+    date: "até 08/08/2023",
     event: "Inscrição dos autores de artigos"
   },
 ]
