@@ -23,6 +23,7 @@ import Debora from "./assets/images/debora.jpg"
 import Maria_Luiza from "./assets/images/Maria_Luiza.png"
 import Bernardo from "./assets/images/Bernardo.png"
 import Fabricio from "./assets/images/Fabricio.png"
+import Marcus from "./assets/images/Marcus.png"
 
 import sem_foto from "./assets/images/sem_foto.jpg"
 
@@ -243,7 +244,7 @@ export const dayData = {
         title: "SUMMER SCHOOL",
         speakers: [
           {
-            name: "Prof.ª Dr.ª Regina Coeli Ruschel (Unicamp))",
+            name: "Prof.ª Dr.ª Regina Coeli Ruschel (Unicamp)",
             photo: Regina,
             description:"É Engenheira Civil, Mestre em Mecânica do Solos, Doutora em Engenharia Elétrica e Livre docente em Projeto Auxiliado por Computador. É Pesquisadora e Professora Colaboradora na Universidade Estadual de Campinas. Atua ativamente junto à ABNT na CCE134 e no BIM Fórum Brasil. Desenvolve pesquisas em Modelagem da Informação da Construção. Foi pioneira na introdução do BIM no ensino de graduação no Brasil."
           },
@@ -270,8 +271,11 @@ export const dayData = {
             photo: Fabricio,
           },
           {
-            name: "jogo 02: Climb Engenharia – Dr. Bernardo Martim Beck da Silva Etges (Climb)",
+            name: "Lego-Takt-Planning em obras de energias renováveis – Dr. Bernardo Martim Beck da Silva Etges e Marcus Fireman (Climb)",
             photo: Bernardo,
+          },
+          {
+            photo: Marcus,
           },
           {
             name: "jogo 03: Lean experience - Eng. André Quinderé - CEO AVAL Engenharia (Agilean)",
@@ -303,7 +307,8 @@ export const dayData = {
       },
       {
         time: "10h:15 - 12h:15",
-        title: "INTERVALO",
+        title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
+        description: "Apresentação de artigos aceitos pelo Comitê Científico",
         speakers: []
       },
       {
@@ -369,12 +374,17 @@ export const dayData = {
       {
         name: "Dr. Bernardo Martim Beck da Silva Etges (Climb)",
         photo: Bernardo,
-        description: "É Engenheiro Civil formado pela UFRGS em 2009 e mestre em Engenharia de Produção pelo PPGEP-UFRGS em 2012. Tem doutorado pelo PPGCI-UFRGS com ênfase em Gestão e Economia da Construção. Desde 2013, atuo como Consultor em implementação de programas de aumento de produtividade e com foco em promover a Excelência Operacional, melhorias operacionais e processos de inovação nas empresas construtoras. Atuação em mais de 30 projetos na América Latina e África."
+        description: "É Engenheiro Civil formado pela UFRGS em 2009 e mestre em Engenharia de Produção pelo PPGEP-UFRGS em 2012. Tem doutorado pelo PPGCI-UFRGS com ênfase em Gestão e Economia da Construção. Desde 2013, atuou como Consultor em implementação de programas de aumento de produtividade e com foco em promover a Excelência Operacional, melhorias operacionais e processos de inovação nas empresas construtoras. Atuação em mais de 30 projetos na América Latina e África."
       },
       {
         name: "André Quinderé (Agilean)",
         photo: Andre,
         description: "É CEO da Aval Tecnologia, engenheiro civil com pós-graduação em gestão de projetos e tem experiência em implantação de novas tecnologias e práticas do Lean Construction em diversos tipos de obra, totalizando mais de 3.000.000,00 de m² de área construída impactados. É um dos responsáveis pelo desenvolvimento do Agilean, solução pioneira em levar o Lean Construction de forma digital ao canteiro de obras e vencedora do Prêmio CBIC de Inovação e Sustentabilidade 2020."
+      },
+      {
+        name: "Marcus Costa Tenório Fireman (Climb)",
+        photo: Marcus,
+        description: "Sócio Diretor e Co-fundador da Climb Consulting. Engenheiro Civil pela UFAL, Mestre em Gestão da Construção com ênfase em Lean pela UFRGS e Doutorado em andamento em Gestão da Construção com ênfase em Lean Construction pela UFRGS. Co-fundador da empresa Climb Consulting, um dos idealizadores do Fórum de Inovação da Construção e palestrante em congressos e workshops nacionais sobre a aplicação do Lean Construction. Experiência com implementação de Lean Construction em mais de 40 projetos (Linhas de Transmissão, Aeroportos, Obras Industriais e Residenciais)."
       },
       {
         name: "Profa. Dra. Débora de Gois Santos (UFS)",
