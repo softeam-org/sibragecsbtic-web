@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DayContext } from "../contexts/DayContext";
 import { Link, useLocation } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -6,6 +7,9 @@ import { navLinks } from "../constants";
 
 function Navlinks({ active, setActive }) {
   const currentPath = useLocation();
+
+  const { dia } = useContext(DayContext);
+
   return navLinks.map((link) => (
     <div
       className="w-32 hidden lg:flex items-center justify-center "
@@ -45,7 +49,7 @@ function Navlinks({ active, setActive }) {
                 smooth
                 duration={500}
               >
-                {sublink.name}
+                {link.path === "/programacao" && dia === 1 && index === link.links.length -1 ? "Palestrantes e Moderadores do dia" : sublink.name}
               </ScrollLink>
             );
           })}

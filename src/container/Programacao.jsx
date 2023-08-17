@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
+
+import { DayContext } from "../contexts/DayContext";
+
 import Schedule from "../components/Schedule";
 import Speakers from "../components/Speakers";
 import Container from "../components/Container";
@@ -6,8 +9,7 @@ import Construction from "../components/Construction";
 
 function Programacao() {
 
-  const [dia, setDia] = React.useState(1);
-  const dias = [1, 2, 3];
+  const { dia, setDia, dias } = useContext(DayContext);  
 
   // return (<Construction />)
   
