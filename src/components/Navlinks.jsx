@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DayContext } from "../contexts/DayContext";
 import { Link, useLocation } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -6,6 +7,9 @@ import { navLinks } from "../constants";
 
 function Navlinks({ active, setActive }) {
   const currentPath = useLocation();
+
+  const { dia } = useContext(DayContext);
+
   return navLinks.map((link) => (
     <div
       className="w-32 hidden lg:flex items-center justify-center "
@@ -23,7 +27,7 @@ function Navlinks({ active, setActive }) {
       </Link>
       <div
         className={`
-            absolute top-40 pt-5 text-center flex flex-col items-center gap-5 w-32 bg-nord0 rounded-md transition ease-in pb-5 z-20
+            absolute top-40 pt-5 text-center flex flex-col items-center gap-5 w-64 bg-nord0 rounded-md transition ease-in pb-5 z-20
             ${
               active === link.name
                 ? "visible opacity-100"
@@ -45,7 +49,7 @@ function Navlinks({ active, setActive }) {
                 smooth
                 duration={500}
               >
-                {sublink.name}
+                {link.path === "/programacao" && dia === 1 && index === link.links.length -1 ? "Palestrantes e Moderadores do dia" : sublink.name}
               </ScrollLink>
             );
           })}
