@@ -29,6 +29,10 @@ import IFPB from "./assets/images/ifpb.png"
 import CBIM from "./assets/images/cbim.png"
 import ANTAC from "./assets/images/antac.png"
 import SOFTEAM from "./assets/images/softeam.png"
+import IMPACTO from "./assets/images/impacto.png"
+import MEC from "./assets/images/m&c.png"
+import SEBRAE from "./assets/images/sebrae.png"
+
 
 
 
@@ -261,5 +265,20 @@ export const logo = [
     id:13,
     image: Proec,
     type: "apoio"
-  }
+  },
+  {
+    id:14,
+    image: IMPACTO,
+    type: "apoio"
+  },
+  {
+    id:15,
+    image: MEC,
+    type: "apoio"
+  },
+  {
+    id:16,
+    image: SEBRAE,
+    type: "apoio"
+  },
 ]

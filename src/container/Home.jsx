@@ -203,25 +203,22 @@ function Home(props) {
         <div className='flex justify-center gap-0 md:gap-6 '>
           <button
             onClick={() => handleClick(1)}
-            className={`px-0 transition-color transition bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${
-              componenteAtivo === 1 ? "text-gray-900" : "text-gray-400"
-            }`}
+            className={`px-0 transition-color transition bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${componenteAtivo === 1 ? "text-gray-900" : "text-gray-400"
+              }`}
           >
             Comite Cientifico
           </button>
           <button
             onClick={() => handleClick(2)}
-            className={`px-0 transition-color transition bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${
-              componenteAtivo === 2 ? "text-gray-900" : "text-gray-400"
-            }`}
+            className={`px-0 transition-color transition bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${componenteAtivo === 2 ? "text-gray-900" : "text-gray-400"
+              }`}
           >
             Comissão Organizadora
           </button>
           <button
             onClick={() => handleClick(3)}
-            className={`px-0 transition-color transition bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${
-              componenteAtivo === 3 ? "text-gray-900" : "text-gray-400"
-            }`}
+            className={`px-0 transition-color transition bg-transparent duration-0 bg-none  outline-none hover:border-none focus:outline-none  ${componenteAtivo === 3 ? "text-gray-900" : "text-gray-400"
+              }`}
           >
             Coordenação do Evento
           </button>
@@ -255,22 +252,22 @@ function Home(props) {
       </div>
 
       <div className='flex flex-col justify-center items-center pb-8'>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-2'>
-          <div className=' flex flex-col items-center'>
-            <h3 className='font-bold text-lg pt-4 pb-4 text-center'>Apoio</h3>
+        <div className=''>
 
-            <div className='grid grid-cols-2'>
+          <div className='flex justify-around'>
+
+          <div className=' flex flex-col items-center'>
+            <h3 className='font-bold text-lg pt-4 pb-4'>Promoção</h3>
+            <div className='flex'>
               {logo
-                .filter((image) => image.type === "apoio")
+                .filter((image) => image.type === "promocao")
                 .map((image) => (
-                  <div className='flex items-center justify-center'>
-                    <img
-                      key={image.id}
-                      src={image.image}
-                      className=' w-auto h-12 md:h-16 '
-                      alt='Imagem'
-                    />
-                  </div>
+                  <img
+                    key={image.id}
+                    src={image.image}
+                    className='w-auto h-16 md:h-28 '
+                    alt='Imagem'
+                  />
                 ))}
             </div>
           </div>
@@ -294,43 +291,49 @@ function Home(props) {
                 ))}
             </div>
           </div>
+          </div>
 
-          <div className=' flex flex-col items-center'>
-            <h3 className='font-bold text-lg pt-4 pb-4'>Promoção</h3>
-            <div className='flex'>
+          <div className='flex flex-col justify-center items-center'>
+            <h3 className='font-bold text-lg pt-4 lg:pt-8 pb-6'>
+              Co-organização
+            </h3>
+            <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 md:gap-4 lg:gap-6'>
               {logo
-                .filter((image) => image.type === "promocao")
+                .filter((image) => image.type === "co-organizacao")
                 .map((image) => (
-                  <img
-                    key={image.id}
-                    src={image.image}
-                    className='w-auto h-16 md:h-28 '
-                    alt='Imagem'
-                  />
+                  <div className='flex justify-center items-center'>
+                    <img
+                      key={image.id}
+                      src={image.image}
+                      className='w-auto h-16 md:h-28 '
+                      alt='Imagem'
+                    />
+                  </div>
+                ))}
+            </div>
+          </div>
+
+          <div className=' flex flex-col justify-center items-center'>
+            <h3 className='font-bold text-lg pt-4 pb-4 text-center'>Apoio</h3>
+
+            <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 md:gap-4 lg:gap-6'>
+              {logo
+                .filter((image) => image.type === "apoio")
+                .map((image) => (
+                  <div className='flex items-center justify-center'>
+                    <img
+                      key={image.id}
+                      src={image.image}
+                      className=' w-auto h-16 md:h-28  '
+                      alt='Imagem'
+                    />
+                  </div>
                 ))}
             </div>
           </div>
         </div>
 
-        <div className='flex flex-col justify-center items-center'>
-          <h3 className='font-bold text-lg pt-4 lg:pt-8 pb-6'>
-            Co-organização
-          </h3>
-          <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 md:gap-4 lg:gap-6'>
-            {logo
-              .filter((image) => image.type === "co-organizacao")
-              .map((image) => (
-                <div className='flex justify-center items-center'>
-                  <img
-                    key={image.id}
-                    src={image.image}
-                    className='w-auto h-16 md:h-28 '
-                    alt='Imagem'
-                  />
-                </div>
-              ))}
-          </div>
-        </div>
+
       </div>
     </div>
   );

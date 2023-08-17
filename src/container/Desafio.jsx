@@ -10,7 +10,8 @@ function Desafio() {
 
     useEffect(() => {
         if (location.hash === "#info") {
-            infoRef.current.scrollIntoView({ behavior: "smooth" });}
+            infoRef.current.scrollIntoView({ behavior: "smooth" });
+        }
     }, [location.hash]);
     return (
         <Container color="nord6">
@@ -23,27 +24,21 @@ function Desafio() {
                 </div>
                 <br />
                 <div>
-                    <p> Empresas do ambiente da construção civil de Aracaju-SE lançarão desafios a partir da observação da realidade, tendo as equipes a oportunidade de pensar colaborativamente em soluções inovadoras que possam ser implementadas pelas empresas.
+                    <p> Uma empresa sergipana, Impacto Construções lança o desafio, a partir da observação da realidade, tendo as equipes a oportunidade de pensar colaborativamente em soluções inovadoras que possam ser implementadas pelas empresas.
                     </p>
                 </div>
                 <br />
                 <div>
-                    <p> O Edital de Participação será lançado em breve com as diretrizes, datas importantes e mais informações sobre a atividade.
-                        Monte sua equipe e participe deste desafio!
+                    <p>O edital segue no link abaixo, onde os interessados terão acesso às datas importantes e mais informações sobre a atividade. Monte sua equipe e participe deste desafio!
                     </p>
                 </div>
                 <br />
                 <div>
-                    <p>
-                        O Edital de Participação será lançado em breve com as diretrizes, datas importantes e mais informações sobre a atividade.
-                        Monte sua equipe e participe deste desafio!
-
-                    </p>
                     <br />
 
                     <p>
                         A submissão deverá ser realizada exclusivamente por e-mail.
-                    
+
                     </p>
                     <div className='flex justify-center mt-8'>
                         <a
@@ -51,7 +46,7 @@ function Desafio() {
                             target='_blank'
                         >
                             <button className="bg-orange-500 border-0 text-white font-bold text-md shadow-md hover:shadow-lg rounded-md hover:bg-orange-400">
-                                Veja como foi a edição anterior
+                                Edital 2023
                             </button>
                         </a>
                     </div>
