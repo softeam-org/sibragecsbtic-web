@@ -32,6 +32,7 @@ import SOFTEAM from "./assets/images/softeam.png"
 import IMPACTO from "./assets/images/impacto.png"
 import MEC from "./assets/images/m&c.png"
 import SEBRAE from "./assets/images/sebrae.png"
+import Agilean from "./assets/images/Agilean.png"
 
 
 
@@ -281,4 +282,9 @@ export const logo = [
     image: SEBRAE,
     type: "apoio"
   },
+  {
+    id:17,
+    image: Agilean,
+    type: "apoio"
+  }
 ]
