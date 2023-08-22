@@ -124,16 +124,16 @@ export const dayData = {
         speakers: [
           {
             name: "Palestrante: Prof. Dr. Fabiano Correa (USP)",
-            photo: Reymard,
+            photo: Fabiano_Rogerio,
           },
           {
             name: "Palestrante: Profª. Drª. Dayana Bastos Costa (UFBA)",
-            photo: Fabiano_Rogerio,
+            photo: Dayana,
             description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
           },
           {
             name: "Palestrante: Eng. André Quinderé - CEO AVAL Engenharia (Agilean)",
-            photo: sem_foto,
+            photo: Andre,
           },
           {
             name: "Moderador: Prof. Dr. Eduardo Toledo Santos (USP)",
@@ -195,11 +195,6 @@ export const dayData = {
         name: "Prof. PhD. Béda Barkokebas (Pontificia Universidad Católica de Chile)",
         photo: Béda,
         description:"Professor adjunto da Pontifícia Universidad Católica de Chile na área de industrialização e automação na construção. É também coordenador da Aliança Brasileira para a Construção Modular (ABCModular), um ecossistema do Centro de Inovação para a Construção Sustentável - CICS/USP, formado por empresas e academia. Trabalha com sistemas de construção industrializados desde 2010. Após sua mudança para o Canadá, passou a trabalhar ativamente com fábricas de construção modular no Canadá e Brasil, desenvolvendo sistemas de informação combinando dados gerados por modelos BIM e dados coletados em tempo real por diferentes sensores. Também desenvolve estudos de viabilidade para a implantação de sistemas de construção industrializados, além de melhorias em processos em linhas de produção e canteiros de obra. Sua área de interesse consiste no desenvolvimento de métodos para controle de produção inteligentes e integrados a sistemas de informação para a melhoria contínua na construção modular. É engenheiro civil formado pela Escola Politécnica da Universidade de Pernambuco, mestre e doutor pela Universidade de Alberta (Canadá)."
-      },
-      {
-        name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
-        photo: Reymard,
-        description:"É professor de Engenharia Civil na Universidade Federal da Bahia. Ele esteve envolvido com a indústria da construção nos últimos 15 anos, onde conduziu pesquisas, ensinou e auxiliou a indústria na área de Gestão da Construção, incluindo melhoria de processos, mentalidade enxuta, modelagem da informação na construção e Blockchain. É autor e co-autor de 09 artigos de periódicos e 49 artigos de conferências revisados por pares até o momento."
       },
       {
         name: "Prof. Dr. Fabiano Correa (USP)",
@@ -295,7 +290,7 @@ export const dayData = {
             photo: Tatiana,
           },
           {
-            photo: sem_foto,
+            photo: Heineck,
           }
         ]
       },
