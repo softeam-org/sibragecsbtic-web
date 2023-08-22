@@ -34,7 +34,6 @@ function Local() {
 
             <div className="flex gap-4 flex-col lg:max-w-[550px]">
               <p className='text-lg font-medium'>
-                Sobre o Local do evento
                 O SIBRAGEC+SBTIC 2023 ocorrerá no HOTEL SESC ATALAIA em ARACAJU-SE, situado de frente para o mar da mais famosa praia de Aracaju - a Praia de Atalaia - e contando com toda beleza e comodidade turística da maior e mais bela orla do Brasil, a orla de Atalaia.
 
                 Os participantes do evento podem se hospedar também no Celi Hotel Aracaju&nbsp; 
