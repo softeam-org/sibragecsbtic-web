@@ -42,7 +42,7 @@ function Desafio() {
                     </p>
                     <div className='flex justify-center mt-8'>
                         <a
-                            href="https://evento.ufal.br/sibragec2021/submissao/desafio-1"
+                            href="https://drive.google.com/file/d/18EEvo8blMj-bY6QoyXtAuArhbkc_hHE2/view?usp=drive_link"
                             target='_blank'
                         >
                             <button className="bg-orange-500 border-0 text-white font-bold text-md shadow-md hover:shadow-lg rounded-md hover:bg-orange-400">
