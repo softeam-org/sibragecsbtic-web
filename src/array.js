@@ -33,7 +33,7 @@ import IMPACTO from "./assets/images/impacto.png"
 import MEC from "./assets/images/m&c.png"
 import SEBRAE from "./assets/images/sebrae.png"
 import Agilean from "./assets/images/Agilean.png"
-import Climb from "./assets/images/climb.png"
+import Climb from "./assets/images/Climb.png"
 
 
 
