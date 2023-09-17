@@ -34,6 +34,8 @@ import MEC from "./assets/images/m&c.png"
 import SEBRAE from "./assets/images/sebrae.png"
 import Agilean from "./assets/images/Agilean.png"
 import Climb from "./assets/images/Climb.png"
+import Cad from "./assets/images/Cad.png"
+import Capes from "./assets/images/capes.png"
 
 
 
@@ -280,17 +282,22 @@ export const logo = [
   },
   {
     id:16,
-    image: SEBRAE,
-    type: "apoio"
-  },
-  {
-    id:17,
     image: Agilean,
     type: "apoio"
   },
   {
-    id:18,
+    id:17,
     image: Climb,
     type: "apoio"
-  }
+  },
+  {
+    id:18,
+    image: Cad,
+    type: "apoio"
+  },
+  {
+    id:19,
+    image: Capes,
+    type: "patrocinio"
+  }  
 ]

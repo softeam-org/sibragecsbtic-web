@@ -265,7 +265,7 @@ export const dayData = {
             photo: Fabricio,
           },
           {
-            name: "Lego-Takt-Planning em obras de energias renováveis – Dr. Bernardo Martim Beck da Silva Etges e Marcus Fireman (Climb)",
+            name: "jogo 02: Lego-Takt-Planning em obras de energias renováveis – Dr. Bernardo Martim Beck da Silva Etges e Marcus Fireman (Climb)",
             photo: Bernardo,
           },
           {
