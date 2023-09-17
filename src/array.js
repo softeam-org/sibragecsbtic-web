@@ -35,7 +35,7 @@ import SEBRAE from "./assets/images/sebrae.png"
 import Agilean from "./assets/images/Agilean.png"
 import Climb from "./assets/images/Climb.png"
 import Cad from "./assets/images/Cad.png"
-import Capes from "./assets/images/Capes.png"
+import Capes from "./assets/images/capes.png"
 
 
 
