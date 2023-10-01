@@ -38,6 +38,7 @@ import Cad from "./assets/images/Cad.png"
 import Capes from "./assets/images/capes.png"
 import Confea from "./assets/images/Confea.png"
 import Sippro from "./assets/images/Sippro.png"
+import Deso from "./assets/images/Deso.png"
 
 
 
@@ -311,5 +312,10 @@ export const logo = [
     id:21,
     image: Confea,
     type: "patrocinio"
+  },
+  {
+    id:22,
+    image: Deso,
+    type: "apoio"
   }    
 ]
