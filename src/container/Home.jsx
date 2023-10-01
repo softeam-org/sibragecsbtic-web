@@ -316,7 +316,7 @@ function Home(props) {
           <div className=' flex flex-col justify-center items-center'>
             <h3 className='font-bold text-lg pt-4 pb-4 text-center'>Patrocínio</h3>
 
-            <div className='grid grid-cols-1 mb-8'>
+            <div className='grid grid-cols-2 gap-0 md:gap-4 lg:gap-6'>
               {logo
                 .filter((image) => image.type === "patrocinio")
                 .map((image) => (
@@ -324,7 +324,7 @@ function Home(props) {
                     <img
                       key={image.id}
                       src={image.image}
-                      className=' w-auto h-16 md:h-28  '
+                      className={`w-auto h-16 md:h-28`}
                       alt='Imagem'
                     />
                   </div>
@@ -343,7 +343,7 @@ function Home(props) {
                     <img
                       key={image.id}
                       src={image.image}
-                      className={`w-auto ${image.id === 16 ? 'h-8 md:h-14': image.id === 15 ? 'h-12 md:h-20' : image.id === 14 ? 'h-32 md:h-44' : 'h-16 md:h-28'}`}
+                      className={`w-auto ${ image.id === 13 ? 'h-10 md:h-16' :image.id === 16 ? 'h-8 md:h-14': image.id === 15 ? 'h-12 md:h-20' : image.id === 14 ? 'h-32 md:h-44' : 'h-16 md:h-28'}`}
                       alt='Imagem'
                     />
                   </div>
