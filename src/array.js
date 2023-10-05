@@ -39,6 +39,9 @@ import Capes from "./assets/images/capes.png"
 import Confea from "./assets/images/Confea.png"
 import Sippro from "./assets/images/Sippro.png"
 import Deso from "./assets/images/Deso.png"
+import Moura from "./assets/images/moura.png"
+import Mutua from "./assets/images/mutua.png"
+import Sengese from "./assets/images/sengese.png"
 
 
 
@@ -230,7 +233,7 @@ export const logo = [
   },
   {
     id:5,
-    image: UFBA,
+    image: Sengese,
     type: "co-organizacao"
   },
   {
@@ -310,12 +313,27 @@ export const logo = [
   },
   {
     id:21,
-    image: Confea,
+    image: Mutua,
     type: "patrocinio"
   },
   {
     id:22,
+    image: Confea,
+    type: "patrocinio"
+  },
+  {
+    id:23,
     image: Deso,
     type: "apoio"
-  }    
+  },
+  {
+    id:24,
+    image: Moura,
+    type: "apoio"
+  },
+  {
+    id:25,
+    image: UFBA,
+    type: "co-organizacao"
+  }
 ]

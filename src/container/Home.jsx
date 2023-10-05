@@ -316,7 +316,7 @@ function Home(props) {
           <div className=' flex flex-col justify-center items-center'>
             <h3 className='font-bold text-lg pt-4 pb-4 text-center'>Patrocínio</h3>
 
-            <div className='grid grid-cols-2 gap-0 md:gap-4 lg:gap-6'>
+            <div className='grid grid-cols-3 gap-0 md:gap-4 lg:gap-6'>
               {logo
                 .filter((image) => image.type === "patrocinio")
                 .map((image) => (
