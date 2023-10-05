@@ -235,26 +235,6 @@ export const dayData = {
     schedule: [
       {
         time: "08h:30 - 10h:15",
-        title: "SUMMER SCHOOL",
-        speakers: [
-          {
-            name: "Prof.ª Dr.ª Regina Coeli Ruschel (Unicamp)",
-            photo: Regina,
-            description:"É Engenheira Civil, Mestre em Mecânica do Solos, Doutora em Engenharia Elétrica e Livre docente em Projeto Auxiliado por Computador. É Pesquisadora e Professora Colaboradora na Universidade Estadual de Campinas. Atua ativamente junto à ABNT na CCE134 e no BIM Fórum Brasil. Desenvolve pesquisas em Modelagem da Informação da Construção. Foi pioneira na introdução do BIM no ensino de graduação no Brasil."
-          },
-          {
-            name: "Prof. Dr. Ariovaldo Denis Granja (Unicamp)",
-            photo: Denis,
-          },
-          {
-            name: "Prof. Dr. Fabiano Rogério Corrêa (USP)",
-            photo: Fabiano_Rogerio,
-            description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
-          }
-        ]
-      },
-      {
-        time: "08h:30 - 10h:15",
         title: "WORKSHOP GAMES FOR LEAN",
         speakers: [
           {
@@ -339,22 +319,6 @@ export const dayData = {
       },
     ],
     speakers: [
-      {
-        name: "Prof.ª Dr.ª Regina Coeli Ruschel (Unicamp))",
-        photo: Regina,
-        description:"É Engenheira Civil, Mestre em Mecânica do Solos, Doutora em Engenharia Elétrica e Livre docente em Projeto Auxiliado por Computador. É Pesquisadora e Professora Colaboradora na Universidade Estadual de Campinas. Atua ativamente junto à ABNT na CCE134 e no BIM Fórum Brasil. Desenvolve pesquisas em Modelagem da Informação da Construção. Foi pioneira na introdução do BIM no ensino de graduação no Brasil."
-      },
-      {
-        name: "Prof. Dr. Ariovaldo Denis Granja (UNICAMP)",
-        photo: Denis,
-        description: "Ingressou no nível de Professor Doutor na Universidade Estadual de Campinas (Unicamp) em 2003 e é Coordenador do Laboratório de Gerenciamento na Construção (LAGERCON). É docente permanente do Curso de Pós-Graduação em Engenharia Civil da Unicamp. Obteve Graduação em Engenharia Civil pela Pontifícia Universidade Católica de Campinas (1986), Master of Engineering pela Cologne University Of Applied Sciences, Germany (1995), Doutorado em Engenharia Civil pela Universidade Estadual de Campinas - Unicamp (2002), e Livre docência pela Universidade Estadual de Campinas - Unicamp (2016), passando ao nível de Professor Associado. De 2010 a 2014 exerceu o cargo de Chefe do Departamento de Arquitetura e Construção da Faculdade de Engenharia Civil, Arquitetura e Urbanismo da Unicamp (FECFAU/Unicamp)). Foi Coordenador do Grupo de Trabalho em Gestão e Economia na Construção, da Associação Nacional de Tecnologia do Ambiente Construído (ANTAC) de 2009 a 2011.Foi Coordenador de Pesquisa da FECFAU/Unicamp de 2017 a 2020. Desde 2022 é Editor para a área de Gestão e Economia na Construção da Revista Ambiente Construído, da Associação Nacional de Tecnologia do Ambiente Construído (ANTAC). Foi professor visitante da University of Huddersfield (UK), no Innovative Design Lab (IDL) entre março e abril de 2023 (Erasmus+ Programme). Tem atuado como Assessor Científico de agências, tais como CAPES, CNPq, Fapesp e também como Assessor de periódicos científicos da área, entre eles o Journal of Construction Engineering and Management; Construction Management and Economics; Engineering, Construction and Architectural Management; Journal of Engineering, Project and Production Management; Smart and Sustainable Built Environment; Revista Ambiente Construído; Gestão & Tecnologia de Projetos, Pesquisa em Arquitetura e Construção, entre outros. Antes do ingresso na Academia, acumulou extensa experiência profissional na indústria da construção civil, contemplando gestão da produção de edificações diversas, planejamento e controle de empreendimentos, gestão da produção e estudos sobre a qualidade de investimentos e exposição aos riscos de empreendimentos do setor. Seus interesses atuais de pesquisa dentro do campo de conhecimento sobre gerenciamento e economia na construção civil incluem: Gerenciamento de custos e de riscos; Gerenciamento e melhoria de processos construtivos; Gerenciamento de requisitos e desenvolvimento de produto; Planejamento e controle da produção; Gestão da produção. As temáticas atuais de pesquisa incluem: Lean Thinking/Lean Construction, Custeio-meta (target costing), IPD (integrated project delivery) e TVD (target value design); Métodos inovadores para criação, captura de percepção e entrega do valor a clientes e usuários; Estratégias para a redução e realocação de custos; Integração e colaboração entre stakeholders em cadeias de suprimentos; Integração de sistemas de planejamento e controle da produção; Valoração da flexibilidade em condições de incerteza com uso da teoria de opções reais e Sinergias entre living labs e lean em habitação social."
-      },
-      {
-        name: "Prof. Dr. Fabiano Rogério Corrêa (USP)",
-        photo: Fabiano_Rogerio,
-        description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
-
-      },
       {
         name: "Doutoranda Maria Luiza Abath Escorel Borges (UNICAMP)",
         photo: Maria_Luiza,
