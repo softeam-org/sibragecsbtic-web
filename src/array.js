@@ -42,6 +42,8 @@ import Deso from "./assets/images/Deso.png"
 import Moura from "./assets/images/moura.png"
 import Mutua from "./assets/images/mutua.png"
 import Sengese from "./assets/images/sengese.png"
+import ConfeaEMutua from "./assets/images/ConfeaEMutua.png"
+import Jota from "./assets/images/JotaNunes.png"
 
 
 
@@ -313,13 +315,13 @@ export const logo = [
   },
   {
     id:21,
-    image: Mutua,
+    image: ConfeaEMutua,
     type: "patrocinio"
   },
   {
-    id:22,
-    image: Confea,
-    type: "patrocinio"
+    id:24,
+    image: Jota,
+    type:"apoio"
   },
   {
     id:23,
