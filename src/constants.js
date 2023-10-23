@@ -23,6 +23,8 @@ import Maria_Luiza from "./assets/images/Maria_Luiza.png"
 import Bernardo from "./assets/images/Bernardo.png"
 import Fabricio from "./assets/images/Fabricio.png"
 import Marcus from "./assets/images/Marcus.png"
+import Raquel from "./assets/images/Raquel.jpg"
+import Sergio from "./assets/images/sergio.jpg"
 
 import sem_foto from "./assets/images/sem_foto.jpg"
 
@@ -151,7 +153,7 @@ export const dayData = {
         title: "PALESTRA 2: Robótica no canteiro de obras",
         speakers: [
           {
-            name: "Palestrante: Prof. PhD. José Pinto Duarte  (Penn State University)",
+            name: "Palestrante: Prof. PhD. José Manuel Pinto Duarte  (Penn State University)",
             photo: Jose_Pinto,
           },
           {
@@ -213,7 +215,7 @@ export const dayData = {
         description:"Engenheiro, Mestre e Doutor em Engenharia Elétrica pela Escola Politécnica da USP. Professor da Escola Politécnica da USP e Vice Coordenador do Mestrado Profissional em Inovação na Construção Civil. É relator do GT Objetos BIM da Comissão Especial de Estudos sobre BIM (CEE-134) da ABNT. Diretor de Divulgação da ANTAC. Diretor das entidades internacionais ISGG, ISCCBE e CIB. Membro da BIM Excellence Initiative e do CIB W78. Especialista do Comitê Estratégico BIM do Governo Federal. Revisor técnico das edições brasileiras do "+"BIM Handbook"+". Editor para Língua Portuguesa do BIM Dictionary."
       },
       {
-        name: "Prof. PhD. José Pinto Duarte  (Penn State University)",
+        name: "Prof. PhD. José Manuel Pinto Duarte  (Penn State University)",
         photo: Jose_Pinto,
         description:"Graduado em Arquitetura pela Universidade Técnica de Lisboa, Portugal, mestre em Design Methods e PHD em Design and Computation pelo MIT, EUA. Atualmente, ele é Chair in Design Innovation e diretor do Stuckeman Center for Design Computing na Penn State University, EUA, bem como professor de arquitetura e engenharia. Foi Reitor e Professor da Faculdade de Arquitetura da Universidade de Lisboa e Presidente da eCAADe - educação e investigação em desenho arquitetônico assistido por computador na Europa. O foco principal de sua pesquisa é o uso de novas tecnologias para customização em massa em projetos arquitetônicos, urbanos e de produtos."
       },
@@ -245,11 +247,11 @@ export const dayData = {
             photo: Fabricio,
           },
           {
-            name: "jogo 02: Lego-Takt-Planning em obras de energias renováveis – Dr. Bernardo Martim Beck da Silva Etges e Marcus Fireman (Climb)",
+            name: "jogo 02: Lego-Takt-Planning em obras de energias renováveis. Jogo A: Aerogeradores. Jogo B: Fotovoltaico – Dr. Bernardo Martim Beck da Silva Etges e Raquel Hoffmann Reck (Climb)",
             photo: Bernardo,
           },
           {
-            photo: Marcus,
+            photo: Raquel,
           },
           {
             name: "jogo 03: Lean experience - Eng. André Quinderé - CEO AVAL Engenharia (Agilean)",
@@ -280,6 +282,11 @@ export const dayData = {
         speakers: []
       },
       {
+        time: "10h:00 - 10h:15",
+        title: "INTERVALO",
+        speakers: []
+      },
+      {
         time: "10h:15 - 12h:15",
         title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
         description: "Apresentação de artigos aceitos pelo Comitê Científico",
@@ -292,9 +299,16 @@ export const dayData = {
       },
       {
         time: "14h:00 - 15h:45",
-        title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
-        description: "Apresentação de artigos aceitos pelo Comitê Científico",
-        speakers: []
+        title: "PALESTRA 4: Uso de gerenciamento visual digital para implementação do LPS",
+        description: "Palestra dinâmica com apresentação de cases!",
+        speakers: [{
+          name: "Palestrante: Dr. Bernardo Martim Beck da Silva Etges (Climb)",
+          photo: Bernardo,
+        },
+        {
+          name: "Moderador: Prof. Dr. Sérgio Leal (USP)",
+          photo: Sergio,
+        },]
       },
       {
         time: "15h:45 - 16h:15",
@@ -340,9 +354,9 @@ export const dayData = {
         description: "É CEO da Aval Tecnologia, engenheiro civil com pós-graduação em gestão de projetos e tem experiência em implantação de novas tecnologias e práticas do Lean Construction em diversos tipos de obra, totalizando mais de 3.000.000,00 de m² de área construída impactados. É um dos responsáveis pelo desenvolvimento do Agilean, solução pioneira em levar o Lean Construction de forma digital ao canteiro de obras e vencedora do Prêmio CBIC de Inovação e Sustentabilidade 2020."
       },
       {
-        name: "Marcus Costa Tenório Fireman (Climb)",
-        photo: Marcus,
-        description: "Sócio Diretor e Co-fundador da Climb Consulting. Engenheiro Civil pela UFAL, Mestre em Gestão da Construção com ênfase em Lean pela UFRGS e Doutorado em andamento em Gestão da Construção com ênfase em Lean Construction pela UFRGS. Co-fundador da empresa Climb Consulting, um dos idealizadores do Fórum de Inovação da Construção e palestrante em congressos e workshops nacionais sobre a aplicação do Lean Construction. Experiência com implementação de Lean Construction em mais de 40 projetos (Linhas de Transmissão, Aeroportos, Obras Industriais e Residenciais)."
+        name: "Raquel Hoffmann Reck (Climb)",
+        photo: Raquel,
+        description: "Possui graduação (2010) e mestrado (2013) em Engenharia Civil pela Universidade Federal do Rio Grande do Sul. Tem experiência na área de Engenharia Civil, com ênfase em Gerenciamento e Economia da Construção. Atuando principalmente nos seguintes temas: planejamento e controle da produção. projeto do sistema de produção, modelagem 4D e simulação da produção. Atualmente é Coordenadora de Cursos In-Company na Climb Consulting Group e Doutoranda do Programa de Pós graduação em Engenharia Civil: Construção e Infraestrutura (PPGCI) do Núcleo Orientado para a Inovação da Construção (NORIE) da UFRGS com período como pesquisadora visitante na University of Texas at Austin, Texas, EUA."
       },
       {
         name: "Profa. Dra. Débora de Gois Santos (UFS)",
@@ -376,7 +390,7 @@ export const dayData = {
     schedule: [
       {
         time: "08h:30 - 10h:00",
-        title: "PALESTRA 3: Análises ergonômicas baseadas em realidade virtual (RV) para reduzir lesões ocupacionais",
+        title: "PALESTRA 5: Análises ergonômicas baseadas em realidade virtual (RV) para reduzir lesões ocupacionais",
         speakers: [
           {
             name: "Palestrante: Profª. PhD. Regina Barkokebas (Pontificia Universidad Católica de Chile)",
