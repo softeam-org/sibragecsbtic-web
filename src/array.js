@@ -289,11 +289,6 @@ export const logo = [
     type: "apoio"
   },
   {
-    id:16,
-    image: Agilean,
-    type: "apoio"
-  },
-  {
     id:17,
     image: Climb,
     type: "apoio"

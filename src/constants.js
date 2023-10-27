@@ -25,6 +25,7 @@ import Fabricio from "./assets/images/Fabricio.png"
 import Marcus from "./assets/images/Marcus.png"
 import Raquel from "./assets/images/Raquel.jpg"
 import Sergio from "./assets/images/sergio.jpg"
+import Rafaela from "./assets/images/rafaela.png"
 
 import sem_foto from "./assets/images/sem_foto.jpg"
 
@@ -134,10 +135,6 @@ export const dayData = {
             description:"Docente do departamento de Engenharia de Construção Civil, da Poli-USP, possui graduação em Engenharia Mecânica com ênfase em Automação e Sistemas pela Universidade de São Paulo (2002), mestrado em Engenharia Mecânica na opção Mecatrônica pela Universidade de São Paulo (2004) e doutorado em Engenharia Mecânica na área de Controle e Automação (2009). Atualmente dedica-se à área de Tecnologia Computacional Aplicada à Construção Civil, conduzindo pesquisas nos seguintes temas: Automação e Robótica na Construção; Impacto da Indústria 4.0 na Construção, Modelagem da Informação da Construção (BIM) e Industry Foundation Classes (IFC); Fabricação Digital e Manufatura Aditiva (Impressão 3D) aplicada à Arquitetura e à Construção; Smart Cities e Big Data."
           },
           {
-            name: "Palestrante: Eng. André Quinderé - CEO AVAL Engenharia (Agilean)",
-            photo: Andre,
-          },
-          {
             name: "Moderador: Prof. Dr. Eduardo Toledo Santos (USP)",
             photo: Eduardo,
           }
@@ -224,11 +221,6 @@ export const dayData = {
         photo: Regina,
         description:" É Engenheira Civil, Mestre em Mecânica do Solos, Doutora em Engenharia Elétrica e Livre docente em Projeto Auxiliado por Computador. É Pesquisadora e Professora Colaboradora na Universidade Estadual de Campinas. Atua ativamente junto à ABNT na CCE134 e no BIM Fórum Brasil. Desenvolve pesquisas em Modelagem da Informação da Construção. Foi pioneira na introdução do BIM no ensino de graduação no Brasil."
       },
-      {
-        name: "André Quinderé - CEO AVAL Engenharia (Agilean)",
-        photo: Andre,
-        description:" CEO da Aval Tecnologia, engenheiro civil com pós-graduação em gestão de projetos e experiência em implantação de novas tecnologias e práticas do Lean Construction em diversos tipos de obra, totalizando mais de 3.000.000,00 de m² de área construída impactados. É um dos responsáveis pelo desenvolvimento do Agilean, solução pioneira em levar o Lean Construction de forma digital ao canteiro de obras e vencedora do Prêmio CBIC de Inovação e Sustentabilidade 2020."
-      },
 
     ]
   },
@@ -254,8 +246,11 @@ export const dayData = {
             photo: Raquel,
           },
           {
-            name: "jogo 03: Lean experience - Eng. André Quinderé - CEO AVAL Engenharia (Agilean)",
-            photo: Andre,
+            name: "jogo 03: LEBSCO: simulação de aspectos do Last Planner System (LPS) e princípios de Produção Enxuta. - MSc. Rafaela Oliveira Rey (R3 Lean) e Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
+            photo: Rafaela, 
+          },
+          {
+            photo: Reymard,
           },
           {
             name: "jogo 04: LeanBuilder: explorando Lean com jogo de montar – Profa. Dra. Débora de Gois Santos (UFS), Mestranda Amélia Gomes Nunes (UFS) e Mestranda Pamella Menezes Teodósio (UFS)",
@@ -349,9 +344,14 @@ export const dayData = {
         description: "É Engenheiro Civil formado pela UFRGS em 2009 e mestre em Engenharia de Produção pelo PPGEP-UFRGS em 2012. Tem doutorado pelo PPGCI-UFRGS com ênfase em Gestão e Economia da Construção. Desde 2013, atuou como Consultor em implementação de programas de aumento de produtividade e com foco em promover a Excelência Operacional, melhorias operacionais e processos de inovação nas empresas construtoras. Atuação em mais de 30 projetos na América Latina e África."
       },
       {
-        name: "André Quinderé (Agilean)",
-        photo: Andre,
-        description: "É CEO da Aval Tecnologia, engenheiro civil com pós-graduação em gestão de projetos e tem experiência em implantação de novas tecnologias e práticas do Lean Construction em diversos tipos de obra, totalizando mais de 3.000.000,00 de m² de área construída impactados. É um dos responsáveis pelo desenvolvimento do Agilean, solução pioneira em levar o Lean Construction de forma digital ao canteiro de obras e vencedora do Prêmio CBIC de Inovação e Sustentabilidade 2020."
+        name: "MSc. Rafaela Oliveira Rey (Agilean)",
+        photo: Rafaela,
+        description: "Engenheira Civil e mestre em Engenharia Civil na área de Construção Civil e Materiais pela Universidade Federal da Bahia (2020). No mestrado desenvolveu pesquisa com uso de tecnologias digitais para a gestão da segurança em canteiros de obras (SMART INSPECS - Segurança), sob orientação da Profª. Dayana Bastos Costa. A pesquisa recebeu o Prêmio de Inovação Acadêmica pela ADEMI-BA (2019). Atualmente atua como Consultora Lean de Sucesso do Cliente na Agilean, solução pioneira em levar o Lean Construction de forma digital ao canteiro de obras e vencedora do Prêmio CBIC de Inovação e Sustentabilidade 2020 e 2022."
+      },
+      {
+        name: "Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA)",
+        photo: Reymard,
+        description: "É professor de Engenharia Civil na Universidade Federal da Bahia. Ele esteve envolvido com a indústria da construção nos últimos 15 anos, onde conduziu pesquisas, ensinou e auxiliou a indústria na área de Gestão da Construção, incluindo melhoria de processos, mentalidade enxuta, modelagem da informação na construção e Blockchain. É autor e co-autor de 09 artigos de periódicos e 49 artigos de conferências revisados por pares até o momento."
       },
       {
         name: "Raquel Hoffmann Reck (Climb)",
