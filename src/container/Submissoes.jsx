@@ -1,8 +1,8 @@
-import React,{ useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 import Calendar from "../components/Calendar";
 import Container from "../components/Container";
-
+import { IoIosArrowForward } from "react-icons/io";
 import { thematicsSibragec, thematicsSbtic } from "../constants";
 import SectionTitle from "../components/SectionTitle";
 import { Link } from "react-router-dom";
@@ -13,6 +13,11 @@ function Submissoes() {
   const artigosRef = useRef(null);
   const calendarioRef = useRef(null);
   const tematicaRef = useRef(null);
+  const [ativo, setAtivo] = useState(false);
+
+  function clicarDescricao() {
+    setAtivo(!ativo);
+  }
 
   useEffect(() => {
     if (location.hash === "#artigos") {
@@ -21,11 +26,99 @@ function Submissoes() {
       calendarioRef.current.scrollIntoView({ behavior: "smooth" });
     } else if (location.hash === "#tematica") {
       tematicaRef.current.scrollIntoView({ behavior: "smooth" });
-    } 
+    }
   }, [location.hash]);
   return (
-    <div name="artigos" id='artigos' ref={artigosRef} className="bg-white  text-nord0">
+    <div
+      name="artigos"
+      id="artigos"
+      ref={artigosRef}
+      className="bg-white  text-nord0"
+    >
       <Container color="white">
+        <div className="flex flex-col py-8 font-semibold text-lg gap-6">
+          <p className="text-center text-xl font-semibold mb-5">
+            Prezados autores do SIBRAGEC-SBTIC 2023, nosso evento se aproxima e
+            aguardamos encontrá-los em Aracaju!
+          </p>
+          <div>
+            <div
+              className={`h-16 md:h-12 items-center flex border text-md border-black ${
+                ativo ? "rounded-t-md border-b-transparent" : "rounded-md"
+              }`}
+            >
+              <button className={`botaoCollapse`} onClick={clicarDescricao}>
+                <IoIosArrowForward
+                  className={`ml-2 md:ml-4 mr-2 transition-transform ${
+                    ativo ? "transform rotate-90" : ""
+                  }`}
+                />{" "}
+                Informações sobre as apresentações orais
+              </button>
+            </div>
+            {ativo && (
+              <div className="border text-md lg:text-lg border-black rounded-b-md px-6 pt-2 pb-4">
+                <p>
+                  A duração da apresentação oral de cada trabalho será de 7
+                  minutos.
+                </p>
+                <p>
+                  A apresentação se dará em formato de slides, devendo ser
+                  construída respeitando o template disponível em <a href="https://docs.google.com/presentation/d/1e_BV11SSBUwHFdb0NqxbefLDS0Kw97DF/edit#slide=id.p1"
+                    className="text-orange-500 text-underline"
+                    target="_blank">TEMPLATE DA
+                  APRESENTAÇÃO</a>.
+                </p>
+                <p>
+                  Para os artigos aprovados para a Edição Especial da Revista
+                  Ambiente Construído, o tempo de apresentação será de 15
+                  minutos e deverá ser usado o mesmo template do evento.
+                </p>
+                <p>
+                  Pedimos que seja rapidamente respondido {" "}
+                  <a
+                    href="https://forms.gle/UfE3xuuMDZEJhC3C9"
+                    className="text-orange-500 text-underline"
+                    target="_blank"
+                  >
+                      este FORMULÁRIO{" "}
+                  </a>
+                  , para termos um controle de quais trabalhos serão ou não
+                  apresentados oralmente no evento. Estamos considerando como
+                  apresentador de cada trabalho o autor cuja inscrição do artigo
+                  foi vinculada. Caso haja a indicação de outro apresentador,
+                  favor informar também no preenchimento do formulário. O
+                  preenchimento do formulário é importante tanto para a gestão
+                  do evento, quanto para a emissão dos certificados de
+                  apresentação.
+                </p>
+                <p>
+                  Acompanhe as informações das Sessões de Apresentação, com a
+                  distribuição dos artigos e horários, também por e-mail (para
+                  os autores) e em nosso Instagram{" "}
+                  <a
+                    href="https://www.instagram.com/sibragec.sbtic2023"
+                    className="text-orange-500 text-underline"
+                    target="_blank"
+                  >
+                    @sibragec.sbtic2023{" "}
+                  </a>
+                  .
+                </p>
+                <p>
+                  Enviar o arquivo da apresentação em PDF para o e-mail do
+                  evento{" "}
+                  <a
+                    className="text-orange-500 text-underline"
+                    href="mailto:sibragec.sbtic2023@gmail.com"
+                  >
+                    sibragec.sbtic2023@gmail.com
+                  </a>
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
         <SectionTitle title={"Artigos Compactos"} />
 
         <div className="flex flex-col py-10 font-semibold text-lg">
@@ -68,7 +161,7 @@ function Submissoes() {
             Template SIBRAGEC 2023
           </a>
         </div>
-        <div id='calendario' ref={calendarioRef} className="calendario mb-20">
+        <div id="calendario" ref={calendarioRef} className="calendario mb-20">
           <SectionTitle title={"Calendário"} />
 
           <h2 className="text-xl py-2 text-center font-semibold">
@@ -79,7 +172,9 @@ function Submissoes() {
           <Calendar />
         </div>
 
-        <div id='tematica' ref={tematicaRef}><SectionTitle name="tematicas" title={"Temáticas dos Artigos"} /></div>
+        <div id="tematica" ref={tematicaRef}>
+          <SectionTitle name="tematicas" title={"Temáticas dos Artigos"} />
+        </div>
         <div>
           <p className="text-nord-0 text-lg font-semibold w-full">
             Aqui os autores podem conferir as linhas temáticas para submissão de
@@ -206,7 +301,7 @@ function Submissoes() {
             <a
               href="https://www.seer.ufrgs.br/index.php/ambienteconstruido/about/submissions 
             "
-              className="text-orange-500 text-underline"
+              className="text-orange-500 text-underline break-words"
             >
               https://www.seer.ufrgs.br/index.php/ambienteconstruido/about/submissions
             </a>

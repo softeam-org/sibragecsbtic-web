@@ -132,3 +132,38 @@ div.tematics ::-webkit-scrollbar-track {
     background-color: #f9f9f9;
   }
 }
+
+.botaoCollapse{
+  all: unset;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.botaoCollapse:active{
+  all:unset
+}
+
+.botaoCollapse:hover{
+  all:unset;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+.botaoCollapse:focus{
+  all:unset;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.botaoCollapse:focus-visible{
+  all:unset;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
