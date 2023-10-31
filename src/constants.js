@@ -99,6 +99,11 @@ export const dayData = {
     date: "Quarta, 08 de Novembro",
     schedule: [
       {
+        time: "07h:30 - 08h:30",
+        title: "CREDENCIAMENTO",
+        speakers: []
+      },
+      {
         time: "08h:30 - 09h:00",
         title: "ABERTURA",
         speakers: []
@@ -349,7 +354,7 @@ export const dayData = {
         description: "É Engenheiro Civil formado pela UFRGS em 2009 e mestre em Engenharia de Produção pelo PPGEP-UFRGS em 2012. Tem doutorado pelo PPGCI-UFRGS com ênfase em Gestão e Economia da Construção. Desde 2013, atuou como Consultor em implementação de programas de aumento de produtividade e com foco em promover a Excelência Operacional, melhorias operacionais e processos de inovação nas empresas construtoras. Atuação em mais de 30 projetos na América Latina e África."
       },
       {
-        name: "MSc. Rafaela Oliveira Rey (Agilean)",
+        name: "MSc. Rafaela Oliveira Rey (R3 Lean)",
         photo: Rafaela,
         description: "Engenheira Civil e mestre em Engenharia Civil na área de Construção Civil e Materiais pela Universidade Federal da Bahia (2020). No mestrado desenvolveu pesquisa com uso de tecnologias digitais para a gestão da segurança em canteiros de obras (SMART INSPECS - Segurança), sob orientação da Profª. Dayana Bastos Costa. A pesquisa recebeu o Prêmio de Inovação Acadêmica pela ADEMI-BA (2019). Atualmente atua como Consultora Lean de Sucesso do Cliente na Agilean, solução pioneira em levar o Lean Construction de forma digital ao canteiro de obras e vencedora do Prêmio CBIC de Inovação e Sustentabilidade 2020 e 2022."
       },
