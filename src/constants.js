@@ -26,6 +26,7 @@ import Marcus from "./assets/images/Marcus.png"
 import Raquel from "./assets/images/Raquel.jpg"
 import Sergio from "./assets/images/sergio.jpg"
 import Rafaela from "./assets/images/rafaela.png"
+import Marina from "./assets/images/marina.png"
 
 import sem_foto from "./assets/images/sem_foto.jpg"
 
@@ -263,7 +264,11 @@ export const dayData = {
             photo: Pamella,
           },
           {
-            name: "Mediadores: Profa. Dra. Tatiana Gondim do Amaral (UFG) e Prof. PhD. Luiz Fernando Mahlmann Heineck (UEC)",
+            name:"jogo 05: Planejamento de Obras Repetitivas e os conceitos da Lean Construction - Prof. PhD. Luiz Fernando Mahlmann Heineck (UEC) e Profa. Ma. Marina Ribeiro Viana (AGES)",          
+            photo:Marina
+          },
+          {
+            name: "Mediadores: Profa. Dra. Tatiana Gondim do Amaral (UFG), Prof. Dr. Reymard Sávio Sampaio de Melo (UFBA), Profa. Dra. Débora de Gois Santos (UFS)  e Prof. PhD. Luiz Fernando Mahlmann Heineck (UEC)",
             photo: Tatiana,
           },
           {
@@ -382,6 +387,11 @@ export const dayData = {
         name: "Prof. PhD. Luiz Fernando Mahlmann Heineck (UEC)",
         photo: Heineck,
         description: "Possui graduação em Administração de Empresas e Engenharia Civil pela Universidade Federal do Rio Grande do Sul, com titulação respectivamente em 1977 e 1976. Participou da 1ª turma de Mestrado do Programa de Pós-graduação em Engenharia Civil, opção Construção (NORIE) da Universidade Federal do Rio Grande do Sul em 1978, quando recebeu sua primeira bolsa de pesquisa pelo CNPq, vínculo que mantém com esta instituição há 37 anos, hoje na qualidade de pesquisador I - C. É Ph.D. (Doctor of Philosophy) pela Leeds University, Inglaterra, com tese na área de Administração da Construção (Construction Management) publicada em 1983. Fez pós-doutorado na área de Economia da Construção e Habitação pela Universidade de Utrecht, Holanda em 1999. Participou das atividades de ensino e pesquisa nas áreas de Engenharia Civil e Gestão da Produção (Engenharia de Produção) nas Universidades Federais do Rio Grande do Sul (1983-1988), Universidade Federal de Santa Catarina (1989 - 2006), admitido por concurso como professor titular, e Universidade Federal do Ceará (2006 - 2013), onde se aposentou nesta qualidade. É professor adjunto do CESA, Centro de Estudos Sociais Aplicados da Universidade Estadual do Ceará, até a presente data. Atua nas áreas de tecnologia da construção civil e sua inovação, mercado imobiliário, gestão da construção, produtividade, planejamento e controle de obras, economia da construção e habitação. Na sua carreira acadêmica orientou 63 alunos de mestrado com dissertações concluídas e 15 alunos de doutorado com teses concluídas. Dos mestrandos 38 continuaram seus estudos a nível de doutorado. Do total de orientandos, 50 são professores universitários."
+      },
+      {
+        name: "Doutoranda Marina Ribeiro Viana (UFSC)",
+        photo: Marina,
+        description: "Possui graduação em Engenharia Civil (2018) e mestrado em Engenharia Civil (2021) pela Universidade Federal de Sergipe. Professora do curso de Engenharia Civil da AGES. Atualmente é doutoranda do programa de Pós-Graduação em Engenharia Civil da Universidade Federal de Santa Catarina (UFSC). Tem experiência na área de Engenharia Civil, atuando principalmente nos seguintes temas: desempenho de edificações, habitação de interesse social, manutenção predial e construção enxuta."
       }
     ]
   },
