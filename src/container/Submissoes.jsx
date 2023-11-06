@@ -136,10 +136,9 @@ function Submissoes() {
             )}
           </div>
           <div className="text-center">
-            <p className="text-xl font-semibold mb-5">CANAIS DO EVENTO</p>
+            <p className="text-xl font-semibold mb-5">ANAIS DO EVENTO</p>
             <p>
-              Os canais do Evento, tanto do SBTIC como do SIBRAGEC está
-              disponível em{" "}
+              Os anais do Evento, tanto do SBTIC como do SIBRAGEC, estão disponíveis em {" "}
               <a
                 className="text-orange-500 text-underline"
                 href="https://eventos.antac.org.br/"
