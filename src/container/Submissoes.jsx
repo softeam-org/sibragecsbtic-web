@@ -56,6 +56,18 @@ function Submissoes() {
                 Informações sobre as apresentações orais
               </button>
             </div>
+            <br />
+            <p>
+              Acesse aqui o horário das apresentações de artigos por sessão.{" "}
+              <a
+                className="text-orange-500 text-underline"
+                target="_blank"
+                href="https://drive.google.com/drive/folders/1QcNHF4LJqFZbF9O0S6uEPGjzNGcUoG3h?usp=sharing"
+              >
+                Link
+              </a>
+            </p>
+            <br />
             {ativo && (
               <div className="border text-md lg:text-lg border-black rounded-b-md px-6 pt-2 pb-4">
                 <p>
@@ -64,10 +76,15 @@ function Submissoes() {
                 </p>
                 <p>
                   A apresentação se dará em formato de slides, devendo ser
-                  construída respeitando o template disponível em <a href="https://docs.google.com/presentation/d/1e_BV11SSBUwHFdb0NqxbefLDS0Kw97DF/edit#slide=id.p1"
+                  construída respeitando o template disponível em{" "}
+                  <a
+                    href="https://docs.google.com/presentation/d/1e_BV11SSBUwHFdb0NqxbefLDS0Kw97DF/edit#slide=id.p1"
                     className="text-orange-500 text-underline"
-                    target="_blank">TEMPLATE DA
-                  APRESENTAÇÃO</a>.
+                    target="_blank"
+                  >
+                    TEMPLATE DA APRESENTAÇÃO
+                  </a>
+                  .
                 </p>
                 <p>
                   Para os artigos aprovados para a Edição Especial da Revista
@@ -75,13 +92,13 @@ function Submissoes() {
                   minutos e deverá ser usado o mesmo template do evento.
                 </p>
                 <p>
-                  Pedimos que seja rapidamente respondido {" "}
+                  Pedimos que seja rapidamente respondido{" "}
                   <a
                     href="https://forms.gle/UfE3xuuMDZEJhC3C9"
                     className="text-orange-500 text-underline"
                     target="_blank"
                   >
-                      este FORMULÁRIO{" "}
+                    este FORMULÁRIO{" "}
                   </a>
                   , para termos um controle de quais trabalhos serão ou não
                   apresentados oralmente no evento. Estamos considerando como
@@ -117,6 +134,19 @@ function Submissoes() {
                 </p>
               </div>
             )}
+          </div>
+          <div className="text-center">
+            <p className="text-xl font-semibold mb-5">ANAIS DO EVENTO</p>
+            <p>
+              Os anais do Evento, tanto do SBTIC como do SIBRAGEC, estão disponíveis em {" "}
+              <a
+                className="text-orange-500 text-underline"
+                href="https://eventos.antac.org.br/"
+                target="_blank"
+              >
+                https://eventos.antac.org.br/
+              </a>
+            </p>
           </div>
         </div>
         <SectionTitle title={"Artigos Compactos"} />
