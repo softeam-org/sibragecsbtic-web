@@ -269,7 +269,7 @@ export const dayData = {
             photo: Pamella,
           },
           {
-            name:"jogo 05: Planejamento de Obras Repetitivas e os conceitos da Lean Construction - Prof. PhD. Luiz Fernando Mahlmann Heineck (UEC) e Profa. Ma. Marina Ribeiro Viana (AGES)",          
+            name:"jogo 05: Planejamento de Obras Repetitivas e os conceitos da Lean Construction - Prof. PhD. Luiz Fernando Mahlmann Heineck (UEC) e Doutoranda Marina Ribeiro Viana (UFSC)",          
             photo:Marina
           },
           {
@@ -439,13 +439,13 @@ export const dayData = {
         speakers: []
       },
       {
-        time: "14h:00 - 15h:15",
+        time: "14h:00 - 15h:45",
         title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
         description: "Apresentação de artigos aceitos para a Edição especial da Revista Ambiente Construído.",
         speakers: []
       },
       {
-        time: "14h:00 - 15h:15",
+        time: "14h:00 - 15h:45",
         title: "PITCH DO DESAFIO SIBRAGEC/SBTIC",
         speakers: [
           {
@@ -471,12 +471,12 @@ export const dayData = {
         ]
       },
       {
-        time: "15h:45 - 16h:00",
+        time: "15h:45 - 16h:15",
         title: "INTERVALO",
         speakers: []
       },
       {
-        time: "16h:00 - 17h:45",
+        time: "16h:15 - 17h:30",
         title: "SESSÕES DE APRESENTAÇÕES DE ARTIGOS",
         description: "Apresentação de artigos aceitos para a Edição especial da Revista Ambiente Construído.",
         speakers: []
