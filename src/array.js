@@ -44,6 +44,7 @@ import Mutua from "./assets/images/mutua.png"
 import Sengese from "./assets/images/sengese.png"
 import ConfeaEMutua from "./assets/images/ConfeaEMutua.png"
 import Jota from "./assets/images/JotaNunes.png"
+import Cau from "./assets/images/cau.png"
 
 
 
@@ -317,6 +318,11 @@ export const logo = [
     id:24,
     image: Jota,
     type:"apoio"
+  },
+  {
+    id: 26,
+    image: Cau,
+    type: "apoio"
   },
   {
     id:23,
