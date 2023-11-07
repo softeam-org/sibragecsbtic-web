@@ -44,7 +44,7 @@ import Mutua from "./assets/images/mutua.png"
 import Sengese from "./assets/images/sengese.png"
 import ConfeaEMutua from "./assets/images/ConfeaEMutua.png"
 import Jota from "./assets/images/JotaNunes.png"
-import Cau from "./assets/images/cau.png"
+import Cau from "./assets/images/Cau.png"
 
 
 
