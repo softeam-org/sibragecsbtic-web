@@ -89,6 +89,10 @@ function Home(props) {
           <div className='flex py-3 sm:py-12 text-2xl justify-center itens-center font-bold text-nord5'>
             <Timer />
           </div>
+          <div className="flex flex-col justify-center items-center gap-3">
+            <p className="text-xl md:text-2xl lg:text-2xl font-bold pb-2 text-nord5">Nosso evento começou!</p>
+            <a href="https://drive.google.com/drive/folders/1XxFgIKKcbYeRjJNqUpSimOz-Ds0-RKh9" target="_blank" className="bg-orange-500 border-0 text-white font-bold py-3 px-8  shadow-md hover:shadow-lg rounded-md hover:bg-orange-400 transition-all ease-in flex justify-center items-center gap-4">Confira as fotos</a>
+          </div>
         </div>
       </div>
 
