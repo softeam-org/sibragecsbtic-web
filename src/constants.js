@@ -333,7 +333,7 @@ export const dayData = {
       },
       {
         time: "20h:00 - 22h:00",
-        title: "JANTAR DE CONFRATERNIZAÇÃO",
+        title: "CONFRATERNIZAÇÃO",
         speakers: []
       },
     ],
